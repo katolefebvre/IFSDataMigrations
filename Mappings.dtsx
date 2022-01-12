@@ -1,0 +1,1295 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/25/2021 11:12:05 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-5RO35J2"
+  DTS:CreatorName="DESKTOP-5RO35J2\Kato Lefebvre"
+  DTS:DTSID="{07C5DE38-5D23-4462-AF49-12F50CDB709B}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.170"
+  DTS:LocaleID="4105"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="73"
+  DTS:VersionGUID="{9EBB4D9A-A12C-4E8E-8F50-E1F4FB2F3291}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Buyers Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Buyers Mapping"
+      DTS:DTSID="{CF03A314-2EDF-4813-AC80-145CF0601A77}"
+      DTS:ObjectName="Buyers Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS Buyers.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{628EA505-465C-4014-B65E-9C0A53A87376}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{CB8FBDA8-6235-4328-B481-5536C812A35B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Description"
+              DTS:DTSID="{F8A6916E-305B-43E0-AE62-DA1270E42F36}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Countries Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Countries Mapping"
+      DTS:DTSID="{C823D3D3-63D8-4DB1-B030-ADF0CF6CA094}"
+      DTS:ObjectName="Countries Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS Countries.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{0827E970-DB79-4974-A846-F2BC9E12E440}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{4AA9E1FA-6661-4991-B02E-AAF51517239A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Description"
+              DTS:DTSID="{F2C9FA4D-88F1-4934-89A1-921133666768}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Currencies Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Currencies Mapping"
+      DTS:DTSID="{EC66AAA6-9997-4F0D-A103-F9F53BA530E9}"
+      DTS:ObjectName="Currencies Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS Currencies.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="3"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{FF3CD089-C414-457F-A8A5-87879633D2F4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="3"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{D1FFAF81-1ED5-4CF8-9128-22C0F91C6357}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="33"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Description"
+              DTS:DTSID="{6B2B430D-4513-4BAC-8A4D-04F5B788EE0B}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DataMigration]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{D9F886B7-1B45-4205-BBC1-C82EAF00E324}"
+      DTS:ObjectName="DataMigration">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=KATOLEFEBVRFA59;Initial Catalog=DataMigration;Integrated Security=True;Application Name=SSIS-Package1-{D9F886B7-1B45-4205-BBC1-C82EAF00E324}DESKTOP-5RO35J2.DataMigration1;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Delivery Terms Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Delivery Terms Mapping"
+      DTS:DTSID="{DF434638-6A02-4B89-94A8-7312683A1B55}"
+      DTS:ObjectName="Delivery Terms Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS Delivery Terms.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{E14FE4C2-225E-4736-8A43-709A07D9A105}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{FFE7F916-3990-41BE-9934-96D1631F9A54}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Description"
+              DTS:DTSID="{205EC43F-C1F6-4657-BAE3-471EF9AC7125}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Divisions Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Divisions Mapping"
+      DTS:DTSID="{B5B76FE7-DD4B-403F-8890-BD35149A6D2A}"
+      DTS:ObjectName="Divisions Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS Divisions.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{256165DC-3A3E-4441-B664-5D1F31C66D31}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{622CBC99-CF6E-454F-B36C-B5E5D7784A54}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Description"
+              DTS:DTSID="{E35EFA20-6515-4393-900A-3E0E07E180CF}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Payment Methods Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Payment Methods Mapping"
+      DTS:DTSID="{E33A61FF-F1CC-4540-A304-28F5CB345204}"
+      DTS:ObjectName="Payment Methods Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS Payment Methods.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{E85A61B9-8D71-476F-9423-7D582F8AF2F2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{9BEBD2F8-518E-4A65-969F-93948A6E0E55}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Description"
+              DTS:DTSID="{CC4D00EC-3955-4D99-B5D6-1136790AD028}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Payment Terms Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Payment Terms Mapping"
+      DTS:DTSID="{F8FA1562-133C-4DA6-BCB8-A15174ABD1E8}"
+      DTS:ObjectName="Payment Terms Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS Payment Terms.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{F0B99CB1-3AE3-4088-ABF8-1402F9322CB1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{7DBE315D-EE27-4C44-B252-84431F74CDCB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Description"
+              DTS:DTSID="{E2F6CE0B-0952-467B-A86A-8169EAE3E10A}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Ship Via Codes Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{3181F0A0-6CD1-4BC6-8234-CB17D032B554}"
+      DTS:ObjectName="Ship Via Codes Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS Ship Via Codes.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{E76886A3-DF95-453D-A885-DE8CBCBF0250}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{18E4CBF1-43E3-4842-A585-FE4B61F9705D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Description"
+              DTS:DTSID="{0C91ECA8-6A3C-4C2D-AADA-3ACF6BF3FB03}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[States Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="States Mapping"
+      DTS:DTSID="{7EBCBF0C-9679-4A3B-83B3-A378FA98BD5C}"
+      DTS:ObjectName="States Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS States.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{AEB37D66-B818-4A0B-8456-A5CD826654A6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{12322A9B-0E28-4C59-8FF7-66D5C17C476D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Descripition"
+              DTS:DTSID="{80B97F4D-51A3-4BC3-80C5-929B2BF72305}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Tax Codes Mapping]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Tax Codes Mapping"
+      DTS:DTSID="{0E8BA896-A200-4A97-994A-D8880E49E99E}"
+      DTS:ObjectName="Tax Codes Mapping">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\9. IFS Project - Template\02. Technical\Data Migrations\PoC\LOV Mapping Files\PSI to IFS Tax Codes.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSI_Code"
+              DTS:DTSID="{6CC1F91F-24F0-4954-AD57-9CE6F9D39215}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Code"
+              DTS:DTSID="{ACC180EE-EE48-4DB2-BEB2-8A3B57ADFCBF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IFS_Descripition"
+              DTS:DTSID="{4F959A4B-9BEE-4AE3-AAF2-637AAC4A64D7}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{A29B533D-DDD6-4248-93C3-EE620BFA9053}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="DestinationTable">
+      <DTS:VariableValue
+        DTS:DataType="8">[dbo].[Mapping]</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{B284942E-3419-42EC-963A-EFFD2ED124BE}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="FileDelimiter">
+      <DTS:VariableValue
+        DTS:DataType="8">,</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{F075EE9A-AE30-48A7-A179-1FDAAE6FFEC8}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="FileExtension">
+      <DTS:VariableValue
+        DTS:DataType="8">.csv</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{D57B605D-0657-479C-8CE7-A728B1AF4780}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="LogFolder">
+      <DTS:VariableValue
+        DTS:DataType="8">C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\4. IFS Project - ANC Scotland Neck\02. Data Migration\3. PSI Source Data Files\LOV Files\Logs</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{1C5FB9E4-55AD-400F-AAB8-FBDEC55E67C3}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="SourceFolder">
+      <DTS:VariableValue
+        DTS:DataType="8">C:\Users\Kato Lefebvre\AirBoss of America Corp\BOS Project - General\4. IFS Project - ANC Scotland Neck\02. Data Migration\3. PSI Source Data Files\LOV Files</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Load Mapping Table"
+      DTS:CreationName="Microsoft.ScriptTask"
+      DTS:Description="Script Task"
+      DTS:DTSID="{0E40DC5A-33EC-47AF-94D7-7B64B9EBAD93}"
+      DTS:ExecutableType="Microsoft.ScriptTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load Mapping Table"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ScriptProject
+          Name="ST_405454ce5b1a4757a118b73303a38f62"
+          VSTAMajorVersion="15"
+          VSTAMinorVersion="0"
+          Language="CSharp"
+          ReadOnlyVariables="User::DestinationTable,User::FileDelimiter,User::FileExtension,User::LogFolder,User::SourceFolder">
+          <ProjectItem
+            Name="Properties\Resources.resx"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_405454ce5b1a4757a118b73303a38f62.Properties.Settings.get_Default():ST_405454ce5b1a4757a118b73303a38f62.Properties.Sett" +
+    "ings")]
+
+namespace ST_405454ce5b1a4757a118b73303a38f62.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="ScriptMain.cs"
+            Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
+/* The Script Task allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services control flow. 
+ * 
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script task. */
+#endregion
+
+
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Runtime;
+using System.Windows.Forms;
+using System.IO;
+using System.Data.SqlClient;
+using Microsoft.VisualBasic.FileIO;
+#endregion
+
+namespace ST_405454ce5b1a4757a118b73303a38f62
+{
+    /// <summary>
+    /// ScriptMain is the entry point class of the script.  Do not change the name, attributes,
+    /// or parent of this class.
+    /// </summary>
+	[Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+	public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+	{
+        #region Help:  Using Integration Services variables and parameters in a script
+        /* To use a variable in this script, first ensure that the variable has been added to 
+         * either the list contained in the ReadOnlyVariables property or the list contained in 
+         * the ReadWriteVariables property of this script task, according to whether or not your
+         * code needs to write to the variable.  To add the variable, save this script, close this instance of
+         * Visual Studio, and update the ReadOnlyVariables and 
+         * ReadWriteVariables properties in the Script Transformation Editor window.
+         * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+         * 
+         * Example of reading from a variable:
+         *  DateTime startTime = (DateTime) Dts.Variables["System::StartTime"].Value;
+         * 
+         * Example of writing to a variable:
+         *  Dts.Variables["User::myStringVariable"].Value = "new value";
+         * 
+         * Example of reading from a package parameter:
+         *  int batchId = (int) Dts.Variables["$Package::batchId"].Value;
+         *  
+         * Example of reading from a project parameter:
+         *  int batchId = (int) Dts.Variables["$Project::batchId"].Value;
+         * 
+         * Example of reading from a sensitive project parameter:
+         *  int batchId = (int) Dts.Variables["$Project::batchId"].GetSensitiveValue();
+         * */
+
+        #endregion
+
+        #region Help:  Firing Integration Services events from a script
+        /* This script task can fire events for logging purposes.
+         * 
+         * Example of firing an error event:
+         *  Dts.Events.FireError(18, "Process Values", "Bad value", "", 0);
+         * 
+         * Example of firing an information event:
+         *  Dts.Events.FireInformation(3, "Process Values", "Processing has started", "", 0, ref fireAgain)
+         * 
+         * Example of firing a warning event:
+         *  Dts.Events.FireWarning(14, "Process Values", "No values received for input", "", 0);
+         * */
+        #endregion
+
+        #region Help:  Using Integration Services connection managers in a script
+        /* Some types of connection managers can be used in this script task.  See the topic 
+         * "Working with Connection Managers Programatically" for details.
+         * 
+         * Example of using an ADO.Net connection manager:
+         *  object rawConnection = Dts.Connections["Sales DB"].AcquireConnection(Dts.Transaction);
+         *  SqlConnection myADONETConnection = (SqlConnection)rawConnection;
+         *  //Use the connection in some code here, then release the connection
+         *  Dts.Connections["Sales DB"].ReleaseConnection(rawConnection);
+         *
+         * Example of using a File connection manager
+         *  object rawConnection = Dts.Connections["Prices.zip"].AcquireConnection(Dts.Transaction);
+         *  string filePath = (string)rawConnection;
+         *  //Use the connection in some code here, then release the connection
+         *  Dts.Connections["Prices.zip"].ReleaseConnection(rawConnection);
+         * */
+        #endregion
+
+
+		/// <summary>
+        /// This method is called when this script task executes in the control flow.
+        /// Before returning from this method, set the value of Dts.TaskResult to indicate success or failure.
+        /// To open Help, press F1.
+        /// </summary>
+		public void Main()
+		{
+            string datetime = DateTime.Now.ToString("yyyyMMddHHmmss");
+            try
+            {
+                string SourceFolderPath     = Dts.Variables["User::SourceFolder"].Value.ToString();
+                string FileExtension        = Dts.Variables["User::FileExtension"].Value.ToString();
+                string FileDelimiter        = Dts.Variables["User::FileDelimiter"].Value.ToString();
+                string TableName            = Dts.Variables["User::DestinationTable"].Value.ToString();
+                
+                string SourceDirectory = SourceFolderPath;
+                string[] fileEntries = Directory.GetFiles(SourceDirectory, "*" + FileExtension);
+
+                SqlConnection myADONETConnection = new SqlConnection();
+                myADONETConnection = (SqlConnection)(Dts.Connections["DataMigration"].AcquireConnection(Dts.Transaction) as SqlConnection);
+
+                string deleteQuery = "DELETE FROM " + TableName;
+                SqlCommand deleteCommand = new SqlCommand(deleteQuery, myADONETConnection);
+                deleteCommand.ExecuteNonQuery();
+
+                foreach (string fileName in fileEntries)
+                {
+                    int counter = 0;
+                    string line;
+                    string ColumnList = "";
+
+                    System.IO.StreamReader SourceFile = new System.IO.StreamReader(fileName);
+
+                    while ((line = SourceFile.ReadLine()) != null)
+                    {
+                        if (counter == 0)
+                        {
+                            ColumnList = "[" + line.Replace(FileDelimiter, "],[") + "]";
+                        }
+                        else
+                        {
+                            TextFieldParser parser = new TextFieldParser(new StringReader(line));
+                            parser.HasFieldsEnclosedInQuotes = true;
+                            parser.SetDelimiters(",");
+
+                            string[] fields;
+
+                            string query = "Insert into " + TableName + " (" + ColumnList + ") VALUES(";
+
+                            while (!parser.EndOfData)
+                            {
+                                fields = parser.ReadFields();
+                                foreach (string field in fields)
+                                {
+                                    query += "'" + field + "',";
+                                }
+                            }
+
+                            string finishedQuery = query.TrimEnd(',');
+                            finishedQuery += ")";
+
+                            //MessageBox.Show(finishedQuery.ToString());
+                            SqlCommand myCommand1 = new SqlCommand(finishedQuery, myADONETConnection);
+                            myCommand1.ExecuteNonQuery();
+                        }
+                        counter++;
+                    }
+
+                    SourceFile.Close();
+                    Dts.TaskResult = (int)ScriptResults.Success;
+                }
+            }
+            catch (Exception exception)
+            {
+                // Create Log File for Errors
+                using (StreamWriter sw = File.CreateText(Dts.Variables["User::LogFolder"].Value.ToString()
+                    + "\\" + "ErrorLog_" + datetime + ".log"))
+                {
+                    sw.WriteLine(exception.ToString());
+                    Dts.TaskResult = (int)ScriptResults.Failure;
+                }
+
+            }
+        }
+
+        #region ScriptResults declaration
+        /// <summary>
+        /// This enum provides a convenient shorthand within the scope of this class for setting the
+        /// result of the script.
+        /// 
+        /// This code was generated automatically.
+        /// </summary>
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        };
+        #endregion
+	}
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_405454ce5b1a4757a118b73303a38f62</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_405454ce5b1a4757a118b73303a38f62</msb:DisplayName>
+    <msb:ProjectId>{66BB8224-92E7-483A-8232-23A3E8901FC9}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_405454ce5b1a4757a118b73303a38f62.csproj" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_405454ce5b1a4757a118b73303a38f62")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_405454ce5b1a4757a118b73303a38f62")]
+[assembly: AssemblyCopyright("Copyright @  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="ST_405454ce5b1a4757a118b73303a38f62.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE6A68C7-D928-4972-94B5-176B9CACEAB1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_405454ce5b1a4757a118b73303a38f62</RootNamespace>
+    <AssemblyName>ST_405454ce5b1a4757a118b73303a38f62</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Resources.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_405454ce5b1a4757a118b73303a38f62.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_405454ce5b1a4757a118b73303a38f62.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_405454ce5b1a4757a118b73303a38f62.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace ST_405454ce5b1a4757a118b73303a38f62.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_405454ce5b1a4757a118b73303a38f62.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <BinaryItem
+            Name="ST_405454ce5b1a4757a118b73303a38f62.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAE5x2GEAAAAAAAAAAOAAIiALATAAABYAAAAIAAAAAAAAfjUA
+AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAACw1AABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
+AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAhBUAAAAgAAAAFgAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAQAAAAAYAAAAYAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAABg
+NQAAAAAAAEgAAAACAAUAmCMAANwQAAABAAAAAAAAAHQ0AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAABswBQCfAgAAAQAAESgQAAAKCxIBcgEAAHAoEQAACgoCKBIA
+AApvEwAACnIfAABwbxQAAApvFQAACm8WAAAKAigSAAAKbxMAAApyRQAAcG8UAAAKbxUAAApvFgAA
+CgwCKBIAAApvEwAACnJtAABwbxQAAApvFQAACm8WAAAKDQIoEgAACm8TAAAKcpUAAHBvFAAACm8V
+AAAKbxYAAAoTBHLDAABwCCgXAAAKKBgAAApzGQAAChMFAigSAAAKbxoAAApyxwAAcG8bAAAKAigS
+AAAKbxwAAApvHQAACnUQAAABEwVy4wAAcBEEKBcAAAoRBXMeAAAKbx8AAAomEwYWEwc4NgEAABEG
+EQeaFhMIcv0AAHATCnMgAAAKEws48wAAABEILSNy/wAAcBEJCXIDAQBwbyEAAApyCwEAcCgiAAAK
+Ewo4xgAAABEJcyMAAApzJAAAChMMEQwXbyUAAAoRDBeNIQAAASUWcg8BAHCibyYAAAobjSEAAAEl
+FnITAQBwoiUXEQSiJRhyLQEAcKIlGREKoiUacjMBAHCiKCcAAAoTDSs4EQxvKAAAChMOFhMPKyIR
+DhEPmhMQEQ1yRwEAcBEQcksBAHAoKQAAChMNEQ8XWBMPEQ8RDo5pMtYRDG8qAAAKLL8RDReNKQAA
+ASUWHyydbysAAApyUQEAcCgXAAAKEQVzHgAACm8fAAAKJhEIF1gTCBELbywAAAolEwk6/v7//xEL
+by0AAAoCKBIAAAoWby4AAAoRBxdYEwcRBxEGjmk/v/7//95iExECKBIAAApvEwAACnJVAQBwbxQA
+AApvFQAACm8WAAAKcnUBAHAGcosBAHAoKQAACigvAAAKExIREhERbxYAAApvMAAACgIoEgAAChdv
+LgAACt4MERIsBxESbzEAAArc3gAqAEE0AAACAAAAdAIAABwAAACQAgAADAAAAAAAAAAAAAAAEwAA
+ACkCAAA8AgAAYgAAABMAAAEeAigyAAAKKh4CKDMAAAoqrn4BAAAELR5ylQEAcNADAAACKDQAAApv
+NQAACnM2AAAKgAEAAAR+AQAABCoafgIAAAQqHgKAAgAABCoafgMAAAQqHgIoNwAACioucwgAAAaA
+AwAABCoAAEJTSkIBAAEAAAAAAAwAAAB2NC4wLjMwMzE5AAAAAAUAbAAAAPgEAAAjfgAAZAUAAGAH
+AAAjU3RyaW5ncwAAAADEDAAACAIAACNVUwDMDgAAEAAAACNHVUlEAAAA3A4AAAACAAAjQmxvYgAA
+AAAAAAACAAABVx2iAQkDAAAA+gEzABYAAAEAAAAvAAAABQAAAAYAAAAJAAAAAQAAADcAAAACAAAA
+EAAAAAEAAAACAAAAAwAAAAQAAAABAAAABgAAAAEAAAABAAAAAAAsBAEAAAAAAAYA3AK4BQYAawO4
+BQYAKAKaBQ8ALAYAAAYAVQK6BAYAvwK6BAYAoAK6BAYAUgO6BAYA/AK6BAYAFQO6BAYAbAK6BAYA
+hwKZAwoAMAPbAwoAmQHbAwYAKAFdBA4A3gQNBwYAJwUuABIAZQU4AAYA7ARdBAYAdQUuAAYAZARd
+BAYACwKaBQYA6wZdBAYAQwXYBQYACQWVBBYA2wEWBBYAPAIWBBYAtQGABAYA8AG4BQoABATbAxoA
+bgYxARoA6gAxAQYAtQNdBAYAUwcuABoArAYxARoAUwUxAQ4AxwANBw4AvQD2BAYAGgUuAAYANAUu
+AAYAFQVdBAYAIwEuAAYAggUuAAYA8wBdBAYAZAFdBAYA/wBdBAYAOge6BAAAAAAlAAAAAAABAAEA
+AQAQAHUEAQA5AAEAAQAAABAA3wU7Bl0AAQADAAABEACfBjsGcQADAAcAAwEAANYGAABVAAQACgAR
+AGkEBAERAIkBCAERANoADAEGBnQAEAFWgMYGEwFWgGkBEwFQIAAAAACGAHsEBgABADAjAAAAAIYY
+jQUGAAEAOCMAAAAAgxiNBQYAAQBAIwAAAACTCD8FFwEBAGwjAAAAAJMIcQEcAQEAcyMAAAAAkwh9
+ASEBAQB7IwAAAACWCPIGJwECAIIjAAAAAIYYjQUGAAIAiiMAAAAAkRiTBSwBAgAAAAEAkwMJAI0F
+AQARAI0FBgAZAI0FCgApAI0FEAAxAI0FEAA5AI0FEABBAI0FEABJAI0FEABRAI0FEABZAI0FEABh
+AI0FEABpAI0FBgCxAI0FBgDZAI0FFQDpAI0FBgB5AC4HOQB5ALMDPgBxAM4GQwDxAGoGSAD5AFQE
+TQABAYkDVAC5ALMDWAAJAeQGXAARAXgGYgCBAI0FBgDxAKgGaQAZAVQEbwDxAKoEVAAhAcwEdgAp
+AY0FewAxAUMHggCJAI0FEAAJAdIAhgAJAeQGjAA5AY0FEACRAI0FkwCRAIEGmgCRALgGnwAJAeQG
+pQCRAK0FqwAJAeQGsACRAIgAuAAJAbUAvABBAVEBWABBAc0BBgDxAP4GAQBRASMHwgBZAVoBEABh
+AdMBBgBxAI0FBgC5AI0FBgBpAREByABpATYH0QDBAI0F1wDhAI0FBgAIABQA+gAIABgA/wApAHMA
+ZwEuAAsAPwEuABMASAEuABsAZwEuACMAcAEuACsAmQEuADMAmQEuADsAmQEuAEMAcAEuAEsAnwEu
+AFMAmQEuAFsAtgFDAGMA/wBJAHMAZwFhAHsA/wBjAGsA/wAbAAMAAQAEAAMAAABDBTABAACRATUB
+AAD2BjoBAgAEAAMAAgAFAAUAAQAGAAUAAgAHAAcABIAAAAEAAABqHz5UAAAAAAAAAQAAAAQAAAAA
+AAAAAAAAAN8AlgAAAAAADwAAAAAAAAAAAAAA6AC8AwAAAAAEAAAAAAAAAAAAAADfAHwAAAAAAAoA
+AAAAAAAAAAAAAPEAnwAAAAAABAAAAAAAAAAAAAAA3wBdBAAAAAAPAAAAAAAAAAAAAADoAFUAAAAA
+AAAAAAABAAAA6QUAAAUAAgAAAABTVF80MDU0NTRjZTViMWE0NzU3YTExOGI3MzMwM2EzOGY2MgA8
+TW9kdWxlPgBTeXN0ZW0uSU8ATWljcm9zb2Z0LlZpc3VhbEJhc2ljLkZpbGVJTwBNaWNyb3NvZnQu
+U3FsU2VydmVyLk1hbmFnZWREVFMAdmFsdWVfXwBTeXN0ZW0uRGF0YQBnZXRfRW5kT2ZEYXRhAG1z
+Y29ybGliAE1pY3Jvc29mdC5WaXN1YWxCYXNpYwBUcmltRW5kAERiQ29tbWFuZABTcWxDb21tYW5k
+AFJlcGxhY2UAZGVmYXVsdEluc3RhbmNlAFZhcmlhYmxlAElEaXNwb3NhYmxlAFJ1bnRpbWVUeXBl
+SGFuZGxlAEdldFR5cGVGcm9tSGFuZGxlAEZpbGUARGF0ZVRpbWUATWljcm9zb2Z0LlNxbFNlcnZl
+ci5EdHMuUnVudGltZQBSZWFkTGluZQBXcml0ZUxpbmUAVHlwZQBGYWlsdXJlAGdldF9DdWx0dXJl
+AHNldF9DdWx0dXJlAHJlc291cmNlQ3VsdHVyZQBWU1RBUlRTY3JpcHRPYmplY3RNb2RlbEJhc2UA
+QXBwbGljYXRpb25TZXR0aW5nc0Jhc2UAQ2xvc2UARGlzcG9zZQBFZGl0b3JCcm93c2FibGVTdGF0
+ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBEZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmlidXRl
+AERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0
+bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtBdHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0
+cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0aW9u
+QXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0
+QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0cmlidXRlAFNTSVNTY3JpcHRUYXNrRW50cnlQ
+b2ludEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGltZUNvbXBhdGliaWxp
+dHlBdHRyaWJ1dGUAZ2V0X1ZhbHVlAHZhbHVlAFN5c3RlbS5SdW50aW1lLlZlcnNpb25pbmcAVG9T
+dHJpbmcATWljcm9zb2Z0LlNxbFNlcnZlci5TY3JpcHRUYXNrAE1pY3Jvc29mdC5TcWxTZXJ2ZXIu
+RHRzLlRhc2tzLlNjcmlwdFRhc2sAU2NyaXB0T2JqZWN0TW9kZWwAU3lzdGVtLkNvbXBvbmVudE1v
+ZGVsAFNUXzQwNTQ1NGNlNWIxYTQ3NTdhMTE4YjczMzAzYTM4ZjYyLmRsbABnZXRfSXRlbQBTeXN0
+ZW0ARW51bQByZXNvdXJjZU1hbgBTY3JpcHRNYWluAFN5c3RlbS5Db25maWd1cmF0aW9uAFN5c3Rl
+bS5HbG9iYWxpemF0aW9uAGdldF9UcmFuc2FjdGlvbgBTeXN0ZW0uUmVmbGVjdGlvbgBBY3F1aXJl
+Q29ubmVjdGlvbgBTcWxDb25uZWN0aW9uAEV4Y2VwdGlvbgBTeXN0ZW0uRGF0YS5Db21tb24AQ3Vs
+dHVyZUluZm8AQ2hhcgBTdHJpbmdSZWFkZXIAU3RyZWFtUmVhZGVyAFRleHRSZWFkZXIAZ2V0X1Jl
+c291cmNlTWFuYWdlcgBDb25uZWN0aW9uTWFuYWdlcgBUZXh0RmllbGRQYXJzZXIAU3RyZWFtV3Jp
+dGVyAFRleHRXcml0ZXIALmN0b3IALmNjdG9yAFN5c3RlbS5EaWFnbm9zdGljcwBSZWFkRmllbGRz
+AFN5c3RlbS5SdW50aW1lLkNvbXBpbGVyU2VydmljZXMAU3lzdGVtLlJlc291cmNlcwBTVF80MDU0
+NTRjZTViMWE0NzU3YTExOGI3MzMwM2EzOGY2Mi5Qcm9wZXJ0aWVzLlJlc291cmNlcy5yZXNvdXJj
+ZXMARGVidWdnaW5nTW9kZXMAU1RfNDA1NDU0Y2U1YjFhNDc1N2ExMThiNzMzMDNhMzhmNjIuUHJv
+cGVydGllcwBnZXRfVmFyaWFibGVzAEdldEZpbGVzAHNldF9IYXNGaWVsZHNFbmNsb3NlZEluUXVv
+dGVzAFNldHRpbmdzAGdldF9Db25uZWN0aW9ucwBTZXREZWxpbWl0ZXJzAFN1Y2Nlc3MAZ2V0X0R0
+cwBTY3JpcHRSZXN1bHRzAENvbmNhdABPYmplY3QAZ2V0X0RlZmF1bHQAc2V0X1Rhc2tSZXN1bHQA
+U3lzdGVtLkRhdGEuU3FsQ2xpZW50AENyZWF0ZVRleHQAZ2V0X05vdwBnZXRfQXNzZW1ibHkARXhl
+Y3V0ZU5vblF1ZXJ5AERpcmVjdG9yeQAAAAAAHXkAeQB5AHkATQBNAGQAZABIAEgAbQBtAHMAcwAA
+JVUAcwBlAHIAOgA6AFMAbwB1AHIAYwBlAEYAbwBsAGQAZQByAAAnVQBzAGUAcgA6ADoARgBpAGwA
+ZQBFAHgAdABlAG4AcwBpAG8AbgAAJ1UAcwBlAHIAOgA6AEYAaQBsAGUARABlAGwAaQBtAGkAdABl
+AHIAAC1VAHMAZQByADoAOgBEAGUAcwB0AGkAbgBhAHQAaQBvAG4AVABhAGIAbABlAAADKgAAG0QA
+YQB0AGEATQBpAGcAcgBhAHQAaQBvAG4AABlEAEUATABFAFQARQAgAEYAUgBPAE0AIAAAAQADWwAA
+B10ALABbAAADXQAAAywAABlJAG4AcwBlAHIAdAAgAGkAbgB0AG8AIAAABSAAKAAAEykAIABWAEEA
+TABVAEUAUwAoAAADJwABBScALAABAykAAB9VAHMAZQByADoAOgBMAG8AZwBGAG8AbABkAGUAcgAA
+FVwARQByAHIAbwByAEwAbwBnAF8AAAkuAGwAbwBnAABxUwBUAF8ANAAwADUANAA1ADQAYwBlADUA
+YgAxAGEANAA3ADUANwBhADEAMQA4AGIANwAzADMAMAAzAGEAMwA4AGYANgAyAC4AUAByAG8AcABl
+AHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAAAAUqzOEE2NLEG8qxL/i2flQAAEIAEBCAMg
+AAEFIAEBEREEIAEBDgUgAQERaR0HEw4RPQ4ODhJBHQ4ICA4OEkUSSQ4dDggOEk0SUQQAABE9BCAB
+Dg4EIAASeQQgABJ9BiABEoCBHAMgABwDIAAOBQACDg4OBgACHQ4ODgUgABKAjQYgARKAkRwEIAEc
+HAYgAgEOEkEDIAAIBSACDg4OBgADDg4ODgYgAQESgKEEIAEBAgUgAQEdDgUAAQ4dDgQgAB0OBwAE
+Dg4ODg4DIAACBSABDh0DBQABElEOCAABEoC1EYC5BSAAEoC9ByACAQ4SgL0It3pcVhk04IkIiYRd
+zYCAzJEIsD9ffxHVCjoEAAAAAAQBAAAAAwYSYQMGEmUDBhIQAgYIAwYRFAQAABJhBAAAEmUFAAEB
+EmUEAAASEAMAAAEECAASYQQIABJlBAgAEhAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25FeGNlcHRp
+b25UaHJvd3MBCAEAAgAAAAAAKAEAI1NUXzQwNTQ1NGNlNWIxYTQ3NTdhMTE4YjczMzAzYTM4ZjYy
+AAAFAQAAAAAWAQARQ29weXJpZ2h0IEAgIDIwMjEAAEkBABouTkVURnJhbWV3b3JrLFZlcnNpb249
+djQuNwEAVA4URnJhbWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC43tAAAAM7K774B
+AAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lv
+bj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUw
+ODkjU3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQ
+tAAAAFQ1AAAAAAAAAAAAAG41AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgNQAAAAAAAAAAAAAA
+AF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAABABAAAAAYAACAAAAAAAAAAAAAAAAAAAABAAEAAAAwAACAAAAAAAAAAAAAAAAAAAABAAAAAABI
+AAAAWEAAABoEAAAAAAAAAAAAABoENAAAAFYAUwBfAFYARQBSAFMASQBPAE4AXwBJAE4ARgBPAAAA
+AAC9BO/+AAABAAAAAQA+VGofAAABAD5Uah8/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAARAAA
+AAEAVgBhAHIARgBpAGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBvAG4A
+AAAAAAAAsAR6AwAAAQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAABWAwAAAQAwADAAMAAw
+ADAANABiADAAAAAaAAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAAIgABAAEAQwBvAG0AcABhAG4A
+eQBOAGEAbQBlAAAAAAAAAAAAcAAkAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4AAAAA
+AFMAVABfADQAMAA1ADQANQA0AGMAZQA1AGIAMQBhADQANwA1ADcAYQAxADEAOABiADcAMwAzADAA
+MwBhADMAOABmADYAMgAAAD4ADwABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAALgA4
+ADAANAAyAC4AMgAxADUANgA2AAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMA
+VABfADQAMAA1ADQANQA0AGMAZQA1AGIAMQBhADQANwA1ADcAYQAxADEAOABiADcAMwAzADAAMwBh
+ADMAOABmADYAMgAuAGQAbABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAA
+QwBvAHAAeQByAGkAZwBoAHQAIABAACAAIAAyADAAMgAxAAAAKgABAAEATABlAGcAYQBsAFQAcgBh
+AGQAZQBtAGEAcgBrAHMAAAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEA
+bQBlAAAAUwBUAF8ANAAwADUANAA1ADQAYwBlADUAYgAxAGEANAA3ADUANwBhADEAMQA4AGIANwAz
+ADMAMAAzAGEAMwA4AGYANgAyAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUA
+AAAAAFMAVABfADQAMAA1ADQANQA0AGMAZQA1AGIAMQBhADQANwA1ADcAYQAxADEAOABiADcAMwAz
+ADAAMwBhADMAOABmADYAMgAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEA
+LgAwAC4AOAAwADQAMgAuADIAMQA1ADYANgAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBl
+AHIAcwBpAG8AbgAAADEALgAwAC4AOAAwADQAMgAuADIAMQA1ADYANgAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAwAAACANQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
+        </ScriptProject>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="179,42"
+          Id="Package\Load Mapping Table"
+          TopLeft="653,321" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
