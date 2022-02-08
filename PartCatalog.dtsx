@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="56"
-  DTS:VersionGUID="{504BB0A7-550A-4E21-A77A-8F420A9898DF}">
+  DTS:VersionBuild="58"
+  DTS:VersionGUID="{82722B09-4568-497A-B1C3-8616BD347CEF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -4020,7 +4020,7 @@ namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties {
     <msb:CodeName>ST_17f5a4a606c04ecb8fe5f49b52ba471a</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_17f5a4a606c04ecb8fe5f49b52ba471a</msb:DisplayName>
-    <msb:ProjectId>{7A72913C-3134-4F6C-8C24-4AEC9EDEEC76}</msb:ProjectId>
+    <msb:ProjectId>{5A6817E4-706A-49E2-BCD3-11F16326F8D0}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_17f5a4a606c04ecb8fe5f49b52ba471a.csproj" />
@@ -4142,7 +4142,7 @@ namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties {
           <BinaryItem
             Name="ST_17f5a4a606c04ecb8fe5f49b52ba471a.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAJB7AWIAAAAAAAAAAOAAIiALATAAABAAAAAIAAAAAAAAoi8A
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAA7OAmIAAAAAAAAAAOAAIiALATAAABAAAAAIAAAAAAAAoi8A
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAFAvAABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -4172,7 +4172,7 @@ sQCGBBUAwQCGBAYAeQCGBAYAcQB5BSYA0QBhBSsA2QCpAzAA0QD/AzYA4QAhBDoAyQCPBT8A6QCG
 BEYA8QDbBU0A0QCpBQEAcQCGBAYAgQCGBAYA+QChAFEA+QDOBVkAmQCGBF8AuQCGBAYACAAUAHkA
 CAAYAH4AKQBzAOYALgALAL4ALgATAMcALgAbAOYALgAjAO8ALgArABgBLgAzABgBLgA7ABgBLgBD
 AO8ALgBLAB4BLgBTABgBLgBbADUBQwBjAH4ASQBzAOYAYQB7AH4AYwBrAH4AGwADAAEABAADAAAA
-ZASvAAAAAAG0AAAAoQW5AAIABAADAAIABQAFAAEABgAFAAIABwAHAASAAAABAAAAiR8gagAAAAAA
+ZASvAAAAAAG0AAAAoQW5AAIABAADAAIABQAFAAEABgAFAAIABwAHAASAAAABAAAAih+fagAAAAAA
 ADEAAAAEAAAAAAAAAAAAAABnAGEAAAAAAA8AAAAAAAAAAAAAAHAAEQMAAAAABAAAAAAAAAAAAAAA
 ZwBVAAAAAAAEAAAAAAAAAAAAAABnALIDAAAAAA8AAAAAAAAAAAAAAHAACgAAAAAAAAAAAAEAAADX
 BAAABQACAAAAADxNb2R1bGU+AE1pY3Jvc29mdC5TcWxTZXJ2ZXIuTWFuYWdlZERUUwB2YWx1ZV9f
@@ -4207,7 +4207,7 @@ AF8AVABBAEIAADtQAEEAUgBUAF8ATQBBAFQARQBSAEkAQQBMAF8ARgBPAFIATQBVAEwAQQBUAEkA
 TwBOAF8AVABBAEIAABtEAGEAdABhAE0AaQBnAHIAYQB0AGkAbwBuAAAnZABlAGwAZQB0AGUAIABG
 AHIAbwBtACAAWwBkAGIAbwBdAC4AWwAAA10AAHFTAFQAXwAxADcAZgA1AGEANABhADYAMAA2AGMA
 MAA0AGUAYwBiADgAZgBlADUAZgA0ADkAYgA1ADIAYgBhADQANwAxAGEALgBQAHIAbwBwAGUAcgB0
-AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAD2vBbcjNGBTIlfTvEEQfpQAAQgAQEIAyAAAQUg
+AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAeg70ZIuUoTYKVWPWA9WPAAAQgAQEIAyAAAQUg
 AQEREQQgAQEOBSABARFVCgcFHQ4SPR0OCA4EIAASaQQgABJtBSABEnEcAyAAHAQgARwcBgADDg4O
 DgYgAgEOEj0DIAAIBwABEn0RgIEFIAASgIUHIAIBDhKAhQi3elxWGTTgiQiJhF3NgIDMkQQAAAAA
 BAEAAAADBhJNAwYSUQMGEhACBggDBhEUBAAAEk0EAAASUQUAAQESUQQAABIQAwAAAQQIABJNBAgA
@@ -4223,14 +4223,14 @@ ZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAABABAAAAAYAACAAAAAAAAAAAAAAAAAAAABAAEAAAAwAACAAAAAAAAAAAAAAAAAAAABAAAA
 AABIAAAAWEAAABoEAAAAAAAAAAAAABoENAAAAFYAUwBfAFYARQBSAFMASQBPAE4AXwBJAE4ARgBP
-AAAAAAC9BO/+AAABAAAAAQAgaokfAAABACBqiR8/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAA
+AAAAAAC9BO/+AAABAAAAAQCfaoofAAABAJ9qih8/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAA
 RAAAAAEAVgBhAHIARgBpAGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBv
 AG4AAAAAAAAAsAR6AwAAAQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAABWAwAAAQAwADAA
 MAAwADAANABiADAAAAAaAAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAAIgABAAEAQwBvAG0AcABh
 AG4AeQBOAGEAbQBlAAAAAAAAAAAAcAAkAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4A
 AAAAAFMAVABfADEANwBmADUAYQA0AGEANgAwADYAYwAwADQAZQBjAGIAOABmAGUANQBmADQAOQBi
 ADUAMgBiAGEANAA3ADEAYQAAAD4ADwABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAA
-LgA4ADAANwAzAC4AMgA3ADEANgA4AAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAA
+LgA4ADAANwA0AC4AMgA3ADIAOQA1AAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAA
 AFMAVABfADEANwBmADUAYQA0AGEANgAwADYAYwAwADQAZQBjAGIAOABmAGUANQBmADQAOQBiADUA
 MgBiAGEANAA3ADEAYQAuAGQAbABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0
 AAAAQwBvAHAAeQByAGkAZwBoAHQAIABAACAAIAAyADAAMgAyAAAAKgABAAEATABlAGcAYQBsAFQA
@@ -4239,8 +4239,8 @@ AGEAbQBlAAAAUwBUAF8AMQA3AGYANQBhADQAYQA2ADAANgBjADAANABlAGMAYgA4AGYAZQA1AGYA
 NAA5AGIANQAyAGIAYQA0ADcAMQBhAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBt
 AGUAAAAAAFMAVABfADEANwBmADUAYQA0AGEANgAwADYAYwAwADQAZQBjAGIAOABmAGUANQBmADQA
 OQBiADUAMgBiAGEANAA3ADEAYQAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAA
-ADEALgAwAC4AOAAwADcAMwAuADIANwAxADYAOAAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAA
-VgBlAHIAcwBpAG8AbgAAADEALgAwAC4AOAAwADcAMwAuADIANwAxADYAOAAAAAAAAAAAAAAAAAAA
+ADEALgAwAC4AOAAwADcANAAuADIANwAyADkANQAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAA
+VgBlAHIAcwBpAG8AbgAAADEALgAwAC4AOAAwADcANAAuADIANwAyADkANQAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -4436,13 +4436,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                       cachedName="part_no"
                       externalMetadataColumnId="Package\Part Catalog\Part Catalog Table.Inputs[ADO NET Destination Input].ExternalColumns[part_no]"
                       lineageId="Package\Part Catalog\Part No Generation.Outputs[Output 0].Columns[part_no]" />
-                    <inputColumn
-                      refId="Package\Part Catalog\Part Catalog Table.Inputs[ADO NET Destination Input].Columns[item]"
-                      cachedDataType="wstr"
-                      cachedLength="28"
-                      cachedName="item"
-                      externalMetadataColumnId="Package\Part Catalog\Part Catalog Table.Inputs[ADO NET Destination Input].ExternalColumns[psi_item]"
-                      lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[item]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4464,7 +4457,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                     <externalMetadataColumn
                       refId="Package\Part Catalog\Part Catalog Table.Inputs[ADO NET Destination Input].ExternalColumns[psi_item]"
                       dataType="wstr"
-                      length="50"
+                      length="30"
                       name="psi_item" />
                   </externalMetadataColumns>
                 </input>
@@ -7029,6 +7022,14 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="155,42"
+          Id="Package\Data Flow Task"
+          TopLeft="312,478" />
+        <NodeLayout
+          Size="236,42"
+          Id="Package\Delete from Part Catalog Tables"
+          TopLeft="259,49" />
+        <NodeLayout
           Size="140,42"
           Id="Package\Part Catalog"
           TopLeft="312,156" />
@@ -7037,9 +7038,9 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
           Id="Package\Part Handling Unit"
           TopLeft="305,261" />
         <NodeLayout
-          Size="236,42"
-          Id="Package\Delete from Part Catalog Tables"
-          TopLeft="259,49" />
+          Size="202,42"
+          Id="Package\Part Material Formulation"
+          TopLeft="291,381" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="385.5,198">
@@ -7084,10 +7085,6 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="202,42"
-          Id="Package\Part Material Formulation"
-          TopLeft="291,381" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
           TopLeft="390.5,303">
@@ -7110,10 +7107,6 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Data Flow Task"
-          TopLeft="312,478" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
           TopLeft="390.75,423">
@@ -7139,6 +7132,152 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\Data Flow Task">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Data Flow Task\Part Catalog Table"
+          TopLeft="135,118" />
+        <NodeLayout
+          Size="191,42"
+          Id="Package\Data Flow Task\Part Catalog Container"
+          TopLeft="131,228" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[ADO NET Source Output]"
+          TopLeft="223.5,160">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68"
+              Start="0,0"
+              End="0,60.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="199,42"
+          Id="Package\Data Flow Task\Part Handling Unit Table"
+          TopLeft="479,133" />
+        <NodeLayout
+          Size="219,42"
+          Id="Package\Data Flow Task\Part Handling Unit Container"
+          TopLeft="492,231" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[ADO NET Source Output1]"
+          TopLeft="578.5,175">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="23,56"
+              Start="0,0"
+              End="23,48.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24"
+                    Point2="0,28"
+                    Point3="4,28" />
+                  <mssgle:LineSegment
+                    End="19,28" />
+                  <mssgle:CubicBezierSegment
+                    Point1="19,28"
+                    Point2="23,28"
+                    Point3="23,32" />
+                  <mssgle:LineSegment
+                    End="23,48.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="233,42"
+          Id="Package\Data Flow Task\Part Material Formulation Table"
+          TopLeft="147,340" />
+        <NodeLayout
+          Size="253,42"
+          Id="Package\Data Flow Task\Part Material Formulation Container"
+          TopLeft="153,440" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[ADO NET Source Output2]"
+          TopLeft="263.5,382">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="16,58"
+              Start="0,0"
+              End="16,50.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25"
+                    Point2="0,29"
+                    Point3="4,29" />
+                  <mssgle:LineSegment
+                    End="12,29" />
+                  <mssgle:CubicBezierSegment
+                    Point1="12,29"
+                    Point2="16,29"
+                    Point3="16,33" />
+                  <mssgle:LineSegment
+                    End="16,50.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Part Catalog Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Part Material Formulation Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Part Handling Unit Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Part Catalog">
     <LayoutInfo>
@@ -7641,14 +7780,6 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Part Material Formulation\SQL Query">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Part Material Formulation\Part Material Formulation Table">
     <Properties>
       <Property>
@@ -7656,146 +7787,8 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Data Flow Task">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Data Flow Task\Part Catalog Table"
-          TopLeft="135,118" />
-        <NodeLayout
-          Size="191,42"
-          Id="Package\Data Flow Task\Part Catalog Container"
-          TopLeft="131,228" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[ADO NET Source Output]"
-          TopLeft="223.5,160">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68"
-              Start="0,0"
-              End="0,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="199,42"
-          Id="Package\Data Flow Task\Part Handling Unit Table"
-          TopLeft="479,133" />
-        <NodeLayout
-          Size="219,42"
-          Id="Package\Data Flow Task\Part Handling Unit Container"
-          TopLeft="492,231" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[ADO NET Source Output1]"
-          TopLeft="578.5,175">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="23,56"
-              Start="0,0"
-              End="23,48.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24"
-                    Point2="0,28"
-                    Point3="4,28" />
-                  <mssgle:LineSegment
-                    End="19,28" />
-                  <mssgle:CubicBezierSegment
-                    Point1="19,28"
-                    Point2="23,28"
-                    Point3="23,32" />
-                  <mssgle:LineSegment
-                    End="23,48.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="233,42"
-          Id="Package\Data Flow Task\Part Material Formulation Table"
-          TopLeft="147,340" />
-        <NodeLayout
-          Size="253,42"
-          Id="Package\Data Flow Task\Part Material Formulation Container"
-          TopLeft="153,440" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[ADO NET Source Output2]"
-          TopLeft="263.5,382">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="16,58"
-              Start="0,0"
-              End="16,50.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25"
-                    Point2="0,29"
-                    Point3="4,29" />
-                  <mssgle:LineSegment
-                    End="12,29" />
-                  <mssgle:CubicBezierSegment
-                    Point1="12,29"
-                    Point2="16,29"
-                    Point3="16,33" />
-                  <mssgle:LineSegment
-                    End="16,50.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Part Catalog Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Part Handling Unit Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Part Material Formulation Table">
+    design-time-name="Package\Part Material Formulation\SQL Query">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
