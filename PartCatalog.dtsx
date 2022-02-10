@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="58"
-  DTS:VersionGUID="{82722B09-4568-497A-B1C3-8616BD347CEF}">
+  DTS:VersionBuild="59"
+  DTS:VersionGUID="{9C9E8125-9C7C-4225-80B5-582ADEA1CF5D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2964,745 +2964,6 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Data Flow Task"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Data Flow Task"
-      DTS:DTSID="{5AA71F8D-146F-44DB-965D-34C8886367AF}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Data Flow Task"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1">
-          <components>
-            <component
-              refId="Package\Data Flow Task\Part Catalog Container"
-              componentClassID="Microsoft.FlatFileDestination"
-              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Destination"
-              localeId="1033"
-              name="Part Catalog Container"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether the data will overwrite or append to the destination file."
-                  name="Overwrite">true</property>
-                <property
-                  dataType="System.Null"
-                  description="Specifies the text to write to the destination file before any data is written."
-                  expressionType="Notify"
-                  name="Header" />
-                <property
-                  dataType="System.Boolean"
-                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
-                  name="EscapeQualifier">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Part Catalog Container.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Part Catalog Container]"
-                  connectionManagerRefId="Package.ConnectionManagers[Part Catalog Container]"
-                  name="FlatFileConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input]"
-                  hasSideEffects="true"
-                  name="Flat File Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input].Columns[part_no]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="part_no"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[part_no]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input].Columns[unit_code]"
-                      cachedDataType="wstr"
-                      cachedLength="30"
-                      cachedName="unit_code"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[unit_code]"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[unit_code]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input].Columns[ifs_description]"
-                      cachedDataType="wstr"
-                      cachedLength="2000"
-                      cachedName="ifs_description"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[description]"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[ifs_description]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
-                      dataType="wstr"
-                      length="50"
-                      name="part_no" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[unit_code]"
-                      dataType="wstr"
-                      length="30"
-                      name="unit_code" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[description]"
-                      dataType="wstr"
-                      length="2000"
-                      name="description" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Part Catalog Table"
-              componentClassID="Microsoft.ManagedComponentHost"
-              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
-              name="Part Catalog Table"
-              usesDispositions="true"
-              version="4">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Specifies the SQL statement used by the component to extract data."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">30</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
-                  name="AllowImplicitStringConversion">true</property>
-                <property
-                  dataType="System.String"
-                  description="The Source database table name."
-                  expressionType="Notify"
-                  name="TableOrViewName"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."PART_CATALOG_TAB"</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specify the mode to retrieve external column information"
-                  name="AccessMode"
-                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Part Catalog Table.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DataMigration]"
-                  connectionManagerRefId="Package.ConnectionManagers[DataMigration]"
-                  description="Managed connection manager"
-                  name="IDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output]"
-                  name="ADO NET Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[part_no]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[part_no]"
-                      name="part_no"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[ifs_description]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[ifs_description]"
-                      length="2000"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[ifs_description]"
-                      name="ifs_description"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[unit_code]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[unit_code]"
-                      length="30"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[unit_code]"
-                      name="unit_code"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[psi_item]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[psi_item]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].Columns[psi_item]"
-                      name="psi_item"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
-                      dataType="wstr"
-                      length="50"
-                      name="part_no" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[ifs_description]"
-                      dataType="wstr"
-                      length="2000"
-                      name="ifs_description" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[unit_code]"
-                      dataType="wstr"
-                      length="30"
-                      name="unit_code" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[psi_item]"
-                      dataType="wstr"
-                      length="50"
-                      name="psi_item" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output]"
-                  isErrorOut="true"
-                  name="ADO NET Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
-                      name="part_no" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ifs_description]"
-                      dataType="wstr"
-                      length="2000"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ifs_description]"
-                      name="ifs_description" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[unit_code]"
-                      dataType="wstr"
-                      length="30"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[unit_code]"
-                      name="unit_code" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[psi_item]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[psi_item]"
-                      name="psi_item" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Part Handling Unit Container"
-              componentClassID="Microsoft.FlatFileDestination"
-              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Destination"
-              localeId="1033"
-              name="Part Handling Unit Container"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether the data will overwrite or append to the destination file."
-                  name="Overwrite">true</property>
-                <property
-                  dataType="System.Null"
-                  description="Specifies the text to write to the destination file before any data is written."
-                  expressionType="Notify"
-                  name="Header" />
-                <property
-                  dataType="System.Boolean"
-                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
-                  name="EscapeQualifier">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Part Handling Unit Container.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Part Handling Unit Container]"
-                  connectionManagerRefId="Package.ConnectionManagers[Part Handling Unit Container]"
-                  name="FlatFileConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input]"
-                  hasSideEffects="true"
-                  name="Flat File Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].Columns[part_no]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="part_no"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[part_no]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].Columns[handling_unit_type_id]"
-                      cachedDataType="wstr"
-                      cachedLength="200"
-                      cachedName="handling_unit_type_id"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[handling_unit_type_id]"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[handling_unit_type_id]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].Columns[unit_code]"
-                      cachedDataType="wstr"
-                      cachedLength="30"
-                      cachedName="unit_code"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[unit_code]"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[unit_code]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].Columns[max_quantity_capacity]"
-                      cachedDataType="i8"
-                      cachedName="max_quantity_capacity"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[max_quantity_capacity]"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[max_quantity_capacity]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
-                      dataType="wstr"
-                      length="50"
-                      name="part_no" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[handling_unit_type_id]"
-                      dataType="wstr"
-                      length="200"
-                      name="handling_unit_type_id" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[unit_code]"
-                      dataType="wstr"
-                      length="30"
-                      name="unit_code" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[max_quantity_capacity]"
-                      dataType="i8"
-                      name="max_quantity_capacity" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Part Handling Unit Table"
-              componentClassID="Microsoft.ManagedComponentHost"
-              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
-              name="Part Handling Unit Table"
-              usesDispositions="true"
-              version="4">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Specifies the SQL statement used by the component to extract data."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">30</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
-                  name="AllowImplicitStringConversion">true</property>
-                <property
-                  dataType="System.String"
-                  description="The Source database table name."
-                  expressionType="Notify"
-                  name="TableOrViewName"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."PART_HANDLING_UNIT_TAB"</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specify the mode to retrieve external column information"
-                  name="AccessMode"
-                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Part Handling Unit Table.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DataMigration]"
-                  connectionManagerRefId="Package.ConnectionManagers[DataMigration]"
-                  description="Managed connection manager"
-                  name="IDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output]"
-                  name="ADO NET Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[part_no]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[part_no]"
-                      name="part_no"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[handling_unit_type_id]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[handling_unit_type_id]"
-                      length="200"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[handling_unit_type_id]"
-                      name="handling_unit_type_id"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[unit_code]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[unit_code]"
-                      length="30"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[unit_code]"
-                      name="unit_code"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[max_quantity_capacity]"
-                      dataType="i8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[max_quantity_capacity]"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[max_quantity_capacity]"
-                      name="max_quantity_capacity"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
-                      dataType="wstr"
-                      length="50"
-                      name="part_no" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[handling_unit_type_id]"
-                      dataType="wstr"
-                      length="200"
-                      name="handling_unit_type_id" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[unit_code]"
-                      dataType="wstr"
-                      length="30"
-                      name="unit_code" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[max_quantity_capacity]"
-                      dataType="i8"
-                      name="max_quantity_capacity" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output]"
-                  isErrorOut="true"
-                  name="ADO NET Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
-                      name="part_no" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[handling_unit_type_id]"
-                      dataType="wstr"
-                      length="200"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[handling_unit_type_id]"
-                      name="handling_unit_type_id" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[unit_code]"
-                      dataType="wstr"
-                      length="30"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[unit_code]"
-                      name="unit_code" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[max_quantity_capacity]"
-                      dataType="i8"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[max_quantity_capacity]"
-                      name="max_quantity_capacity" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Part Material Formulation Container"
-              componentClassID="Microsoft.FlatFileDestination"
-              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Destination"
-              localeId="1033"
-              name="Part Material Formulation Container"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether the data will overwrite or append to the destination file."
-                  name="Overwrite">true</property>
-                <property
-                  dataType="System.Null"
-                  description="Specifies the text to write to the destination file before any data is written."
-                  expressionType="Notify"
-                  name="Header" />
-                <property
-                  dataType="System.Boolean"
-                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
-                  name="EscapeQualifier">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Part Material Formulation Container.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Part Material Formulation Container]"
-                  connectionManagerRefId="Package.ConnectionManagers[Part Material Formulation Container]"
-                  name="FlatFileConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input]"
-                  hasSideEffects="true"
-                  name="Flat File Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input].Columns[part_no]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="part_no"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[part_no]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input].Columns[density]"
-                      cachedDataType="r8"
-                      cachedName="density"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[density]"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[density]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input].Columns[uom_for_density]"
-                      cachedDataType="wstr"
-                      cachedLength="10"
-                      cachedName="uom_for_density"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[uom_for_density]"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[uom_for_density]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
-                      dataType="wstr"
-                      length="50"
-                      name="part_no" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[density]"
-                      dataType="r8"
-                      name="density" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[uom_for_density]"
-                      dataType="wstr"
-                      length="10"
-                      name="uom_for_density" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Part Material Formulation Table"
-              componentClassID="Microsoft.ManagedComponentHost"
-              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
-              name="Part Material Formulation Table"
-              usesDispositions="true"
-              version="4">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Specifies the SQL statement used by the component to extract data."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">30</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
-                  name="AllowImplicitStringConversion">true</property>
-                <property
-                  dataType="System.String"
-                  description="The Source database table name."
-                  expressionType="Notify"
-                  name="TableOrViewName"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."PART_MATERIAL_FORMULATION_TAB"</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specify the mode to retrieve external column information"
-                  name="AccessMode"
-                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Part Material Formulation Table.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DataMigration]"
-                  connectionManagerRefId="Package.ConnectionManagers[DataMigration]"
-                  description="Managed connection manager"
-                  name="IDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output]"
-                  name="ADO NET Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[part_no]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[part_no]"
-                      name="part_no"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[density]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[density]"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[density]"
-                      name="density"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[uom_for_density]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[uom_for_density]"
-                      length="10"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[uom_for_density]"
-                      name="uom_for_density"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
-                      dataType="wstr"
-                      length="50"
-                      name="part_no" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[density]"
-                      dataType="r8"
-                      name="density" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[uom_for_density]"
-                      dataType="wstr"
-                      length="10"
-                      name="uom_for_density" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output]"
-                  isErrorOut="true"
-                  name="ADO NET Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
-                      name="part_no" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[density]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[density]"
-                      name="density" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[uom_for_density]"
-                      dataType="wstr"
-                      length="10"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[uom_for_density]"
-                      name="uom_for_density" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-          </components>
-          <paths>
-            <path
-              refId="Package\Data Flow Task.Paths[ADO NET Source Output]"
-              endId="Package\Data Flow Task\Part Catalog Container.Inputs[Flat File Destination Input]"
-              name="ADO NET Source Output"
-              startId="Package\Data Flow Task\Part Catalog Table.Outputs[ADO NET Source Output]" />
-            <path
-              refId="Package\Data Flow Task.Paths[ADO NET Source Output1]"
-              endId="Package\Data Flow Task\Part Handling Unit Container.Inputs[Flat File Destination Input]"
-              name="ADO NET Source Output"
-              startId="Package\Data Flow Task\Part Handling Unit Table.Outputs[ADO NET Source Output]" />
-            <path
-              refId="Package\Data Flow Task.Paths[ADO NET Source Output2]"
-              endId="Package\Data Flow Task\Part Material Formulation Container.Inputs[Flat File Destination Input]"
-              name="ADO NET Source Output"
-              startId="Package\Data Flow Task\Part Material Formulation Table.Outputs[ADO NET Source Output]" />
-          </paths>
-        </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
       DTS:refId="Package\Delete from Part Catalog Tables"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
@@ -3719,65 +2980,14 @@
           VSTAMinorVersion="0"
           Language="CSharp">
           <ProjectItem
-            Name="ScriptMain.cs"
-            Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
-/* The Script Task allows you to perform virtually any operation that can be accomplished in
- * a .Net application within the context of an Integration Services control flow. 
- * 
- * Expand the other regions which have "Help" prefixes for examples of specific ways to use
- * Integration Services features within this script task. */
-#endregion
-
-
-#region Namespaces
-using System;
-using System.Data;
-using Microsoft.SqlServer.Dts.Runtime;
-using System.Windows.Forms;
-using System.Data.SqlClient;
-#endregion
-
-namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a
-{
-	[Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
-    public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
-    {
-        public void Main()
-        {
-            string[] tables = new string[] { 
-                "PART_CATALOG_TAB", 
-                "PART_HANDLING_UNIT_TAB", 
-                "PART_MATERIAL_FORMULATION_TAB"
-            };
-
-            try
-            {
-                SqlConnection myADONETConnection = new SqlConnection();
-                myADONETConnection = (SqlConnection)(Dts.Connections["DataMigration"].AcquireConnection(Dts.Transaction) as SqlConnection);
-
-                foreach (string table in tables)
-                {
-                    string delete_query = "delete From [dbo].[" + table + "]";
-                    SqlCommand data_cmd = new SqlCommand(delete_query, myADONETConnection);
-
-                    data_cmd.ExecuteNonQuery();
-                }
-
-                Dts.TaskResult = (int)ScriptResults.Success;
-            }
-            catch
-            {
-                // whoops
-            }
-        }
-
-        enum ScriptResults
-        {
-            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
-            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
-        };
-    }
-}]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3898,32 +3108,63 @@ namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
+            Name="ScriptMain.cs"
+            Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
+/* The Script Task allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services control flow. 
+ * 
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script task. */
+#endregion
 
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties.Settings.get_Default():ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties.Sett" +
-    "ings")]
 
-namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Runtime;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+#endregion
+
+namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a
+{
+	[Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+    public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+    {
+        public void Main()
+        {
+            string[] tables = new string[] { 
+                "PART_CATALOG_TAB", 
+                "PART_HANDLING_UNIT_TAB", 
+                "PART_MATERIAL_FORMULATION_TAB"
+            };
+
+            try
+            {
+                SqlConnection myADONETConnection = new SqlConnection();
+                myADONETConnection = (SqlConnection)(Dts.Connections["DataMigration"].AcquireConnection(Dts.Transaction) as SqlConnection);
+
+                foreach (string table in tables)
+                {
+                    string delete_query = "delete From [dbo].[" + table + "]";
+                    SqlCommand data_cmd = new SqlCommand(delete_query, myADONETConnection);
+
+                    data_cmd.ExecuteNonQuery();
+                }
+
+                Dts.TaskResult = (int)ScriptResults.Success;
+            }
+            catch
+            {
+                // whoops
             }
         }
+
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        };
     }
 }]]></ProjectItem>
           <ProjectItem
@@ -4033,6 +3274,35 @@ namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties {
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties.Settings.get_Default():ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties.Sett" +
+    "ings")]
+
+namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -4062,15 +3332,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -5573,6 +4834,745 @@ order by product_sub_group</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Part Catalog Extractions"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{5AA71F8D-146F-44DB-965D-34C8886367AF}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Part Catalog Extractions"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Part Catalog Extractions\Part Catalog Container"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Part Catalog Container"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Part Catalog Extractions\Part Catalog Container.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Part Catalog Container]"
+                  connectionManagerRefId="Package.ConnectionManagers[Part Catalog Container]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].Columns[part_no]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="part_no"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[part_no]" />
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].Columns[unit_code]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="unit_code"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[unit_code]"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[unit_code]" />
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].Columns[ifs_description]"
+                      cachedDataType="wstr"
+                      cachedLength="2000"
+                      cachedName="ifs_description"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[description]"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[ifs_description]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      name="part_no" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[unit_code]"
+                      dataType="wstr"
+                      length="30"
+                      name="unit_code" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[description]"
+                      dataType="wstr"
+                      length="2000"
+                      name="description" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Part Catalog Extractions\Part Catalog Table"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="Part Catalog Table"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."PART_CATALOG_TAB"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the mode to retrieve external column information"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Part Catalog Extractions\Part Catalog Table.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DataMigration]"
+                  connectionManagerRefId="Package.ConnectionManagers[DataMigration]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[part_no]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
+                      length="50"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[part_no]"
+                      name="part_no"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[ifs_description]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[ifs_description]"
+                      length="2000"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[ifs_description]"
+                      name="ifs_description"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[unit_code]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[unit_code]"
+                      length="30"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[unit_code]"
+                      name="unit_code"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[psi_item]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[psi_item]"
+                      length="50"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].Columns[psi_item]"
+                      name="psi_item"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      name="part_no" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[ifs_description]"
+                      dataType="wstr"
+                      length="2000"
+                      name="ifs_description" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[unit_code]"
+                      dataType="wstr"
+                      length="30"
+                      name="unit_code" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output].ExternalColumns[psi_item]"
+                      dataType="wstr"
+                      length="50"
+                      name="psi_item" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output]"
+                  isErrorOut="true"
+                  name="ADO NET Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
+                      name="part_no" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ifs_description]"
+                      dataType="wstr"
+                      length="2000"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ifs_description]"
+                      name="ifs_description" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[unit_code]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[unit_code]"
+                      name="unit_code" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[psi_item]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[psi_item]"
+                      name="psi_item" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Part Catalog Extractions\Part Handling Unit Container"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Part Handling Unit Container"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Part Catalog Extractions\Part Handling Unit Container.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Part Handling Unit Container]"
+                  connectionManagerRefId="Package.ConnectionManagers[Part Handling Unit Container]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].Columns[part_no]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="part_no"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[part_no]" />
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].Columns[handling_unit_type_id]"
+                      cachedDataType="wstr"
+                      cachedLength="200"
+                      cachedName="handling_unit_type_id"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[handling_unit_type_id]"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[handling_unit_type_id]" />
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].Columns[unit_code]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="unit_code"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[unit_code]"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[unit_code]" />
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].Columns[max_quantity_capacity]"
+                      cachedDataType="i8"
+                      cachedName="max_quantity_capacity"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[max_quantity_capacity]"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[max_quantity_capacity]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      name="part_no" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[handling_unit_type_id]"
+                      dataType="wstr"
+                      length="200"
+                      name="handling_unit_type_id" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[unit_code]"
+                      dataType="wstr"
+                      length="30"
+                      name="unit_code" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input].ExternalColumns[max_quantity_capacity]"
+                      dataType="i8"
+                      name="max_quantity_capacity" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Part Catalog Extractions\Part Handling Unit Table"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="Part Handling Unit Table"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."PART_HANDLING_UNIT_TAB"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the mode to retrieve external column information"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Part Catalog Extractions\Part Handling Unit Table.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DataMigration]"
+                  connectionManagerRefId="Package.ConnectionManagers[DataMigration]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[part_no]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
+                      length="50"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[part_no]"
+                      name="part_no"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[handling_unit_type_id]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[handling_unit_type_id]"
+                      length="200"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[handling_unit_type_id]"
+                      name="handling_unit_type_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[unit_code]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[unit_code]"
+                      length="30"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[unit_code]"
+                      name="unit_code"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[max_quantity_capacity]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[max_quantity_capacity]"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].Columns[max_quantity_capacity]"
+                      name="max_quantity_capacity"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      name="part_no" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[handling_unit_type_id]"
+                      dataType="wstr"
+                      length="200"
+                      name="handling_unit_type_id" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[unit_code]"
+                      dataType="wstr"
+                      length="30"
+                      name="unit_code" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output].ExternalColumns[max_quantity_capacity]"
+                      dataType="i8"
+                      name="max_quantity_capacity" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output]"
+                  isErrorOut="true"
+                  name="ADO NET Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
+                      name="part_no" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[handling_unit_type_id]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[handling_unit_type_id]"
+                      name="handling_unit_type_id" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[unit_code]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[unit_code]"
+                      name="unit_code" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[max_quantity_capacity]"
+                      dataType="i8"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[max_quantity_capacity]"
+                      name="max_quantity_capacity" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Part Catalog Extractions\Part Material Formulation Container"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Part Material Formulation Container"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Part Catalog Extractions\Part Material Formulation Container.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Part Material Formulation Container]"
+                  connectionManagerRefId="Package.ConnectionManagers[Part Material Formulation Container]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input].Columns[part_no]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="part_no"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[part_no]" />
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input].Columns[density]"
+                      cachedDataType="r8"
+                      cachedName="density"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[density]"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[density]" />
+                    <inputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input].Columns[uom_for_density]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="uom_for_density"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[uom_for_density]"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[uom_for_density]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      name="part_no" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[density]"
+                      dataType="r8"
+                      name="density" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input].ExternalColumns[uom_for_density]"
+                      dataType="wstr"
+                      length="10"
+                      name="uom_for_density" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Part Catalog Extractions\Part Material Formulation Table"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="Part Material Formulation Table"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."PART_MATERIAL_FORMULATION_TAB"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the mode to retrieve external column information"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Part Catalog Extractions\Part Material Formulation Table.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DataMigration]"
+                  connectionManagerRefId="Package.ConnectionManagers[DataMigration]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[part_no]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
+                      length="50"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[part_no]"
+                      name="part_no"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[density]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[density]"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[density]"
+                      name="density"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[uom_for_density]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[uom_for_density]"
+                      length="10"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].Columns[uom_for_density]"
+                      name="uom_for_density"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      name="part_no" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[density]"
+                      dataType="r8"
+                      name="density" />
+                    <externalMetadataColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output].ExternalColumns[uom_for_density]"
+                      dataType="wstr"
+                      length="10"
+                      name="uom_for_density" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output]"
+                  isErrorOut="true"
+                  name="ADO NET Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[part_no]"
+                      name="part_no" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[density]"
+                      dataType="r8"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[density]"
+                      name="density" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[uom_for_density]"
+                      dataType="wstr"
+                      length="10"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[uom_for_density]"
+                      name="uom_for_density" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Part Catalog Extractions.Paths[ADO NET Source Output]"
+              endId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input]"
+              name="ADO NET Source Output"
+              startId="Package\Part Catalog Extractions\Part Catalog Table.Outputs[ADO NET Source Output]" />
+            <path
+              refId="Package\Part Catalog Extractions.Paths[ADO NET Source Output1]"
+              endId="Package\Part Catalog Extractions\Part Handling Unit Container.Inputs[Flat File Destination Input]"
+              name="ADO NET Source Output"
+              startId="Package\Part Catalog Extractions\Part Handling Unit Table.Outputs[ADO NET Source Output]" />
+            <path
+              refId="Package\Part Catalog Extractions.Paths[ADO NET Source Output2]"
+              endId="Package\Part Catalog Extractions\Part Material Formulation Container.Inputs[Flat File Destination Input]"
+              name="ADO NET Source Output"
+              startId="Package\Part Catalog Extractions\Part Material Formulation Table.Outputs[ADO NET Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Part Handling Unit"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
@@ -7007,7 +7007,7 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
       DTS:From="Package\Part Material Formulation"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
-      DTS:To="Package\Data Flow Task" />
+      DTS:To="Package\Part Catalog Extractions" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -7022,9 +7022,9 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="155,42"
-          Id="Package\Data Flow Task"
-          TopLeft="312,478" />
+          Size="197,42"
+          Id="Package\Part Catalog Extractions"
+          TopLeft="294,481" />
         <NodeLayout
           Size="236,42"
           Id="Package\Delete from Part Catalog Tables"
@@ -7109,18 +7109,18 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="390.75,423">
+          TopLeft="392.25,423">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,55"
+              EndConnector="0,58"
               Start="0,0"
-              End="0,47.5">
+              End="0,50.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,47.5" />
+                    End="0,50.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7133,92 +7133,36 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Data Flow Task">
+    design-time-name="Package\Part Catalog Extractions">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="171,42"
-          Id="Package\Data Flow Task\Part Catalog Table"
+          Id="Package\Part Catalog Extractions\Part Catalog Table"
           TopLeft="135,118" />
         <NodeLayout
-          Size="191,42"
-          Id="Package\Data Flow Task\Part Catalog Container"
-          TopLeft="131,228" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[ADO NET Source Output]"
-          TopLeft="223.5,160">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68"
-              Start="0,0"
-              End="0,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="199,42"
-          Id="Package\Data Flow Task\Part Handling Unit Table"
-          TopLeft="479,133" />
+          Size="253,42"
+          Id="Package\Part Catalog Extractions\Part Material Formulation Container"
+          TopLeft="153,440" />
         <NodeLayout
           Size="219,42"
-          Id="Package\Data Flow Task\Part Handling Unit Container"
+          Id="Package\Part Catalog Extractions\Part Handling Unit Container"
           TopLeft="492,231" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[ADO NET Source Output1]"
-          TopLeft="578.5,175">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="23,56"
-              Start="0,0"
-              End="23,48.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24"
-                    Point2="0,28"
-                    Point3="4,28" />
-                  <mssgle:LineSegment
-                    End="19,28" />
-                  <mssgle:CubicBezierSegment
-                    Point1="19,28"
-                    Point2="23,28"
-                    Point3="23,32" />
-                  <mssgle:LineSegment
-                    End="23,48.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="233,42"
-          Id="Package\Data Flow Task\Part Material Formulation Table"
+          Id="Package\Part Catalog Extractions\Part Material Formulation Table"
           TopLeft="147,340" />
         <NodeLayout
-          Size="253,42"
-          Id="Package\Data Flow Task\Part Material Formulation Container"
-          TopLeft="153,440" />
+          Size="191,42"
+          Id="Package\Part Catalog Extractions\Part Catalog Container"
+          TopLeft="131,228" />
+        <NodeLayout
+          Size="199,42"
+          Id="Package\Part Catalog Extractions\Part Handling Unit Table"
+          TopLeft="479,133" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[ADO NET Source Output2]"
+          Id="Package\Part Catalog Extractions.Paths[ADO NET Source Output2]"
           TopLeft="263.5,382">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7251,11 +7195,67 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Part Catalog Extractions.Paths[ADO NET Source Output1]"
+          TopLeft="578.5,175">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="23,56"
+              Start="0,0"
+              End="23,48.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24"
+                    Point2="0,28"
+                    Point3="4,28" />
+                  <mssgle:LineSegment
+                    End="19,28" />
+                  <mssgle:CubicBezierSegment
+                    Point1="19,28"
+                    Point2="23,28"
+                    Point3="23,32" />
+                  <mssgle:LineSegment
+                    End="23,48.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Part Catalog Extractions.Paths[ADO NET Source Output]"
+          TopLeft="223.5,160">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68"
+              Start="0,0"
+              End="0,60.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Part Catalog Table">
+    design-time-name="Package\Part Catalog Extractions\Part Catalog Table">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7263,7 +7263,7 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Part Material Formulation Table">
+    design-time-name="Package\Part Catalog Extractions\Part Material Formulation Table">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7271,7 +7271,7 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Part Handling Unit Table">
+    design-time-name="Package\Part Catalog Extractions\Part Handling Unit Table">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
