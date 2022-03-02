@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="69"
-  DTS:VersionGUID="{BCF8CB10-236E-4BC0-839F-F01B479F3BDD}">
+  DTS:VersionBuild="92"
+  DTS:VersionGUID="{73A0F1EB-129E-482F-9040-08565664281F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -52,34 +52,34 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\Mac\Home\Library\CloudStorage\OneDrive-AirBossofAmericaCorp\General\4. IFS Project - ANC Scotland Neck\02. Data Migration\6. IFS Data Files\03. Part Master\SSIS_PART_CATALOG.csv">
+          DTS:ConnectionString="\\Mac\Home\Library\CloudStorage\OneDrive-AirBossofAmericaCorp\General\4. IFS Project - ANC Scotland Neck\02. Data Migration\6. IFS Data Files\03. Part Master\PART_CATALOG.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:MaximumWidth="25"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="part_no"
-              DTS:DTSID="{39DFDF7D-13FD-4654-9BF3-8AB27D4E9DD7}"
+              DTS:DTSID="{0B36861D-01A5-4EDF-A8A9-C06EEC41E366}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="2000"
-              DTS:DataType="130"
+              DTS:MaximumWidth="4000"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="description"
-              DTS:DTSID="{0B39C7A6-3076-4741-A87A-391BBCC4ED8C}"
+              DTS:DTSID="{0DA841F7-EDC5-4C9E-8062-105550996760}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="30"
-              DTS:DataType="130"
+              DTS:MaximumWidth="10"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="unit_code"
-              DTS:DTSID="{2C7F2C75-5F93-4C37-A226-E472DAE8F39E}"
+              DTS:DTSID="{3D6D0765-7E0C-4506-B602-E0D4379E36EA}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -173,7 +173,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="part_no"
-              DTS:DTSID="{73F18940-04B1-410F-8AB4-CC9F6D3431CE}"
+              DTS:DTSID="{8D3B2E35-F734-49BA-B6AB-2F04FB5E1980}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -182,7 +182,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="handling_unit_type_id"
-              DTS:DTSID="{82BA6657-4179-4ABD-ABE4-82B91F3D0C76}"
+              DTS:DTSID="{D75236A6-878D-48E5-86F2-5014431ADA05}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -191,7 +191,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="unit_code"
-              DTS:DTSID="{C285A3CD-3A62-4A47-BC34-9E75DD6995FE}"
+              DTS:DTSID="{C9769B18-7632-4945-8EC8-5F16362F8C2F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -199,7 +199,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="max_quantity_capacity"
-              DTS:DTSID="{935359F7-79D7-46A6-8656-4B2D7967F93A}"
+              DTS:DTSID="{C3440E82-057F-45D5-AE25-B1F4A3C80B5A}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -228,7 +228,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="part_no"
-              DTS:DTSID="{61E43BBF-69F0-47EA-8833-0A24C9700AF4}"
+              DTS:DTSID="{0CDFFB54-25DE-473D-86C2-226E3B84E3AC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -236,7 +236,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="density"
-              DTS:DTSID="{7F1010AF-45B4-4797-BD8A-E2321BE8BA0D}"
+              DTS:DTSID="{B1F4EFF1-20A9-457B-87A3-2B25B3712488}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -245,7 +245,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="uom_for_density"
-              DTS:DTSID="{052E6874-727C-4CBB-A372-D20EC17A251A}"
+              DTS:DTSID="{215FB3FD-31B4-492A-8814-68ECE2BE8A18}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -2980,36 +2980,6 @@
           VSTAMinorVersion="0"
           Language="CSharp">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_17f5a4a606c04ecb8fe5f49b52ba471a")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_17f5a4a606c04ecb8fe5f49b52ba471a")]
-[assembly: AssemblyCopyright("Copyright @  2022")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-          <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -3128,6 +3098,35 @@ using System.Runtime.CompilerServices;
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties.Settings.get_Default():ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties.Sett" +
+    "ings")]
+
+namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -3295,34 +3294,35 @@ namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
 //
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_17f5a4a606c04ecb8fe5f49b52ba471a")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_17f5a4a606c04ecb8fe5f49b52ba471a")]
+[assembly: AssemblyCopyright("Copyright @  2022")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
 
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties.Settings.get_Default():ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties.Sett" +
-    "ings")]
-
-namespace ST_17f5a4a606c04ecb8fe5f49b52ba471a.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Settings.settings"
             Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -3557,7 +3557,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                     <inputColumn
                       refId="Package\Part Catalog\IFS Description.Inputs[Derived Column Input].Columns[description]"
                       cachedDataType="wstr"
-                      cachedLength="616"
+                      cachedLength="4000"
                       cachedName="description"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[description]" />
                   </inputColumns>
@@ -3578,7 +3578,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                       dataType="str"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      length="2000"
+                      length="4000"
                       lineageId="Package\Part Catalog\IFS Description.Outputs[Derived Column Output].Columns[ifs_description]"
                       name="ifs_description"
                       truncationRowDisposition="FailComponent">
@@ -3587,13 +3587,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">(DT_STR,2000,1252)(#{Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[item]} + " *** " + [REPLACENULL]([REPLACE](#{Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[description]},"\x000D"," "),""))</property>
+                          name="Expression">(DT_STR,4000,1252)(#{Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[item]} + " *** " + [REPLACENULL]([REPLACE]([REPLACE](#{Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[description]},"\x000D"," "),"\x0022",""),""))</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">(DT_STR,2000,1252)(item + " *** " + REPLACENULL(REPLACE(description,"\x000D"," "),""))</property>
+                          name="FriendlyExpression">(DT_STR,4000,1252)(item + " *** " + REPLACENULL(REPLACE(REPLACE(description,"\x000D"," "),"\x0022",""),""))</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -3638,13 +3638,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[IFS_PART_CATALOG]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from ifs_part_catalog
+
+where lot_tracking_code = 'Lot Tracking'</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[IFS_PART_CATALOG]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from ifs_part_catalog
+
+where lot_tracking_code = 'Lot Tracking') [refTable]
 where [refTable].[psi_item] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -3750,13 +3754,13 @@ where [refTable].[psi_item] = ?</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Part Catalog\Lookup.Outputs[Lookup Match Output].Columns[description]"
+                      refId="Package\Part Catalog\Lookup.Outputs[Lookup Match Output].Columns[ifs_description]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Copy Column"
                       length="2000"
-                      lineageId="Package\Part Catalog\Lookup.Outputs[Lookup Match Output].Columns[description]"
-                      name="description"
+                      lineageId="Package\Part Catalog\Lookup.Outputs[Lookup Match Output].Columns[ifs_description]"
+                      name="ifs_description"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -4015,7 +4019,7 @@ where [refTable].[psi_item] = ?</property>
                       refId="Package\Part Catalog\Part Catalog Table.Inputs[ADO NET Destination Input].Columns[ifs_description]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="2000"
+                      cachedLength="4000"
                       cachedName="ifs_description"
                       externalMetadataColumnId="Package\Part Catalog\Part Catalog Table.Inputs[ADO NET Destination Input].ExternalColumns[ifs_description]"
                       lineageId="Package\Part Catalog\Union All.Outputs[Union All Output 1].Columns[ifs_description]" />
@@ -4059,7 +4063,7 @@ where [refTable].[psi_item] = ?</property>
                     <externalMetadataColumn
                       refId="Package\Part Catalog\Part Catalog Table.Inputs[ADO NET Destination Input].ExternalColumns[ifs_description]"
                       dataType="wstr"
-                      length="2000"
+                      length="4000"
                       name="ifs_description" />
                     <externalMetadataColumn
                       refId="Package\Part Catalog\Part Catalog Table.Inputs[ADO NET Destination Input].ExternalColumns[unit_code]"
@@ -4581,7 +4585,7 @@ namespace SC_f13da90c4098430c81def12b8fdafd4f.Properties {
     <msb:CodeName>SC_f13da90c4098430c81def12b8fdafd4f</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>SC_f13da90c4098430c81def12b8fdafd4f</msb:DisplayName>
-    <msb:ProjectId>{0B3EDA60-CA6E-4749-9A6B-2A7C97257AF2}</msb:ProjectId>
+    <msb:ProjectId>{7190084C-3005-4EC1-9EF6-F3FDAEBA7CD9}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="SC_f13da90c4098430c81def12b8fdafd4f.csproj" />
@@ -4728,7 +4732,7 @@ namespace SC_f13da90c4098430c81def12b8fdafd4f.Properties {
                     <arrayElement
                       dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAMiKAWIAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAtjIA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAGmBH2IAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAtjIA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAGQyAABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -4806,7 +4810,7 @@ AHQAeQAgAGMAYQBuAG4AbwB0ACAAYgBlACAAcwBlAHQAIAB0AG8AIABGAGEAbABzAGUALgAgAEEA
 cwBzAGkAZwBuACAAYQAgAHYAYQBsAHUAZQAgAHQAbwAgAHQAaABlACAAYwBvAGwAdQBtAG4AIABp
 AG4AcwB0AGUAYQBkAC4AAA9JAG4AcAB1AHQAIAAwAABxUwBDAF8AZgAxADMAZABhADkAMABjADQA
 MAA5ADgANAAzADAAYwA4ADEAZABlAGYAMQAyAGIAOABmAGQAYQBmAGQANABmAC4AUAByAG8AcABl
-AHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAABIacYQ3qPhSqsn/Nl3NgWQAAQgAQEIAyAA
+AHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAABpvUKvqb/CS5iouZP5gds1AAQgAQEIAyAA
 AQUgAQEREQQgAQEOBSABARFZBQACAg4OAyAADgkgAwESPR0IEkEDBhI9AwYdCAQgAQ4IBCABAggF
 IAIBCBwDIAACBiACAg4RdQUgAR0ICAYAARJ5EX0FIAASgIEHIAIBDhKAgQi3elxWGTTgiQiJhF3N
 gIDMkQIGCAMGEhQDBhIYAwYSRQMGElEDBhJVAwYSIAUgAQESDAQgAQECCSAEAQgOEj0SQQUgAQES
@@ -4916,7 +4920,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                     <inputColumn
                       refId="Package\Part Catalog\Part No Generation.Inputs[Input 0].Columns[product_sub_group]"
                       cachedDataType="wstr"
-                      cachedLength="14"
+                      cachedLength="20"
                       cachedName="product_sub_group"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[product_sub_group]" />
                   </inputColumns>
@@ -4955,11 +4959,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   description="Specifies the SQL statement used by the component to extract data."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select p.item, i.description, p.product_sub_group
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select p.item, i.description, id.product_sub_group
 from PSI_ITEM_DIVISION id inner join PSI_PARTS_LIST p
 on id.item = p.item
 left outer join PSI_ITEM i
 on id.item = i.item
+where p.product_sub_group != 'CLEANOUTS'
 order by product_sub_group</property>
                 <property
                   dataType="System.Int32"
@@ -5013,7 +5018,7 @@ order by product_sub_group</property>
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[description]"
-                      length="616"
+                      length="4000"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[description]"
                       name="description"
                       truncationRowDisposition="FailComponent" />
@@ -5023,7 +5028,7 @@ order by product_sub_group</property>
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[product_sub_group]"
-                      length="14"
+                      length="20"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[product_sub_group]"
                       name="product_sub_group"
                       truncationRowDisposition="FailComponent" />
@@ -5038,12 +5043,12 @@ order by product_sub_group</property>
                     <externalMetadataColumn
                       refId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[description]"
                       dataType="wstr"
-                      length="616"
+                      length="4000"
                       name="description" />
                     <externalMetadataColumn
                       refId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[product_sub_group]"
                       dataType="wstr"
-                      length="14"
+                      length="20"
                       name="product_sub_group" />
                   </externalMetadataColumns>
                 </output>
@@ -5061,13 +5066,13 @@ order by product_sub_group</property>
                     <outputColumn
                       refId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Error Output].Columns[description]"
                       dataType="wstr"
-                      length="616"
+                      length="4000"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Error Output].Columns[description]"
                       name="description" />
                     <outputColumn
                       refId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Error Output].Columns[product_sub_group]"
                       dataType="wstr"
-                      length="14"
+                      length="20"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Error Output].Columns[product_sub_group]"
                       name="product_sub_group" />
                     <outputColumn
@@ -5116,7 +5121,7 @@ order by product_sub_group</property>
                     <inputColumn
                       refId="Package\Part Catalog\Union All.Inputs[Union All Input 1].Columns[description]"
                       cachedDataType="wstr"
-                      cachedLength="616"
+                      cachedLength="4000"
                       cachedName="description"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[description]">
                       <properties>
@@ -5130,7 +5135,7 @@ order by product_sub_group</property>
                     <inputColumn
                       refId="Package\Part Catalog\Union All.Inputs[Union All Input 1].Columns[product_sub_group]"
                       cachedDataType="wstr"
-                      cachedLength="14"
+                      cachedLength="20"
                       cachedName="product_sub_group"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[product_sub_group]">
                       <properties>
@@ -5145,7 +5150,7 @@ order by product_sub_group</property>
                       refId="Package\Part Catalog\Union All.Inputs[Union All Input 1].Columns[ifs_description]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="2000"
+                      cachedLength="4000"
                       cachedName="ifs_description"
                       lineageId="Package\Part Catalog\IFS Description.Outputs[Derived Column Output].Columns[ifs_description]">
                       <properties>
@@ -5224,7 +5229,7 @@ order by product_sub_group</property>
                     <inputColumn
                       refId="Package\Part Catalog\Union All.Inputs[Union All Input 2].Columns[description]"
                       cachedDataType="wstr"
-                      cachedLength="616"
+                      cachedLength="4000"
                       cachedName="description"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[description]">
                       <properties>
@@ -5238,7 +5243,7 @@ order by product_sub_group</property>
                     <inputColumn
                       refId="Package\Part Catalog\Union All.Inputs[Union All Input 2].Columns[product_sub_group]"
                       cachedDataType="wstr"
-                      cachedLength="14"
+                      cachedLength="20"
                       cachedName="product_sub_group"
                       lineageId="Package\Part Catalog\SQL Query.Outputs[ADO NET Source Output].Columns[product_sub_group]">
                       <properties>
@@ -5293,12 +5298,12 @@ order by product_sub_group</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Part Catalog\Union All.Inputs[Union All Input 2].Columns[description1]"
+                      refId="Package\Part Catalog\Union All.Inputs[Union All Input 2].Columns[ifs_description]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="2000"
-                      cachedName="description"
-                      lineageId="Package\Part Catalog\Lookup.Outputs[Lookup Match Output].Columns[description]">
+                      cachedName="ifs_description"
+                      lineageId="Package\Part Catalog\Lookup.Outputs[Lookup Match Output].Columns[ifs_description]">
                       <properties>
                         <property
                           containsID="true"
@@ -5332,20 +5337,20 @@ order by product_sub_group</property>
                     <outputColumn
                       refId="Package\Part Catalog\Union All.Outputs[Union All Output 1].Columns[description]"
                       dataType="wstr"
-                      length="616"
+                      length="4000"
                       lineageId="Package\Part Catalog\Union All.Outputs[Union All Output 1].Columns[description]"
                       name="description" />
                     <outputColumn
                       refId="Package\Part Catalog\Union All.Outputs[Union All Output 1].Columns[product_sub_group]"
                       dataType="wstr"
-                      length="14"
+                      length="20"
                       lineageId="Package\Part Catalog\Union All.Outputs[Union All Output 1].Columns[product_sub_group]"
                       name="product_sub_group" />
                     <outputColumn
                       refId="Package\Part Catalog\Union All.Outputs[Union All Output 1].Columns[ifs_description]"
                       codePage="1252"
                       dataType="str"
-                      length="2000"
+                      length="4000"
                       lineageId="Package\Part Catalog\Union All.Outputs[Union All Output 1].Columns[ifs_description]"
                       name="ifs_description" />
                     <outputColumn
@@ -5574,18 +5579,21 @@ order by product_sub_group</property>
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
-                      dataType="wstr"
-                      length="50"
+                      codePage="1252"
+                      dataType="str"
+                      length="25"
                       name="part_no" />
                     <externalMetadataColumn
                       refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[unit_code]"
-                      dataType="wstr"
-                      length="30"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
                       name="unit_code" />
                     <externalMetadataColumn
                       refId="Package\Part Catalog Extractions\Part Catalog Container.Inputs[Flat File Destination Input].ExternalColumns[description]"
-                      dataType="wstr"
-                      length="2000"
+                      codePage="1252"
+                      dataType="str"
+                      length="4000"
                       name="description" />
                   </externalMetadataColumns>
                 </input>
@@ -6483,7 +6491,7 @@ where [refTable].[psi_code] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Part Handling Unit\86:invalid};</property>
+                  name="ParameterMap">#{Package\Part Handling Unit\1433:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -7824,21 +7832,63 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="128,42"
-          Id="Package\Part Catalog\Unit Code"
-          TopLeft="414,381" />
+          Size="123,42"
+          Id="Package\Part Catalog\Union All"
+          TopLeft="647,533" />
         <NodeLayout
           Size="174,42"
           Id="Package\Part Catalog\Part No Generation"
           TopLeft="395,459" />
         <NodeLayout
+          Size="115,42"
+          Id="Package\Part Catalog\Lookup"
+          TopLeft="422,190" />
+        <NodeLayout
           Size="134,42"
           Id="Package\Part Catalog\SQL Query"
           TopLeft="413,97" />
         <NodeLayout
+          Size="171,42"
+          Id="Package\Part Catalog\Part Catalog Table"
+          TopLeft="626,622" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Part Catalog\Matched"
+          TopLeft="645,314" />
+        <NodeLayout
+          Size="128,42"
+          Id="Package\Part Catalog\Unit Code"
+          TopLeft="414,381" />
+        <NodeLayout
           Size="154,42"
           Id="Package\Part Catalog\IFS Description"
           TopLeft="402,315" />
+        <NodeLayout
+          Size="126,42"
+          Id="Package\Part Catalog\No Match"
+          TopLeft="420,532" />
+        <EdgeLayout
+          Id="Package\Part Catalog.Paths[Derived Column Output2]"
+          TopLeft="546,553.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="101,0"
+              Start="0,0"
+              End="93.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="93.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Part Catalog.Paths[Derived Column Output1]"
           TopLeft="478.5,357">
@@ -7883,10 +7933,6 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="115,42"
-          Id="Package\Part Catalog\Lookup"
-          TopLeft="422,190" />
         <EdgeLayout
           Id="Package\Part Catalog.Paths[ADO NET Source Output]"
           TopLeft="479.75,139">
@@ -7901,6 +7947,50 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,43.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Part Catalog.Paths[Union All Output 1]"
+          TopLeft="710,575">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,47"
+              Start="0,0"
+              End="0,39.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Part Catalog.Paths[Output 0]"
+          TopLeft="482.5,501">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31"
+              Start="0,0"
+              End="0,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7933,10 +8023,6 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Part Catalog\Matched"
-          TopLeft="645,314" />
         <EdgeLayout
           Id="Package\Part Catalog.Paths[Lookup Match Output]"
           TopLeft="497.333333333333,232">
@@ -7969,114 +8055,24 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="55.8919466145833,38.47512864494,96.3827734375,11.609375"
+              BoundingBox="55.8919466145835,38.47512864494,96.3827734375,11.609375"
               RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="126,42"
-          Id="Package\Part Catalog\No Match"
-          TopLeft="420,532" />
-        <EdgeLayout
-          Id="Package\Part Catalog.Paths[Output 0]"
-          TopLeft="482.5,501">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,31"
-              Start="0,0"
-              End="0,23.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="123,42"
-          Id="Package\Part Catalog\Union All"
-          TopLeft="610,535" />
-        <EdgeLayout
-          Id="Package\Part Catalog.Paths[Derived Column Output2]"
-          TopLeft="546,554.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="64,0"
-              Start="0,0"
-              End="56.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="56.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Part Catalog.Paths[Derived Column Output3]"
-          TopLeft="705.5,356">
+          TopLeft="707,356">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-34,179"
+              EndConnector="0,177"
               Start="0,0"
-              End="-34,171.5">
+              End="0,169.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,85.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,85.5"
-                    Point2="0,89.5"
-                    Point3="-4,89.5" />
-                  <mssgle:LineSegment
-                    End="-30,89.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-30,89.5"
-                    Point2="-34,89.5"
-                    Point3="-34,93.5" />
-                  <mssgle:LineSegment
-                    End="-34,171.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Part Catalog\Part Catalog Table"
-          TopLeft="581,658" />
-        <EdgeLayout
-          Id="Package\Part Catalog.Paths[Union All Output 1]"
-          TopLeft="669,577">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,81"
-              Start="0,0"
-              End="0,73.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,73.5" />
+                    End="0,169.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8089,7 +8085,38 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Part Catalog\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Part Catalog\SQL Query">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Part Catalog\Part Catalog Table">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8118,13 +8145,13 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
           Id="Package\Part Catalog Extractions\Part Material Formulation Table"
           TopLeft="147,340" />
         <NodeLayout
-          Size="191,42"
-          Id="Package\Part Catalog Extractions\Part Catalog Container"
-          TopLeft="131,228" />
-        <NodeLayout
           Size="199,42"
           Id="Package\Part Catalog Extractions\Part Handling Unit Table"
           TopLeft="479,133" />
+        <NodeLayout
+          Size="191,42"
+          Id="Package\Part Catalog Extractions\Part Catalog Container"
+          TopLeft="131,228" />
         <EdgeLayout
           Id="Package\Part Catalog Extractions.Paths[ADO NET Source Output2]"
           TopLeft="263.5,382">
@@ -8621,37 +8648,6 @@ group by p.part_no, p.psi_item, b.specific_gravity</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Part Material Formulation\SQL Query">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Part Catalog\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[IFS_PART_CATALOG]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Part Catalog\Part Catalog Table">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

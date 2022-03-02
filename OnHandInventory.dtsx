@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="121"
-  DTS:VersionGUID="{A313A51E-FA30-4FFB-8023-C4B4F9A23941}">
+  DTS:VersionBuild="130"
+  DTS:VersionGUID="{82E4D56B-4B42-4090-9A2C-E3D4B7188EB5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -175,33 +175,69 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\Mac\Home\Documents\OneDrive\OneDrive - AirBoss of America Corp\General\4. IFS Project - ANC Scotland Neck\02. Data Migration\6. IFS Data Files\16. OnHand Inventory\ERROR_PartDoesNotExist.csv">
+          DTS:ConnectionString="\\Mac\Home\Library\CloudStorage\OneDrive-AirBossofAmericaCorp\General\4. IFS Project - ANC Scotland Neck\02. Data Migration\6. IFS Data Files\16. OnHand Inventory\ERROR_PartDoesNotExist.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="26"
+              DTS:MaximumWidth="5"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CONTRACT"
+              DTS:DTSID="{23A00C96-8E17-4663-93E9-45064B0B6E5E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PART_NO"
+              DTS:DTSID="{E3B13DDB-D8F8-492C-8DB6-21606E29CAD3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DESCRIPTION"
+              DTS:DTSID="{A7EDCB4E-40A0-41A4-8D0F-55A1E7A6BC90}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LOT_TRACKING_CODE"
+              DTS:DTSID="{669A3434-0CC4-4AC8-AC34-ECD556CB172C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="15"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="item"
-              DTS:DTSID="{FD959CC7-31DD-48E1-A12D-F0078B0F8684}"
+              DTS:DTSID="{12797434-0988-4F34-BEEB-C626522E5600}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="qty"
-              DTS:DTSID="{A0EDEF88-22BC-4D96-A4DE-68D6384BD5B7}"
+              DTS:ObjectName="ending_inv"
+              DTS:DTSID="{BA71DF9C-5EBA-4344-908E-496D0C36AA42}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="20"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="subgroup"
-              DTS:DTSID="{031534D2-4D93-4F68-AE76-E198C8119E1C}"
+              DTS:ObjectName="sub_group"
+              DTS:DTSID="{17C575C3-4313-40ED-A9E7-A76EF1C17921}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -241,7 +277,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\Mac\Home\Documents\OneDrive\OneDrive - AirBoss of America Corp\General\4. IFS Project - ANC Scotland Neck\02. Data Migration\6. IFS Data Files\16. OnHand Inventory\INVENTORY_PART_PICK_SHIP_STOCK.csv">
+          DTS:ConnectionString="\\Mac\Home\Library\CloudStorage\OneDrive-AirBossofAmericaCorp\General\4. IFS Project - ANC Scotland Neck\02. Data Migration\6. IFS Data Files\16. OnHand Inventory\INVENTORY_PART_PICK_SHIP_STOCK.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -250,7 +286,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="contract"
-              DTS:DTSID="{059DA86D-6A54-4360-ADF6-B49A5A15C281}"
+              DTS:DTSID="{B65F104B-0BA4-4A82-8ADC-9F0783605BD6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -259,24 +295,23 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="part_no"
-              DTS:DTSID="{39C651BA-2564-4204-94C0-C57A065C08F1}"
+              DTS:DTSID="{6100C1AE-3302-4650-BB36-6BE5653DB869}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="5"
-              DTS:TextQualified="True"
               DTS:ObjectName="qty_onhand"
-              DTS:DTSID="{C0916631-B413-4AF9-8EE7-4E927F5B1CDE}"
+              DTS:DTSID="{3DE3D29C-504F-42A6-ABB6-25BAA7C76C2A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="lot_batch_no"
-              DTS:DTSID="{B3D74FBD-65F2-4B96-B61E-09CC1FCCBAB9}"
+              DTS:DTSID="{AA1A9794-B4F0-47EE-AACD-DEFA61FBC7DF}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -296,7 +331,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\Mac\Home\Library\CloudStorage\OneDrive-AirBossofAmericaCorp\General\4. IFS Project - ANC Scotland Neck\02. Data Migration\OnHand Inventory\ANC_COSTED_INVENTORY.csv">
+          DTS:ConnectionString="\\Mac\Home\Library\CloudStorage\OneDrive-AirBossofAmericaCorp\General\4. IFS Project - ANC Scotland Neck\02. Data Migration\4. Supporting Data Files\IFS Extracts\ANC_INVENTORY.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -305,7 +340,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Item"
-              DTS:DTSID="{E390D86B-F513-47F7-8B5A-D235787FC65E}"
+              DTS:DTSID="{EE425004-6AAE-458B-A53E-011CD5D7AF8D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -313,7 +348,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="Ending Inv"
-              DTS:DTSID="{F00C09AD-B609-4A69-98F6-9A658C5035ED}"
+              DTS:DTSID="{494B5B1F-EE08-468F-ABC2-F9002C6A5AC7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -322,7 +357,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sub_Group"
-              DTS:DTSID="{DB9278E7-4E4F-4550-955D-5C1754DB0E81}"
+              DTS:DTSID="{D1CA5E4A-6941-45B1-AA30-E10E955F243F}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -517,7 +552,6 @@
       DTS:refId="Package\Extract"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{865FAB52-FFC7-4D66-B8FD-A905E69075AC}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -745,13 +779,12 @@
                   name="Flat File Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].Columns[PART_NO]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="PART_NO"
-                      externalMetadataColumnId="Package\Extract\Data Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
-                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[PART_NO]" />
+                      refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].Columns[lot_batch_no]"
+                      cachedDataType="wstr"
+                      cachedLength="3"
+                      cachedName="lot_batch_no"
+                      externalMetadataColumnId="Package\Extract\Data Container.Inputs[Flat File Destination Input].ExternalColumns[lot_batch_no]"
+                      lineageId="Package\Extract\Lot Batch No.Outputs[Derived Column Output].Columns[lot_batch_no]" />
                     <inputColumn
                       refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].Columns[CONTRACT]"
                       cachedCodepage="1252"
@@ -761,12 +794,13 @@
                       externalMetadataColumnId="Package\Extract\Data Container.Inputs[Flat File Destination Input].ExternalColumns[contract]"
                       lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[CONTRACT]" />
                     <inputColumn
-                      refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].Columns[lot_batch_no]"
-                      cachedDataType="wstr"
-                      cachedLength="3"
-                      cachedName="lot_batch_no"
-                      externalMetadataColumnId="Package\Extract\Data Container.Inputs[Flat File Destination Input].ExternalColumns[lot_batch_no]"
-                      lineageId="Package\Extract\Lot Batch No.Outputs[Derived Column Output].Columns[lot_batch_no]" />
+                      refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].Columns[PART_NO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PART_NO"
+                      externalMetadataColumnId="Package\Extract\Data Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
+                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[PART_NO]" />
                     <inputColumn
                       refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].Columns[ending_inv]"
                       cachedDataType="r8"
@@ -776,6 +810,12 @@
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].ExternalColumns[lot_batch_no]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="lot_batch_no" />
                     <externalMetadataColumn
                       refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].ExternalColumns[contract]"
                       codePage="1252"
@@ -792,11 +832,6 @@
                       refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].ExternalColumns[qty_onhand]"
                       dataType="r8"
                       name="qty_onhand" />
-                    <externalMetadataColumn
-                      refId="Package\Extract\Data Container.Inputs[Flat File Destination Input].ExternalColumns[lot_batch_no]"
-                      dataType="wstr"
-                      length="50"
-                      name="lot_batch_no" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -879,12 +914,12 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Extract\Is Null Sort.Inputs[Sort Input].Columns[LOT_TRACKING_CODE]"
+                      refId="Package\Extract\Is Null Sort.Inputs[Sort Input].Columns[lot_tracking_code]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="20"
-                      cachedName="LOT_TRACKING_CODE"
-                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[LOT_TRACKING_CODE]">
+                      cachedLength="16"
+                      cachedName="lot_tracking_code"
+                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[lot_tracking_code]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1007,7 +1042,7 @@
                       refId="Package\Extract\Is Null Sort.Outputs[Sort Output].Columns[LOT_TRACKING_CODE]"
                       codePage="1252"
                       dataType="str"
-                      length="20"
+                      length="16"
                       lineageId="Package\Extract\Is Null Sort.Outputs[Sort Output].Columns[LOT_TRACKING_CODE]"
                       name="LOT_TRACKING_CODE">
                       <properties>
@@ -1015,7 +1050,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[LOT_TRACKING_CODE]}</property>
+                          name="SortColumnId">#{Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[lot_tracking_code]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1145,12 +1180,12 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Extract\Less than 0 Sort.Inputs[Sort Input].Columns[LOT_TRACKING_CODE]"
+                      refId="Package\Extract\Less than 0 Sort.Inputs[Sort Input].Columns[lot_tracking_code]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="20"
-                      cachedName="LOT_TRACKING_CODE"
-                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[LOT_TRACKING_CODE]">
+                      cachedLength="16"
+                      cachedName="lot_tracking_code"
+                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[lot_tracking_code]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1273,7 +1308,7 @@
                       refId="Package\Extract\Less than 0 Sort.Outputs[Sort Output].Columns[LOT_TRACKING_CODE]"
                       codePage="1252"
                       dataType="str"
-                      length="20"
+                      length="16"
                       lineageId="Package\Extract\Less than 0 Sort.Outputs[Sort Output].Columns[LOT_TRACKING_CODE]"
                       name="LOT_TRACKING_CODE">
                       <properties>
@@ -1281,7 +1316,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[LOT_TRACKING_CODE]}</property>
+                          name="SortColumnId">#{Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[lot_tracking_code]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1347,12 +1382,12 @@
                   name="Derived Column Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Extract\Lot Batch No.Inputs[Derived Column Input].Columns[LOT_TRACKING_CODE]"
+                      refId="Package\Extract\Lot Batch No.Inputs[Derived Column Input].Columns[lot_tracking_code]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="20"
-                      cachedName="LOT_TRACKING_CODE"
-                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[LOT_TRACKING_CODE]" />
+                      cachedLength="16"
+                      cachedName="lot_tracking_code"
+                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[lot_tracking_code]" />
                     <inputColumn
                       refId="Package\Extract\Lot Batch No.Inputs[Derived Column Input].Columns[ending_inv]"
                       cachedDataType="r8"
@@ -1402,13 +1437,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">#{Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[LOT_TRACKING_CODE]} == "Not Lot Tracking" ? "*" : "PSI"</property>
+                          name="Expression">#{Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[lot_tracking_code]} == "Not Lot Tracking" ? "*" : "PSI"</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">LOT_TRACKING_CODE == "Not Lot Tracking" ? "*" : "PSI"</property>
+                          name="FriendlyExpression">lot_tracking_code == "Not Lot Tracking" ? "*" : "PSI"</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -1500,7 +1535,7 @@
                       refId="Package\Extract\Merge.Inputs[Merge Input 1].Columns[LOT_TRACKING_CODE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="20"
+                      cachedLength="16"
                       cachedName="LOT_TRACKING_CODE"
                       lineageId="Package\Extract\Less than 0 Sort.Outputs[Sort Output].Columns[LOT_TRACKING_CODE]">
                       <properties>
@@ -1611,7 +1646,7 @@
                       refId="Package\Extract\Merge.Inputs[Merge Input 2].Columns[LOT_TRACKING_CODE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="20"
+                      cachedLength="16"
                       cachedName="LOT_TRACKING_CODE"
                       lineageId="Package\Extract\Is Null Sort.Outputs[Sort Output].Columns[LOT_TRACKING_CODE]">
                       <properties>
@@ -1774,20 +1809,6 @@
                       cachedSortKeyPosition="1"
                       externalMetadataColumnId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[item]"
                       lineageId="Package\Extract\Merge.Outputs[Merge Output 1].Columns[item]" />
-                    <inputColumn
-                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].Columns[sub_group]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="20"
-                      cachedName="sub_group"
-                      externalMetadataColumnId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[subgroup]"
-                      lineageId="Package\Extract\Merge.Outputs[Merge Output 1].Columns[sub_group]" />
-                    <inputColumn
-                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].Columns[ending_inv]"
-                      cachedDataType="r8"
-                      cachedName="ending_inv"
-                      externalMetadataColumnId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[qty]"
-                      lineageId="Package\Extract\Merge.Outputs[Merge Output 1].Columns[ending_inv]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1795,18 +1816,42 @@
                       refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[item]"
                       codePage="1252"
                       dataType="str"
-                      length="26"
+                      length="15"
                       name="item" />
                     <externalMetadataColumn
-                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[qty]"
-                      dataType="r8"
-                      name="qty" />
+                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[CONTRACT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="CONTRACT" />
                     <externalMetadataColumn
-                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[subgroup]"
+                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[PART_NO]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="subgroup" />
+                      name="PART_NO" />
+                    <externalMetadataColumn
+                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[DESCRIPTION]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="DESCRIPTION" />
+                    <externalMetadataColumn
+                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[LOT_TRACKING_CODE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="LOT_TRACKING_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[ending_inv]"
+                      dataType="r8"
+                      name="ending_inv" />
+                    <externalMetadataColumn
+                      refId="Package\Extract\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[sub_group]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="sub_group" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1840,15 +1885,21 @@
 	ifs.CONTRACT,
 	ifs.PART_NO,
 	ifs.DESCRIPTION,
-	ifs.LOT_TRACKING_CODE,
+	p.lot_tracking_code,
 	psi.item,
-	psi.ending_inv,
+	sum(psi.ending_inv) ending_inv,
 	psi.sub_group
 from PSI_INVENTORY psi
-left outer join IFS_INVENTORY_PART ifs
-on (TRIM(SUBSTRING(ifs.Description,1,CHARINDEX(' *** ', ifs.Description))) = psi.item
-or TRIM(SUBSTRING(ifs.Description,1,CHARINDEX(' - ', ifs.Description, 1))) = psi.item
-or ifs.PART_NO = psi.item)</property>
+inner join IFS_INVENTORY_PART ifs
+on ifs.psi_item = psi.item
+inner join IFS_PART_CATALOG p
+on cast(ifs.Part_No as varchar) = p.part_no
+group by ifs.CONTRACT,
+	ifs.PART_NO,
+	ifs.DESCRIPTION,
+	p.lot_tracking_code,
+	psi.item,
+	psi.sub_group</property>
                 <property
                   dataType="System.String"
                   description="The variable that contains the SQL command to be executed."
@@ -1918,17 +1969,6 @@ or ifs.PART_NO = psi.item)</property>
                       name="DESCRIPTION"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[LOT_TRACKING_CODE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].ExternalColumns[LOT_TRACKING_CODE]"
-                      length="20"
-                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[LOT_TRACKING_CODE]"
-                      name="LOT_TRACKING_CODE"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
                       refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[item]"
                       codePage="1252"
                       dataType="str"
@@ -1959,6 +1999,17 @@ or ifs.PART_NO = psi.item)</property>
                       lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[sub_group]"
                       name="sub_group"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[lot_tracking_code]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].ExternalColumns[lot_tracking_code]"
+                      length="16"
+                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].Columns[lot_tracking_code]"
+                      name="lot_tracking_code"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1966,26 +2017,18 @@ or ifs.PART_NO = psi.item)</property>
                       refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].ExternalColumns[CONTRACT]"
                       codePage="1252"
                       dataType="str"
-                      length="5"
+                      length="4"
                       name="CONTRACT" />
                     <externalMetadataColumn
                       refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].ExternalColumns[PART_NO]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i8"
                       name="PART_NO" />
                     <externalMetadataColumn
                       refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].ExternalColumns[DESCRIPTION]"
                       codePage="1252"
                       dataType="str"
-                      length="200"
+                      length="137"
                       name="DESCRIPTION" />
-                    <externalMetadataColumn
-                      refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].ExternalColumns[LOT_TRACKING_CODE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="20"
-                      name="LOT_TRACKING_CODE" />
                     <externalMetadataColumn
                       refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].ExternalColumns[item]"
                       codePage="1252"
@@ -2002,6 +2045,12 @@ or ifs.PART_NO = psi.item)</property>
                       dataType="str"
                       length="20"
                       name="sub_group" />
+                    <externalMetadataColumn
+                      refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Output].ExternalColumns[lot_tracking_code]"
+                      codePage="1252"
+                      dataType="str"
+                      length="16"
+                      name="lot_tracking_code" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2013,30 +2062,28 @@ or ifs.PART_NO = psi.item)</property>
                       refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[CONTRACT]"
                       codePage="1252"
                       dataType="str"
-                      length="5"
+                      length="4"
                       lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[CONTRACT]"
                       name="CONTRACT" />
                     <outputColumn
                       refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[PART_NO]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i8"
                       lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[PART_NO]"
                       name="PART_NO" />
                     <outputColumn
                       refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[DESCRIPTION]"
                       codePage="1252"
                       dataType="str"
-                      length="200"
+                      length="137"
                       lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[DESCRIPTION]"
                       name="DESCRIPTION" />
                     <outputColumn
-                      refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[LOT_TRACKING_CODE]"
+                      refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[lot_tracking_code]"
                       codePage="1252"
                       dataType="str"
-                      length="20"
-                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[LOT_TRACKING_CODE]"
-                      name="LOT_TRACKING_CODE" />
+                      length="16"
+                      lineageId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[lot_tracking_code]"
+                      name="lot_tracking_code" />
                     <outputColumn
                       refId="Package\Extract\SQL Statement.Outputs[OLE DB Source Error Output].Columns[item]"
                       codePage="1252"
@@ -3292,20 +3339,6 @@ or ifs.PART_NO = psi.item)</property>
                       cachedSortKeyPosition="1"
                       externalMetadataColumnId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[item]"
                       lineageId="Package\Extract 1\Merge.Outputs[Merge Output 1].Columns[item]" />
-                    <inputColumn
-                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].Columns[sub_group]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="20"
-                      cachedName="sub_group"
-                      externalMetadataColumnId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[subgroup]"
-                      lineageId="Package\Extract 1\Merge.Outputs[Merge Output 1].Columns[sub_group]" />
-                    <inputColumn
-                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].Columns[ending_inv]"
-                      cachedDataType="r8"
-                      cachedName="ending_inv"
-                      externalMetadataColumnId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[qty]"
-                      lineageId="Package\Extract 1\Merge.Outputs[Merge Output 1].Columns[ending_inv]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3313,18 +3346,42 @@ or ifs.PART_NO = psi.item)</property>
                       refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[item]"
                       codePage="1252"
                       dataType="str"
-                      length="26"
+                      length="15"
                       name="item" />
                     <externalMetadataColumn
-                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[qty]"
-                      dataType="r8"
-                      name="qty" />
+                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[CONTRACT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="CONTRACT" />
                     <externalMetadataColumn
-                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[subgroup]"
+                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[PART_NO]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="subgroup" />
+                      name="PART_NO" />
+                    <externalMetadataColumn
+                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[DESCRIPTION]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="DESCRIPTION" />
+                    <externalMetadataColumn
+                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[LOT_TRACKING_CODE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="LOT_TRACKING_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[ending_inv]"
+                      dataType="r8"
+                      name="ending_inv" />
+                    <externalMetadataColumn
+                      refId="Package\Extract 1\Part Does Not Exist.Inputs[Flat File Destination Input].ExternalColumns[sub_group]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="sub_group" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -4376,6 +4433,7 @@ or ifs.PART_NO = psi.item)</property>
       DTS:refId="Package\PSI On Hand Inventory Data"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{7F2AB8B7-AB85-4C52-90B4-5B32F6363DC3}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4689,14 +4747,35 @@ or ifs.PART_NO = psi.item)</property>
           VSTAMinorVersion="0"
           Language="CSharp">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_914cb9118ca74bc9b11eb6531a18bddd")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_914cb9118ca74bc9b11eb6531a18bddd")]
+[assembly: AssemblyCopyright("Copyright @  2022")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -4817,34 +4896,91 @@ or ifs.PART_NO = psi.item)</property>
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_914cb9118ca74bc9b11eb6531a18bddd.Properties.Settings.get_Default():ST_914cb9118ca74bc9b11eb6531a18bddd.Properties.Sett" +
-    "ings")]
-
-namespace ST_914cb9118ca74bc9b11eb6531a18bddd.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+            Name="ST_914cb9118ca74bc9b11eb6531a18bddd.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{abeb158f-a4a2-4e3c-a46e-7acbb4f73363}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_914cb9118ca74bc9b11eb6531a18bddd</RootNamespace>
+    <AssemblyName>ST_914cb9118ca74bc9b11eb6531a18bddd</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="ScriptTask" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
+        <Host Name="ScriptTask" GeneratedNamespace="$safeprojectname" IconIndex=""></Host>
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -5013,121 +5149,43 @@ namespace ST_914cb9118ca74bc9b11eb6531a18bddd
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="ST_914cb9118ca74bc9b11eb6531a18bddd.csproj"
-            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{abeb158f-a4a2-4e3c-a46e-7acbb4f73363}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_914cb9118ca74bc9b11eb6531a18bddd</RootNamespace>
-    <AssemblyName>ST_914cb9118ca74bc9b11eb6531a18bddd</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="ScriptTask" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
-        <Host Name="ScriptTask" GeneratedNamespace="$safeprojectname" IconIndex=""></Host>
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_914cb9118ca74bc9b11eb6531a18bddd.Properties.Settings.get_Default():ST_914cb9118ca74bc9b11eb6531a18bddd.Properties.Sett" +
+    "ings")]
+
+namespace ST_914cb9118ca74bc9b11eb6531a18bddd.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_914cb9118ca74bc9b11eb6531a18bddd")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_914cb9118ca74bc9b11eb6531a18bddd")]
-[assembly: AssemblyCopyright("Copyright @  2022")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -5462,42 +5520,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         <NodeLayout
           Size="154,42"
           Id="Package\Extract\SQL Statement"
-          TopLeft="439,228" />
+          TopLeft="423,60" />
         <NodeLayout
           Size="175,42"
           Id="Package\Extract\Part Does Not Exist"
-          TopLeft="586,684" />
+          TopLeft="570,516" />
         <NodeLayout
           Size="168,42"
           Id="Package\Extract\Conditional Split 1"
-          TopLeft="434,375" />
+          TopLeft="418,207" />
         <NodeLayout
           Size="159,42"
           Id="Package\Extract\Less than 0 Sort"
-          TopLeft="484,498" />
+          TopLeft="468,330" />
         <NodeLayout
           Size="153,42"
           Id="Package\Extract\Data Container"
-          TopLeft="202,677" />
+          TopLeft="186,509" />
         <NodeLayout
           Size="110,42"
           Id="Package\Extract\Merge"
-          TopLeft="621,582" />
+          TopLeft="605,414" />
         <NodeLayout
           Size="133,42"
           Id="Package\Extract\Is Null Sort"
-          TopLeft="728,498" />
+          TopLeft="712,330" />
         <NodeLayout
           Size="159,42"
           Id="Package\Extract\Conditional Split"
-          TopLeft="206,446" />
+          TopLeft="190,278" />
         <NodeLayout
           Size="142,42"
           Id="Package\Extract\Lot Batch No"
-          TopLeft="208,550" />
+          TopLeft="192,382" />
         <EdgeLayout
           Id="Package\Extract.Paths[Derived Column Output]"
-          TopLeft="278.75,592">
+          TopLeft="262.75,424">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5514,14 +5572,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract.Paths[Sort Output1]"
-          TopLeft="794.5,540">
+          TopLeft="778.5,372">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5550,14 +5606,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract.Paths[Sort Output]"
-          TopLeft="563.5,540">
+          TopLeft="547.5,372">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5586,14 +5640,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract.Paths[OLE DB Source Output]"
-          TopLeft="517,270">
+          TopLeft="501,102">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5610,14 +5662,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract.Paths[Merge Output 1]"
-          TopLeft="674.75,624">
+          TopLeft="658.75,456">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5634,14 +5684,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract.Paths[Less than 0]"
-          TopLeft="365,467">
+          TopLeft="349,299">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5677,7 +5725,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract.Paths[Is Null]"
-          TopLeft="544.666666666667,417">
+          TopLeft="528.666666666667,249">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5713,7 +5761,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract.Paths[Is Not Null]"
-          TopLeft="491.333333333333,417">
+          TopLeft="475.333333333333,249">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5724,9 +5772,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,7.76415094339622" />
+                    End="0,7.7641509433962" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,7.76415094339622"
+                    Point1="0,7.7641509433962"
                     Point2="0,11.7641509433962"
                     Point3="-4,11.7641509433962" />
                   <mssgle:LineSegment
@@ -5743,13 +5791,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-126.705397135417,16.7641509433962,47.5774609375,9.7490234375"
+              BoundingBox="-126.705397135416,16.7641509433962,47.5774609375,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract.Paths[Greater than 0]"
-          TopLeft="282.25,488">
+          TopLeft="266.25,320">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -6126,7 +6174,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     design-time-name="Package\IFS Data Inventory Part">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="194,42"
           Id="Package\IFS Data Inventory Part\SQL Server Destination"
@@ -6162,9 +6210,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6186,9 +6232,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6210,9 +6254,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
