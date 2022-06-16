@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="30"
-  DTS:VersionGUID="{4D70748F-94CA-4AAB-B7BA-40DA6D75C63B}">
+  DTS:VersionBuild="36"
+  DTS:VersionGUID="{FE65A813-BF3C-485B-9869-3CFD80DAE5AA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -49,7 +49,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="contract"
-              DTS:DTSID="{CFADC3A3-AC7E-4B53-AF51-E27AB80871E8}"
+              DTS:DTSID="{784507F2-8275-49EC-AB49-E33DF7E19E07}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -58,7 +58,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="part_no"
-              DTS:DTSID="{9A9850FA-C456-4EFB-AB9C-7A6CF5020A53}"
+              DTS:DTSID="{02DA696A-AB22-4C9C-AA09-1BE821082DDD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -67,7 +67,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="description"
-              DTS:DTSID="{BE61B305-9F15-4A42-B3CD-BFFA13A19E34}"
+              DTS:DTSID="{AE9F9194-CAF5-475D-AA45-F08F249269C4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -76,7 +76,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="unit_meas"
-              DTS:DTSID="{063A47AD-2781-42B8-957B-F66D5E3AB7BF}"
+              DTS:DTSID="{AD3C38DE-1135-4098-9557-2E6F93BB22F5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -85,7 +85,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="type_code"
-              DTS:DTSID="{9252B9BA-90B8-44C6-AE29-D055D2D4DC06}"
+              DTS:DTSID="{5F244AD3-A3D2-4074-ADF9-05007741562A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -94,7 +94,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="planner_buyer"
-              DTS:DTSID="{D8A7864E-A138-41D3-8DC2-ECE4ADE25FC7}"
+              DTS:DTSID="{9F5124F2-0E4C-468C-8784-BBE374FE1530}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -103,7 +103,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="prime_commodity"
-              DTS:DTSID="{358D9BBD-64D8-425C-BB65-C67AB1442B07}"
+              DTS:DTSID="{D9A82A6D-14F9-483F-B7F1-8FA0550F6F10}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -112,7 +112,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="second_commodity"
-              DTS:DTSID="{791F4E62-B9F7-404C-B138-B8CAACC5BD3E}"
+              DTS:DTSID="{28DDE2FC-F44E-4F0F-B3FF-5DF67CA8439B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -120,7 +120,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="accounting_group"
-              DTS:DTSID="{F6F0B474-2BF8-4FBD-9527-4A1ADCA867A5}"
+              DTS:DTSID="{9EF29E84-4231-4C07-9A2F-B9CDE123056D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -129,7 +129,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="part_product_family"
-              DTS:DTSID="{CC3BE4C4-0A23-43C7-8CC5-691CB1319033}"
+              DTS:DTSID="{15A3119B-FCA8-4671-8E1D-688C82B2A73E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -137,7 +137,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="durability_day"
-              DTS:DTSID="{F94EE82D-C7BD-46EE-B63B-290CAFABEAEF}"
+              DTS:DTSID="{06D4AABB-7A82-46B2-A83D-7D630E936EFC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -146,7 +146,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="country_of_origin"
-              DTS:DTSID="{0BE0BD8A-C379-417A-8243-055B10A6D276}"
+              DTS:DTSID="{3FF0191A-4788-4CA2-9D46-E8A1B829CBAF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -155,7 +155,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="customs_stat_no"
-              DTS:DTSID="{6F621CE4-2E21-4E19-9BA2-F17041E90385}"
+              DTS:DTSID="{2DA472BF-5F19-479C-923A-8892D76F1C4A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -164,7 +164,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="zero_cost_flag_db"
-              DTS:DTSID="{47B433C5-0653-4590-8825-67B01B9A911D}"
+              DTS:DTSID="{8D77A3E0-43B9-4270-8A00-C55ACE1C4679}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -173,7 +173,23 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="zero_cost_flag"
-              DTS:DTSID="{8EDBDB40-D124-483C-832A-220352CBD82D}"
+              DTS:DTSID="{4BB9FAE3-6F7D-40A3-94DF-550F0409C218}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="purch_leadtime"
+              DTS:DTSID="{1511129C-FD1C-4DD4-9704-0AD973F3F6BA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="note_text"
+              DTS:DTSID="{FE7B796B-5AD1-4D9B-A174-85687AEC2BDA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -181,7 +197,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="manuf_leadtime"
-              DTS:DTSID="{E388F769-FABB-4036-9F3F-6B196B40CFAB}"
+              DTS:DTSID="{CA2599EA-D695-4749-B305-E6543A83FE75}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -190,7 +206,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="lead_time_code_db"
-              DTS:DTSID="{C94D28A0-4628-4F0C-B40C-AA573D969636}"
+              DTS:DTSID="{380A9C99-077F-4ECB-BC29-D4AB123D417B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -199,7 +215,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="dop_netting_db"
-              DTS:DTSID="{3AC8585D-613E-4788-88F6-2085FDF512FC}"
+              DTS:DTSID="{1B8A3A2E-11A2-447A-913A-7334C18CC260}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -208,15 +224,23 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="dop_netting"
-              DTS:DTSID="{D59606C3-C5F2-4E9E-9B50-3B9A4D8658E8}"
+              DTS:DTSID="{D80F949D-F514-459C-BED0-A35A23ABA45F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="expected_leadtime"
+              DTS:DTSID="{80BD21D7-2C31-4184-831B-848D2F9E7161}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="3"
+              DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="expected_leadtime"
-              DTS:DTSID="{B55A9ADD-1287-4881-A587-F24E00915C69}"
+              DTS:ObjectName="part_cost_group_id"
+              DTS:DTSID="{041C8783-8B76-4347-B042-DB217268B460}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -341,36 +365,6 @@
           VSTAMinorVersion="0"
           Language="CSharp">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_8055a61d8b224d44aaacf99c120782e0")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_8055a61d8b224d44aaacf99c120782e0")]
-[assembly: AssemblyCopyright("Copyright @  2022")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-          <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -489,107 +483,6 @@ using System.Runtime.CompilerServices;
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
-          <ProjectItem
-            Name="ScriptMain.cs"
-            Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
-/* The Script Task allows you to perform virtually any operation that can be accomplished in
- * a .Net application within the context of an Integration Services control flow. 
- * 
- * Expand the other regions which have "Help" prefixes for examples of specific ways to use
- * Integration Services features within this script task. */
-#endregion
-
-
-#region Namespaces
-using System;
-using System.Data;
-using Microsoft.SqlServer.Dts.Runtime;
-using System.Windows.Forms;
-using System.Data.SqlClient;
-#endregion
-
-namespace ST_8055a61d8b224d44aaacf99c120782e0
-{
-    /// <summary>
-    /// ScriptMain is the entry point class of the script.  Do not change the name, attributes,
-    /// or parent of this class.
-    /// </summary>
-	[Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
-	public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
-	{
-		public void Main()
-		{
-            string[] tables = new string[] {
-                "INVENTORY_PART_TAB",
-                "INVENTORY_PART_PLANNING_TAB"
-            };
-
-            try
-            {
-                SqlConnection myADONETConnection = new SqlConnection();
-                myADONETConnection = (SqlConnection)(Dts.Connections["DataMigration"].AcquireConnection(Dts.Transaction) as SqlConnection);
-
-                foreach (string table in tables)
-                {
-                    string delete_query = "delete From [dbo].[" + table + "]";
-                    SqlCommand data_cmd = new SqlCommand(delete_query, myADONETConnection);
-
-                    data_cmd.ExecuteNonQuery();
-                }
-
-                Dts.TaskResult = (int)ScriptResults.Success;
-            }
-            catch
-            {
-                // whoops
-            }
-        }
-
-        #region ScriptResults declaration
-        /// <summary>
-        /// This enum provides a convenient shorthand within the scope of this class for setting the
-        /// result of the script.
-        /// 
-        /// This code was generated automatically.
-        /// </summary>
-        enum ScriptResults
-        {
-            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
-            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
-        };
-        #endregion
-
-	}
-}]]></ProjectItem>
-          <ProjectItem
-            Name="Project"
-            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:Language>msBuild</msb:Language>
-    <msb:CodeName>ST_8055a61d8b224d44aaacf99c120782e0</msb:CodeName>
-    <msb:DisplayName>ST_8055a61d8b224d44aaacf99c120782e0</msb:DisplayName>
-    <msb:ProjectId>{D3970C78-0021-4498-BE1E-6F581411B1F7}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_8055a61d8b224d44aaacf99c120782e0.csproj" />
-    <msb:File Include="ScriptMain.cs" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Settings.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -718,6 +611,137 @@ namespace ST_8055a61d8b224d44aaacf99c120782e0.Properties {
     </VisualStudio>
   </ProjectExtensions>
 </Project>]]></ProjectItem>
+          <ProjectItem
+            Name="ScriptMain.cs"
+            Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
+/* The Script Task allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services control flow. 
+ * 
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script task. */
+#endregion
+
+
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Runtime;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+#endregion
+
+namespace ST_8055a61d8b224d44aaacf99c120782e0
+{
+    /// <summary>
+    /// ScriptMain is the entry point class of the script.  Do not change the name, attributes,
+    /// or parent of this class.
+    /// </summary>
+	[Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+	public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+	{
+		public void Main()
+		{
+            string[] tables = new string[] {
+                "INVENTORY_PART_TAB",
+                "INVENTORY_PART_PLANNING_TAB"
+            };
+
+            try
+            {
+                SqlConnection myADONETConnection = new SqlConnection();
+                myADONETConnection = (SqlConnection)(Dts.Connections["DataMigration"].AcquireConnection(Dts.Transaction) as SqlConnection);
+
+                foreach (string table in tables)
+                {
+                    string delete_query = "delete From [dbo].[" + table + "]";
+                    SqlCommand data_cmd = new SqlCommand(delete_query, myADONETConnection);
+
+                    data_cmd.ExecuteNonQuery();
+                }
+
+                Dts.TaskResult = (int)ScriptResults.Success;
+            }
+            catch
+            {
+                // whoops
+            }
+        }
+
+        #region ScriptResults declaration
+        /// <summary>
+        /// This enum provides a convenient shorthand within the scope of this class for setting the
+        /// result of the script.
+        /// 
+        /// This code was generated automatically.
+        /// </summary>
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        };
+        #endregion
+
+	}
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:Language>msBuild</msb:Language>
+    <msb:CodeName>ST_8055a61d8b224d44aaacf99c120782e0</msb:CodeName>
+    <msb:DisplayName>ST_8055a61d8b224d44aaacf99c120782e0</msb:DisplayName>
+    <msb:ProjectId>{D3970C78-0021-4498-BE1E-6F581411B1F7}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_8055a61d8b224d44aaacf99c120782e0.csproj" />
+    <msb:File Include="ScriptMain.cs" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_8055a61d8b224d44aaacf99c120782e0")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_8055a61d8b224d44aaacf99c120782e0")]
+[assembly: AssemblyCopyright("Copyright @  2022")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -976,29 +1000,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Inventory Part\Default Columns.Outputs[Derived Column Output].Columns[type_code]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      length="19"
-                      lineageId="Package\Inventory Part\Default Columns.Outputs[Derived Column Output].Columns[type_code]"
-                      name="type_code"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">"Manufactured Recipe"</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">"Manufactured Recipe"</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Inventory Part\Default Columns.Outputs[Derived Column Output].Columns[planner_buyer]"
                       dataType="wstr"
                       errorOrTruncationOperation="Computation"
@@ -1178,29 +1179,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
                           name="FriendlyExpression">1</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Inventory Part\Default Columns.Outputs[Derived Column Output].Columns[lead_time_code_db]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      length="1"
-                      lineageId="Package\Inventory Part\Default Columns.Outputs[Derived Column Output].Columns[lead_time_code_db]"
-                      name="lead_time_code_db"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">"M"</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">"M"</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1660,108 +1638,108 @@ where [refTable].[item] = ?</property>
                       cachedLength="50"
                       cachedName="part_no"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[part_no]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[part_no]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[part_no]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[contract]"
                       cachedDataType="wstr"
                       cachedLength="4"
                       cachedName="contract"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[contract]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[contract]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[contract]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[type_code]"
                       cachedDataType="wstr"
                       cachedLength="19"
                       cachedName="type_code"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[type_code]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[type_code]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[type_code]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[planner_buyer]"
                       cachedDataType="wstr"
                       cachedLength="7"
                       cachedName="planner_buyer"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[planner_buyer]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[planner_buyer]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[planner_buyer]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[prime_commodity]"
                       cachedDataType="wstr"
                       cachedLength="5"
                       cachedName="prime_commodity"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[prime_commodity]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[prime_commodity]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[prime_commodity]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[accounting_group]"
                       cachedDataType="i4"
                       cachedName="accounting_group"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[accounting_group]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[accounting_group]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[accounting_group]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[country_of_origin]"
                       cachedDataType="wstr"
                       cachedLength="2"
                       cachedName="country_of_origin"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[country_of_origin]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[country_of_origin]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[country_of_origin]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[customs_stat_no]"
                       cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="customs_stat_no"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[customs_stat_no]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[customs_stat_no]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[customs_stat_no]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[zero_cost_flag_db]"
                       cachedDataType="wstr"
                       cachedLength="1"
                       cachedName="zero_cost_flag_db"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[zero_cost_flag_db]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[zero_cost_flag_db]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag_db]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[zero_cost_flag]"
                       cachedDataType="wstr"
                       cachedLength="17"
                       cachedName="zero_cost_flag"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[zero_cost_flag]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[zero_cost_flag]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[manuf_leadtime]"
                       cachedDataType="i4"
                       cachedName="manuf_leadtime"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[manuf_leadtime]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[manuf_leadtime]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[manuf_leadtime]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[lead_time_code_db]"
                       cachedDataType="wstr"
                       cachedLength="1"
                       cachedName="lead_time_code_db"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[lead_time_code_db]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[lead_time_code_db]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[lead_time_code_db]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[dop_netting_db]"
                       cachedDataType="wstr"
                       cachedLength="4"
                       cachedName="dop_netting_db"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[dop_netting_db]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[dop_netting_db]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting_db]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[dop_netting]"
                       cachedDataType="wstr"
                       cachedLength="7"
                       cachedName="dop_netting"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[dop_netting]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[dop_netting]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[expected_leadtime]"
                       cachedDataType="i4"
                       cachedName="expected_leadtime"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[expected_leadtime]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[expected_leadtime]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[expected_leadtime]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[durability_day]"
                       cachedDataType="r8"
                       cachedName="durability_day"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[durability_day]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[durability_day]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[durability_day]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[part_product_family]"
                       cachedDataType="wstr"
@@ -1775,14 +1753,14 @@ where [refTable].[item] = ?</property>
                       cachedLength="4000"
                       cachedName="ifs_description"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[description]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[ifs_description]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[ifs_description]" />
                     <inputColumn
                       refId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].Columns[unit_code]"
                       cachedDataType="wstr"
                       cachedLength="30"
                       cachedName="unit_code"
                       externalMetadataColumnId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input].ExternalColumns[unit_meas]"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[unit_code]" />
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[unit_code]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1911,6 +1889,246 @@ where [refTable].[item] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\Inventory Part\Lookup"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[PSI_BATCH_CONTROL]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[PSI_BATCH_CONTROL]) [refTable]
+where [refTable].[item] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="item" dataType="DT_STR" length="25" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="bill_priority" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="priority" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="work_center" dataType="DT_STR" length="13" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="division" dataType="DT_STR" length="3" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="routing" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="customer" dataType="DT_STR" length="25" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="batch_size" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="batch_multiple" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="skid_size" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="no_of_skids" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="factor_max" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="factor_min" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="order_comment" dataType="DT_STR" length="319" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="pallet_type" dataType="DT_STR" length="19" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cycle_time" dataType="DT_STR" length="8" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cycle_time_rate" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cycle_time_uom" dataType="DT_STR" length="6" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="crew_size" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="pay_group" dataType="DT_STR" length="10" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="operation_rate" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="setup_time" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="setup_uom" dataType="DT_STR" length="6" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="setup_pay_group" dataType="DT_STR" length="10" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="setup_crew_size" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="rpm" dataType="DT_STR" length="9" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="discharge_temperature" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="costing" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="wc_setup_time" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="setup_efficiency" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="operation_efficiency" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="width" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="height" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="queue_time" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="queue_uom" dataType="DT_STR" length="4" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="batch_width" dataType="DT_STR" length="10" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="batch_height" dataType="DT_STR" length="9" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="planner" dataType="DT_STR" length="6" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_1" dataType="DT_STR" length="218" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_2" dataType="DT_STR" length="64" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="status" dataType="DT_STR" length="1" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="strapping" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="shrinkwrap" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="extra_dip" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="poly" dataType="DT_STR" length="6" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="user_stamp" dataType="DT_STR" length="12" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="time_stamp" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="final_finish" dataType="DT_STR" length="11" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="quote_only" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="lid" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="divider" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="sku" dataType="DT_STR" length="22" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="disposition_code" dataType="DT_STR" length="200" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="kanban_no" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="pallet_cost" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="pallet_currency" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="scrap_allowance_laborcost_pct" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="scrap_allowance_ovhdcost_pct" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[Copy of psi_item]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Inventory Part\Lookup.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[KATOLEFEBVRFA59.DataMigration1]"
+                  connectionManagerRefId="Package.ConnectionManagers[KATOLEFEBVRFA59.DataMigration1]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Inventory Part\Lookup.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Inventory Part\Lookup.Inputs[Lookup Input].Columns[Copy of psi_item]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
+                      cachedName="Copy of psi_item"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[Copy of psi_item]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">item</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Inventory Part\Lookup.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Inventory Part\Lookup.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Inventory Part\Lookup.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Inventory Part\Lookup.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Inventory Part\Lookup.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Inventory Part\Lookup.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Inventory Part\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Inventory Part\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Inventory Part\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Inventory Part\Manufactured Recipe"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Manufactured Recipe"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Inventory Part\Manufactured Recipe.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Inventory Part\Manufactured Recipe.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Output].Columns[type_code]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="19"
+                      lineageId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Output].Columns[type_code]"
+                      name="type_code"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Manufactured Recipe"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Manufactured Recipe"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Output].Columns[lead_time_code_db]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="1"
+                      lineageId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Output].Columns[lead_time_code_db]"
+                      name="lead_time_code_db"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"M"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"M"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Inventory Part\Manufactured Recipe.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Inventory Part\Part Catalog Table"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
@@ -1924,7 +2142,7 @@ where [refTable].[item] = ?</property>
                   description="Specifies the SQL statement used by the component to extract data."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select p.*, id.product_sub_group from part_catalog_tab as p
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct(p.part_no) part_no, p.ifs_description, p.unit_code, p.psi_item, p.matched, id.product_sub_group from part_catalog_tab as p
 inner join psi_parts_list as i
 on p.psi_item = i.item
 inner join psi_item_division as id
@@ -1932,7 +2150,7 @@ on id.item = p.psi_item
 where part_no not in (
 select part_no from ifs_inventory_part ifs
 where ifs.part_no = p.part_no
-)</property>
+) order by p.part_no</property>
                 <property
                   dataType="System.Int32"
                   description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
@@ -2178,7 +2396,7 @@ where [refTable].[psi_code] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Inventory Part\1436:invalid};</property>
+                  name="ParameterMap">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[product_sub_group]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2206,7 +2424,7 @@ where [refTable].[psi_code] = ?</property>
                       cachedDataType="wstr"
                       cachedLength="20"
                       cachedName="product_sub_group"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[product_sub_group]">
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[product_sub_group]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -2387,6 +2605,917 @@ where [refTable].[psi_code] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\Inventory Part\Purchased (raw)"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Purchased (raw)"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Inventory Part\Purchased (raw).Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Inventory Part\Purchased (raw).Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Output].Columns[type_code]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="15"
+                      lineageId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Output].Columns[type_code]"
+                      name="type_code"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Purchased (raw)"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Purchased (raw)"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Output].Columns[lead_time_code_db]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="1"
+                      lineageId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Output].Columns[lead_time_code_db]"
+                      name="lead_time_code_db"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"P"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"P"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Inventory Part\Purchased (raw).Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Inventory Part\Union All"
+              componentClassID="Microsoft.UnionAll"
+              contactInfo="Union All;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combines rows from multiple data flows without sorting. For example, add rows back to a data flow after correction of errors. If sorting is important, we recommend using the Merge transformation."
+              name="Union All"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\Inventory Part\Union All.Inputs[Union All Input 1]"
+                  name="Union All Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[part_no]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="part_no"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[part_no]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[part_no]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[ifs_description]"
+                      cachedDataType="wstr"
+                      cachedLength="4000"
+                      cachedName="ifs_description"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[ifs_description]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[ifs_description]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[unit_code]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="unit_code"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[unit_code]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[unit_code]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[psi_item]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="psi_item"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[psi_item]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[psi_item]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[matched]"
+                      cachedDataType="i8"
+                      cachedName="matched"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[matched]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[matched]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[product_sub_group]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="product_sub_group"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[product_sub_group]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[product_sub_group]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[contract]"
+                      cachedDataType="wstr"
+                      cachedLength="4"
+                      cachedName="contract"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[contract]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[contract]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[planner_buyer]"
+                      cachedDataType="wstr"
+                      cachedLength="7"
+                      cachedName="planner_buyer"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[planner_buyer]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[planner_buyer]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[prime_commodity]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="prime_commodity"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[prime_commodity]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[prime_commodity]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[accounting_group]"
+                      cachedDataType="i4"
+                      cachedName="accounting_group"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[accounting_group]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[accounting_group]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[country_of_origin]"
+                      cachedDataType="wstr"
+                      cachedLength="2"
+                      cachedName="country_of_origin"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[country_of_origin]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[country_of_origin]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[customs_stat_no]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="customs_stat_no"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[customs_stat_no]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[customs_stat_no]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[zero_cost_flag_db]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="zero_cost_flag_db"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[zero_cost_flag_db]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag_db]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[zero_cost_flag]"
+                      cachedDataType="wstr"
+                      cachedLength="17"
+                      cachedName="zero_cost_flag"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[zero_cost_flag]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[manuf_leadtime]"
+                      cachedDataType="i4"
+                      cachedName="manuf_leadtime"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[manuf_leadtime]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[manuf_leadtime]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[dop_netting_db]"
+                      cachedDataType="wstr"
+                      cachedLength="4"
+                      cachedName="dop_netting_db"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[dop_netting_db]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting_db]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[dop_netting]"
+                      cachedDataType="wstr"
+                      cachedLength="7"
+                      cachedName="dop_netting"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[dop_netting]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[expected_leadtime]"
+                      cachedDataType="i4"
+                      cachedName="expected_leadtime"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[expected_leadtime]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[expected_leadtime]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[Copy of psi_item]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
+                      cachedName="Copy of psi_item"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[Copy of psi_item]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[Copy of psi_item]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[Copy of product_sub_group]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="Copy of product_sub_group"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[Copy of product_sub_group]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[Copy of product_sub_group]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[durability_day]"
+                      cachedDataType="r8"
+                      cachedName="durability_day"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[durability_day]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[durability_day]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[type_code]"
+                      cachedDataType="wstr"
+                      cachedLength="19"
+                      cachedName="type_code"
+                      lineageId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Output].Columns[type_code]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[type_code]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 1].Columns[lead_time_code_db]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="lead_time_code_db"
+                      lineageId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Output].Columns[lead_time_code_db]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[lead_time_code_db]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Inventory Part\Union All.Inputs[Union All Input 2]"
+                  hasSideEffects="true"
+                  name="Union All Input 2">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[part_no]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="part_no"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[part_no]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[part_no]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[ifs_description]"
+                      cachedDataType="wstr"
+                      cachedLength="4000"
+                      cachedName="ifs_description"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[ifs_description]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[ifs_description]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[unit_code]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="unit_code"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[unit_code]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[unit_code]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[psi_item]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="psi_item"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[psi_item]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[psi_item]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[matched]"
+                      cachedDataType="i8"
+                      cachedName="matched"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[matched]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[matched]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[product_sub_group]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="product_sub_group"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[product_sub_group]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[product_sub_group]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[contract]"
+                      cachedDataType="wstr"
+                      cachedLength="4"
+                      cachedName="contract"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[contract]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[contract]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[planner_buyer]"
+                      cachedDataType="wstr"
+                      cachedLength="7"
+                      cachedName="planner_buyer"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[planner_buyer]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[planner_buyer]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[prime_commodity]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="prime_commodity"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[prime_commodity]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[prime_commodity]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[accounting_group]"
+                      cachedDataType="i4"
+                      cachedName="accounting_group"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[accounting_group]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[accounting_group]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[country_of_origin]"
+                      cachedDataType="wstr"
+                      cachedLength="2"
+                      cachedName="country_of_origin"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[country_of_origin]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[country_of_origin]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[customs_stat_no]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="customs_stat_no"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[customs_stat_no]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[customs_stat_no]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[zero_cost_flag_db]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="zero_cost_flag_db"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[zero_cost_flag_db]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag_db]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[zero_cost_flag]"
+                      cachedDataType="wstr"
+                      cachedLength="17"
+                      cachedName="zero_cost_flag"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[zero_cost_flag]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[manuf_leadtime]"
+                      cachedDataType="i4"
+                      cachedName="manuf_leadtime"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[manuf_leadtime]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[manuf_leadtime]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[dop_netting_db]"
+                      cachedDataType="wstr"
+                      cachedLength="4"
+                      cachedName="dop_netting_db"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[dop_netting_db]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting_db]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[dop_netting]"
+                      cachedDataType="wstr"
+                      cachedLength="7"
+                      cachedName="dop_netting"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[dop_netting]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[expected_leadtime]"
+                      cachedDataType="i4"
+                      cachedName="expected_leadtime"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[expected_leadtime]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[expected_leadtime]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[Copy of psi_item]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
+                      cachedName="Copy of psi_item"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[Copy of psi_item]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[Copy of psi_item]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[Copy of product_sub_group]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="Copy of product_sub_group"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[Copy of product_sub_group]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[Copy of product_sub_group]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[durability_day]"
+                      cachedDataType="r8"
+                      cachedName="durability_day"
+                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[durability_day]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[durability_day]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[type_code]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="type_code"
+                      lineageId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Output].Columns[type_code]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[type_code]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Inventory Part\Union All.Inputs[Union All Input 2].Columns[lead_time_code_db]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="lead_time_code_db"
+                      lineageId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Output].Columns[lead_time_code_db]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[lead_time_code_db]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Inventory Part\Union All.Inputs[Union All Input 3]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Union All Input 3">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Inventory Part\Union All.Outputs[Union All Output 1]"
+                  name="Union All Output 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[part_no]"
+                      name="part_no" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[ifs_description]"
+                      dataType="wstr"
+                      length="4000"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[ifs_description]"
+                      name="ifs_description" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[unit_code]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[unit_code]"
+                      name="unit_code" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[psi_item]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[psi_item]"
+                      name="psi_item" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[matched]"
+                      dataType="i8"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[matched]"
+                      name="matched" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[product_sub_group]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[product_sub_group]"
+                      name="product_sub_group" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[contract]"
+                      dataType="wstr"
+                      length="4"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[contract]"
+                      name="contract" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[planner_buyer]"
+                      dataType="wstr"
+                      length="7"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[planner_buyer]"
+                      name="planner_buyer" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[prime_commodity]"
+                      dataType="wstr"
+                      length="5"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[prime_commodity]"
+                      name="prime_commodity" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[accounting_group]"
+                      dataType="i4"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[accounting_group]"
+                      name="accounting_group" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[country_of_origin]"
+                      dataType="wstr"
+                      length="2"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[country_of_origin]"
+                      name="country_of_origin" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[customs_stat_no]"
+                      dataType="wstr"
+                      length="10"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[customs_stat_no]"
+                      name="customs_stat_no" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag_db]"
+                      dataType="wstr"
+                      length="1"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag_db]"
+                      name="zero_cost_flag_db" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag]"
+                      dataType="wstr"
+                      length="17"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[zero_cost_flag]"
+                      name="zero_cost_flag" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[manuf_leadtime]"
+                      dataType="i4"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[manuf_leadtime]"
+                      name="manuf_leadtime" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting_db]"
+                      dataType="wstr"
+                      length="4"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting_db]"
+                      name="dop_netting_db" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting]"
+                      dataType="wstr"
+                      length="7"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[dop_netting]"
+                      name="dop_netting" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[expected_leadtime]"
+                      dataType="i4"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[expected_leadtime]"
+                      name="expected_leadtime" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[Copy of psi_item]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[Copy of psi_item]"
+                      name="Copy of psi_item" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[Copy of product_sub_group]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[Copy of product_sub_group]"
+                      name="Copy of product_sub_group" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[durability_day]"
+                      dataType="r8"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[durability_day]"
+                      name="durability_day" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[type_code]"
+                      dataType="wstr"
+                      length="19"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[type_code]"
+                      name="type_code" />
+                    <outputColumn
+                      refId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[lead_time_code_db]"
+                      dataType="wstr"
+                      length="1"
+                      lineageId="Package\Inventory Part\Union All.Outputs[Union All Output 1].Columns[lead_time_code_db]"
+                      name="lead_time_code_db" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Inventory Part\Union All 1"
               componentClassID="Microsoft.UnionAll"
               contactInfo="Union All;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -2497,20 +3626,6 @@ where [refTable].[psi_code] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Inventory Part\Union All 1.Inputs[Union All Input 3].Columns[type_code]"
-                      cachedDataType="wstr"
-                      cachedLength="19"
-                      cachedName="type_code"
-                      lineageId="Package\Inventory Part\Default Columns.Outputs[Derived Column Output].Columns[type_code]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[type_code]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Inventory Part\Union All 1.Inputs[Union All Input 3].Columns[planner_buyer]"
                       cachedDataType="wstr"
                       cachedLength="7"
@@ -2618,20 +3733,6 @@ where [refTable].[psi_code] = ?</property>
                           dataType="System.Int32"
                           description="Output column lineage ID"
                           name="OutputColumnLineageID">#{Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[manuf_leadtime]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Inventory Part\Union All 1.Inputs[Union All Input 3].Columns[lead_time_code_db]"
-                      cachedDataType="wstr"
-                      cachedLength="1"
-                      cachedName="lead_time_code_db"
-                      lineageId="Package\Inventory Part\Default Columns.Outputs[Derived Column Output].Columns[lead_time_code_db]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[lead_time_code_db]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -2824,20 +3925,6 @@ where [refTable].[psi_code] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Inventory Part\Union All 1.Inputs[Union All Input 1].Columns[type_code]"
-                      cachedDataType="wstr"
-                      cachedLength="19"
-                      cachedName="type_code"
-                      lineageId="Package\Inventory Part\Default Columns.Outputs[Derived Column Output].Columns[type_code]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[type_code]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Inventory Part\Union All 1.Inputs[Union All Input 1].Columns[planner_buyer]"
                       cachedDataType="wstr"
                       cachedLength="7"
@@ -2945,20 +4032,6 @@ where [refTable].[psi_code] = ?</property>
                           dataType="System.Int32"
                           description="Output column lineage ID"
                           name="OutputColumnLineageID">#{Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[manuf_leadtime]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Inventory Part\Union All 1.Inputs[Union All Input 1].Columns[lead_time_code_db]"
-                      cachedDataType="wstr"
-                      cachedLength="1"
-                      cachedName="lead_time_code_db"
-                      lineageId="Package\Inventory Part\Default Columns.Outputs[Derived Column Output].Columns[lead_time_code_db]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[lead_time_code_db]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -3103,12 +4176,6 @@ where [refTable].[psi_code] = ?</property>
                       lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[contract]"
                       name="contract" />
                     <outputColumn
-                      refId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[type_code]"
-                      dataType="wstr"
-                      length="19"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[type_code]"
-                      name="type_code" />
-                    <outputColumn
                       refId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[planner_buyer]"
                       dataType="wstr"
                       length="7"
@@ -3154,12 +4221,6 @@ where [refTable].[psi_code] = ?</property>
                       dataType="i4"
                       lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[manuf_leadtime]"
                       name="manuf_leadtime" />
-                    <outputColumn
-                      refId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[lead_time_code_db]"
-                      dataType="wstr"
-                      length="1"
-                      lineageId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[lead_time_code_db]"
-                      name="lead_time_code_db" />
                     <outputColumn
                       refId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1].Columns[dop_netting_db]"
                       dataType="wstr"
@@ -3229,6 +4290,16 @@ where [refTable].[psi_code] = ?</property>
               name="Derived Column Output"
               startId="Package\Inventory Part\Default Durability Day.Outputs[Derived Column Output]" />
             <path
+              refId="Package\Inventory Part.Paths[Derived Column Output3]"
+              endId="Package\Inventory Part\Union All.Inputs[Union All Input 1]"
+              name="Derived Column Output"
+              startId="Package\Inventory Part\Manufactured Recipe.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Inventory Part.Paths[Derived Column Output4]"
+              endId="Package\Inventory Part\Union All.Inputs[Union All Input 2]"
+              name="Derived Column Output"
+              startId="Package\Inventory Part\Purchased (raw).Outputs[Derived Column Output]" />
+            <path
               refId="Package\Inventory Part.Paths[Lookup Match Output]"
               endId="Package\Inventory Part\Inventory Part Table.Inputs[ADO NET Destination Input]"
               name="Lookup Match Output"
@@ -3239,15 +4310,30 @@ where [refTable].[psi_code] = ?</property>
               name="Lookup Match Output"
               startId="Package\Inventory Part\Durability Day Lookup.Outputs[Lookup Match Output]" />
             <path
+              refId="Package\Inventory Part.Paths[Lookup Match Output2]"
+              endId="Package\Inventory Part\Manufactured Recipe.Inputs[Derived Column Input]"
+              name="Lookup Match Output"
+              startId="Package\Inventory Part\Lookup.Outputs[Lookup Match Output]" />
+            <path
               refId="Package\Inventory Part.Paths[Lookup No Match Output]"
               endId="Package\Inventory Part\Default Durability Day.Inputs[Derived Column Input]"
               name="Lookup No Match Output"
               startId="Package\Inventory Part\Durability Day Lookup.Outputs[Lookup No Match Output]" />
             <path
+              refId="Package\Inventory Part.Paths[Lookup No Match Output1]"
+              endId="Package\Inventory Part\Purchased (raw).Inputs[Derived Column Input]"
+              name="Lookup No Match Output"
+              startId="Package\Inventory Part\Lookup.Outputs[Lookup No Match Output]" />
+            <path
               refId="Package\Inventory Part.Paths[Union All Output 1]"
-              endId="Package\Inventory Part\Part Product Family Lookup.Inputs[Lookup Input]"
+              endId="Package\Inventory Part\Lookup.Inputs[Lookup Input]"
               name="Union All Output 1"
               startId="Package\Inventory Part\Union All 1.Outputs[Union All Output 1]" />
+            <path
+              refId="Package\Inventory Part.Paths[Union All Output 11]"
+              endId="Package\Inventory Part\Part Product Family Lookup.Inputs[Lookup Input]"
+              name="Union All Output 1"
+              startId="Package\Inventory Part\Union All.Outputs[Union All Output 1]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -3537,6 +4623,24 @@ where [refTable].[psi_code] = ?</property>
                       refId="Package\Inventory Part Extractions\Inventory Part Container.Inputs[Flat File Destination Input].ExternalColumns[expected_leadtime]"
                       dataType="i4"
                       name="expected_leadtime" />
+                    <externalMetadataColumn
+                      refId="Package\Inventory Part Extractions\Inventory Part Container.Inputs[Flat File Destination Input].ExternalColumns[purch_leadtime]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="purch_leadtime" />
+                    <externalMetadataColumn
+                      refId="Package\Inventory Part Extractions\Inventory Part Container.Inputs[Flat File Destination Input].ExternalColumns[note_text]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="note_text" />
+                    <externalMetadataColumn
+                      refId="Package\Inventory Part Extractions\Inventory Part Container.Inputs[Flat File Destination Input].ExternalColumns[part_cost_group_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="part_cost_group_id" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -5743,7 +6847,7 @@ where [refTable].[item] = ?</property>
         <NodeLayout
           Size="132,42"
           Id="Package\Inventory Part\Union All 1"
-          TopLeft="594,421" />
+          TopLeft="778,298" />
         <NodeLayout
           Size="206,42"
           Id="Package\Inventory Part\PSI Item Data Conversion"
@@ -5821,6 +6925,50 @@ where [refTable].[item] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Inventory Part.Paths[Derived Column Output2]"
+          TopLeft="840.25,243">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,55"
+              Start="0,0"
+              End="0,47.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Inventory Part.Paths[Derived Column Output1]"
+          TopLeft="591,316.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="187,0"
+              Start="0,0"
+              End="179.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="179.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Inventory Part.Paths[Derived Column Output]"
           TopLeft="494,102">
           <EdgeLayout.Curve>
@@ -5887,28 +7035,6 @@ where [refTable].[item] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Inventory Part.Paths[Union All Output 1]"
-          TopLeft="662.5,463">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,72"
-              Start="0,0"
-              End="0,64.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,64.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Inventory Part.Paths[Lookup No Match Output]"
           TopLeft="585,222.5">
           <EdgeLayout.Curve>
@@ -5932,32 +7058,130 @@ where [refTable].[item] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="115,42"
+          Id="Package\Inventory Part\Lookup"
+          TopLeft="607,367" />
         <EdgeLayout
-          Id="Package\Inventory Part.Paths[Derived Column Output1]"
-          TopLeft="494.5,335">
+          Id="Package\Inventory Part.Paths[Union All Output 1]"
+          TopLeft="844,340">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="165.5,86"
+              EndConnector="-179.5,27"
               Start="0,0"
-              End="165.5,78.5">
+              End="-179.5,19.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39" />
+                    End="0,9.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,39"
-                    Point2="0,43"
-                    Point3="4,43" />
+                    Point1="0,9.5"
+                    Point2="0,13.5"
+                    Point3="-4,13.5" />
                   <mssgle:LineSegment
-                    End="161.5,43" />
+                    End="-175.5,13.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="161.5,43"
-                    Point2="165.5,43"
-                    Point3="165.5,47" />
+                    Point1="-175.5,13.5"
+                    Point2="-179.5,13.5"
+                    Point3="-179.5,17.5" />
                   <mssgle:LineSegment
-                    End="165.5,78.5" />
+                    End="-179.5,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="183,42"
+          Id="Package\Inventory Part\Manufactured Recipe"
+          TopLeft="358,369" />
+        <NodeLayout
+          Size="160,42"
+          Id="Package\Inventory Part\Purchased (raw)"
+          TopLeft="777,366" />
+        <EdgeLayout
+          Id="Package\Inventory Part.Paths[Lookup Match Output2]"
+          TopLeft="607,389">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-66,0"
+              Start="0,0"
+              End="-58.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-58.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-77.44138671875,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Inventory Part.Paths[Lookup No Match Output1]"
+          TopLeft="722,387.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="55,0"
+              Start="0,0"
+              End="47.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="47.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-32.05638671875,5,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="123,42"
+          Id="Package\Inventory Part\Union All"
+          TopLeft="602,451" />
+        <EdgeLayout
+          Id="Package\Inventory Part.Paths[Derived Column Output3]"
+          TopLeft="449.5,411">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="214,40"
+              Start="0,0"
+              End="214,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16"
+                    Point2="0,20"
+                    Point3="4,20" />
+                  <mssgle:LineSegment
+                    End="210,20" />
+                  <mssgle:CubicBezierSegment
+                    Point1="210,20"
+                    Point2="214,20"
+                    Point3="214,24" />
+                  <mssgle:LineSegment
+                    End="214,32.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5967,31 +7191,53 @@ where [refTable].[item] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Inventory Part.Paths[Derived Column Output2]"
-          TopLeft="836.5,243">
+          Id="Package\Inventory Part.Paths[Derived Column Output4]"
+          TopLeft="857,408">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-155.833333333333,178"
+              EndConnector="-174.333333333333,43"
               Start="0,0"
-              End="-155.833333333333,170.5">
+              End="-174.333333333333,35.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,101.520958083832" />
+                    End="0,21.4686998394863" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,101.520958083832"
-                    Point2="0,105.520958083832"
-                    Point3="-4,105.520958083832" />
+                    Point1="0,21.4686998394863"
+                    Point2="0,25.4686998394863"
+                    Point3="-4,25.4686998394863" />
                   <mssgle:LineSegment
-                    End="-151.833333333333,105.520958083832" />
+                    End="-170.333333333333,25.4686998394863" />
                   <mssgle:CubicBezierSegment
-                    Point1="-151.833333333333,105.520958083832"
-                    Point2="-155.833333333333,105.520958083832"
-                    Point3="-155.833333333333,109.520958083832" />
+                    Point1="-170.333333333333,25.4686998394863"
+                    Point2="-174.333333333333,25.4686998394863"
+                    Point3="-174.333333333333,29.4686998394863" />
                   <mssgle:LineSegment
-                    End="-155.833333333333,170.5" />
+                    End="-174.333333333333,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Inventory Part.Paths[Union All Output 11]"
+          TopLeft="664.25,493">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42"
+              Start="0,0"
+              End="0,34.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6048,7 +7294,7 @@ where [refTable].[item] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -6071,14 +7317,6 @@ where [refTable].[item] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="193,42"
-          Id="Package\Inventory Part Extractions\Inventory Part Planning"
-          TopLeft="530,161" />
-        <NodeLayout
-          Size="198,42"
-          Id="Package\Inventory Part Extractions\Inventory Part Container"
-          TopLeft="190,293" />
-        <NodeLayout
           Size="178,42"
           Id="Package\Inventory Part Extractions\Inventory Part Table"
           TopLeft="198,165" />
@@ -6086,6 +7324,38 @@ where [refTable].[item] = ?</property>
           Size="244,42"
           Id="Package\Inventory Part Extractions\Inventory Part Planning Container"
           TopLeft="514,292" />
+        <NodeLayout
+          Size="193,42"
+          Id="Package\Inventory Part Extractions\Inventory Part Planning"
+          TopLeft="530,161" />
+        <NodeLayout
+          Size="198,42"
+          Id="Package\Inventory Part Extractions\Inventory Part Container"
+          TopLeft="190,293" />
+        <EdgeLayout
+          Id="Package\Inventory Part Extractions.Paths[ADO NET Source Output]"
+          TopLeft="288,207">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,86"
+              Start="0,0"
+              End="0,78.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,78.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Inventory Part Extractions.Paths[ADO NET Source Output1]"
           TopLeft="626.5,203">
@@ -6122,35 +7392,11 @@ where [refTable].[item] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Inventory Part Extractions.Paths[ADO NET Source Output]"
-          TopLeft="288,207">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,86"
-              Start="0,0"
-              End="0,78.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,78.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Inventory Part Extractions\Inventory Part Planning">
+    design-time-name="Package\Inventory Part Extractions\Inventory Part Table">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6158,7 +7404,7 @@ where [refTable].[item] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Inventory Part Extractions\Inventory Part Table">
+    design-time-name="Package\Inventory Part Extractions\Inventory Part Planning">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6427,6 +7673,29 @@ where [refTable].[item] = ?</property>
   <PipelineComponentMetadata
     design-time-name="Package\Inventory Part Planning\Inventory Part Table">
     <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Inventory Part\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[PSI_BATCH_CONTROL]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>

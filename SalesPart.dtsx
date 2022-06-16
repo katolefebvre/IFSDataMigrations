@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="26"
-  DTS:VersionGUID="{52532C83-E836-4EA4-B671-DA4753EC36D8}">
+  DTS:VersionBuild="39"
+  DTS:VersionGUID="{053AB6FF-8A68-4CDE-8843-EAD16BBAB3FA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -829,72 +829,82 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                       cachedDataType="wstr"
                       cachedLength="4"
                       cachedName="contract"
+                      cachedSortKeyPosition="1"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[contract]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[contract]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[contract]" />
                     <inputColumn
                       refId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].Columns[catalog_no]"
                       cachedDataType="wstr"
                       cachedLength="22"
                       cachedName="catalog_no"
+                      cachedSortKeyPosition="2"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[catalog_no]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_no]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[catalog_no]" />
                     <inputColumn
                       refId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].Columns[part_no]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="part_no"
+                      cachedSortKeyPosition="3"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[part_no]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[part_no]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[part_no]" />
                     <inputColumn
                       refId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].Columns[catalog_desc]"
                       cachedDataType="wstr"
                       cachedLength="2000"
                       cachedName="catalog_desc"
+                      cachedSortKeyPosition="4"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[catalog_desc]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_desc]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[catalog_desc]" />
                     <inputColumn
                       refId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].Columns[sales_unit_meas]"
                       cachedDataType="wstr"
                       cachedLength="9"
                       cachedName="sales_unit_meas"
+                      cachedSortKeyPosition="5"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[sales_unit_meas]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[sales_unit_meas]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[sales_unit_meas]" />
                     <inputColumn
                       refId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].Columns[price_conv_factor]"
                       cachedDataType="numeric"
                       cachedName="price_conv_factor"
                       cachedPrecision="17"
                       cachedScale="7"
+                      cachedSortKeyPosition="6"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[price_conv_factor]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[price_conv_factor]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[price_conv_factor]" />
                     <inputColumn
                       refId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].Columns[catalog_group]"
                       cachedDataType="wstr"
                       cachedLength="200"
                       cachedName="catalog_group"
+                      cachedSortKeyPosition="7"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[catalog_group]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_group]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[catalog_group]" />
                     <inputColumn
                       refId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].Columns[conv_factor]"
                       cachedDataType="numeric"
                       cachedName="conv_factor"
                       cachedPrecision="17"
                       cachedScale="7"
+                      cachedSortKeyPosition="8"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[conv_factor]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[conv_factor]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[conv_factor]" />
                     <inputColumn
                       refId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].Columns[sales_price_group]"
                       cachedDataType="i4"
                       cachedName="sales_price_group"
+                      cachedSortKeyPosition="9"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[sales_price_group]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[sales_price_group]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[sales_price_group]" />
                     <inputColumn
                       refId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].Columns[customer_sku]"
                       cachedDataType="wstr"
                       cachedLength="25"
                       cachedName="customer_sku"
+                      cachedSortKeyPosition="10"
                       externalMetadataColumnId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input].ExternalColumns[customer_sku]"
-                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[customer_sku]" />
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[customer_sku]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1530,18 +1540,383 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\Extractions\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Extractions\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[contract]"
+                      cachedDataType="wstr"
+                      cachedLength="4"
+                      cachedName="contract"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[contract]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[catalog_no]"
+                      cachedDataType="wstr"
+                      cachedLength="22"
+                      cachedName="catalog_no"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_no]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[part_no]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="part_no"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[part_no]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">3</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[catalog_desc]"
+                      cachedDataType="wstr"
+                      cachedLength="2000"
+                      cachedName="catalog_desc"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_desc]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">4</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[sales_unit_meas]"
+                      cachedDataType="wstr"
+                      cachedLength="9"
+                      cachedName="sales_unit_meas"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[sales_unit_meas]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">5</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[price_conv_factor]"
+                      cachedDataType="numeric"
+                      cachedName="price_conv_factor"
+                      cachedPrecision="17"
+                      cachedScale="7"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[price_conv_factor]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">6</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[catalog_group]"
+                      cachedDataType="wstr"
+                      cachedLength="200"
+                      cachedName="catalog_group"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_group]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">7</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[conv_factor]"
+                      cachedDataType="numeric"
+                      cachedName="conv_factor"
+                      cachedPrecision="17"
+                      cachedScale="7"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[conv_factor]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">8</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[sales_price_group]"
+                      cachedDataType="i4"
+                      cachedName="sales_price_group"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[sales_price_group]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">9</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Extractions\Sort.Inputs[Sort Input].Columns[customer_sku]"
+                      cachedDataType="wstr"
+                      cachedLength="25"
+                      cachedName="customer_sku"
+                      lineageId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[customer_sku]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">10</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Extractions\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[contract]"
+                      dataType="wstr"
+                      length="4"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[contract]"
+                      name="contract"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[contract]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[catalog_no]"
+                      dataType="wstr"
+                      length="22"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[catalog_no]"
+                      name="catalog_no"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_no]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[part_no]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[part_no]"
+                      name="part_no"
+                      sortKeyPosition="3">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[part_no]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[catalog_desc]"
+                      dataType="wstr"
+                      length="2000"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[catalog_desc]"
+                      name="catalog_desc"
+                      sortKeyPosition="4">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_desc]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[sales_unit_meas]"
+                      dataType="wstr"
+                      length="9"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[sales_unit_meas]"
+                      name="sales_unit_meas"
+                      sortKeyPosition="5">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[sales_unit_meas]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[price_conv_factor]"
+                      dataType="numeric"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[price_conv_factor]"
+                      name="price_conv_factor"
+                      precision="17"
+                      scale="7"
+                      sortKeyPosition="6">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[price_conv_factor]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[catalog_group]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[catalog_group]"
+                      name="catalog_group"
+                      sortKeyPosition="7">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_group]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[conv_factor]"
+                      dataType="numeric"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[conv_factor]"
+                      name="conv_factor"
+                      precision="17"
+                      scale="7"
+                      sortKeyPosition="8">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[conv_factor]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[sales_price_group]"
+                      dataType="i4"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[sales_price_group]"
+                      name="sales_price_group"
+                      sortKeyPosition="9">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[sales_price_group]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extractions\Sort.Outputs[Sort Output].Columns[customer_sku]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\Extractions\Sort.Outputs[Sort Output].Columns[customer_sku]"
+                      name="customer_sku"
+                      sortKeyPosition="10">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output].Columns[customer_sku]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
           <paths>
             <path
               refId="Package\Extractions.Paths[ADO NET Source Output]"
-              endId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input]"
-              name="ADO NET Source Output"
-              startId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output]" />
-            <path
-              refId="Package\Extractions.Paths[ADO NET Source Output1]"
               endId="Package\Extractions\Sales Part Cross Reference Container.Inputs[Flat File Destination Input]"
               name="ADO NET Source Output"
               startId="Package\Extractions\Sales Part Cross Reference Table.Outputs[ADO NET Source Output]" />
+            <path
+              refId="Package\Extractions.Paths[ADO NET Source Output1]"
+              endId="Package\Extractions\Sort.Inputs[Sort Input]"
+              name="ADO NET Source Output"
+              startId="Package\Extractions\Sales Part Table.Outputs[ADO NET Source Output]" />
+            <path
+              refId="Package\Extractions.Paths[Sort Output]"
+              endId="Package\Extractions\Sales Part Container.Inputs[Flat File Destination Input]"
+              name="Sort Output"
+              startId="Package\Extractions\Sort.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1561,167 +1936,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           version="1">
           <components>
             <component
-              refId="Package\Sales Part\Customer No Lookup"
-              componentClassID="Microsoft.Lookup"
-              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
-              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="Customer No Lookup"
-              usesDispositions="true"
-              version="6">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Specifies the SQL statement that generates the lookup table."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[IFS_CUSTOMERS]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
-                  expressionType="Notify"
-                  name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[IFS_CUSTOMERS]) [refTable]
-where [refTable].[ship_to_code] = ?</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the type of connection used to access the reference dataset."
-                  name="ConnectionType"
-                  typeConverter="LookupConnectionType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the cache type of the lookup table."
-                  name="CacheType"
-                  typeConverter="CacheType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
-                  name="NoMatchBehavior"
-                  typeConverter="LookupNoMatchBehavior">1</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
-                  name="NoMatchCachePercentage">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
-                  name="MaxMemoryUsage">25</property>
-                <property
-                  dataType="System.Int64"
-                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
-                  name="MaxMemoryUsage64">25</property>
-                <property
-                  dataType="System.String"
-                  description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="bill_to_code" dataType="DT_STR" length="25" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ship_to_code" dataType="DT_STR" length="25" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="company_name" dataType="DT_STR" length="66" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ifs_customer_no" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ifs_customer_name" dataType="DT_STR" length="65" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ifs_address" dataType="DT_STR" length="3" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="market" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
-                <property
-                  containsID="true"
-                  dataType="System.String"
-                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of customer]};</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
-                  name="TreatDuplicateKeysAsError">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Sales Part\Customer No Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[KATOLEFEBVRFA59.DataMigration1]"
-                  connectionManagerRefId="Package.ConnectionManagers[KATOLEFEBVRFA59.DataMigration1]"
-                  description="Connection manager used to access lookup data."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Sales Part\Customer No Lookup.Inputs[Lookup Input]"
-                  name="Lookup Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Sales Part\Customer No Lookup.Inputs[Lookup Input].Columns[Copy of customer]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="25"
-                      cachedName="Copy of customer"
-                      lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of customer]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">ship_to_code</property>
-                        <property
-                          dataType="System.Null"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Match Output]"
-                  errorOrTruncationOperation="Lookup"
-                  exclusionGroup="1"
-                  name="Lookup Match Output"
-                  synchronousInputId="Package\Sales Part\Customer No Lookup.Inputs[Lookup Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Match Output].Columns[ifs_customer_no]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Copy Column"
-                      length="50"
-                      lineageId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Match Output].Columns[ifs_customer_no]"
-                      name="ifs_customer_no"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn">ifs_customer_no</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Sales Part\Customer No Lookup.Outputs[Lookup No Match Output]"
-                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
-                  exclusionGroup="1"
-                  name="Lookup No Match Output"
-                  synchronousInputId="Package\Sales Part\Customer No Lookup.Inputs[Lookup Input]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Lookup Error Output"
-                  synchronousInputId="Package\Sales Part\Customer No Lookup.Inputs[Lookup Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
               refId="Package\Sales Part\Data Conversion"
               componentClassID="Microsoft.DataConvert"
               contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -1736,15 +1950,25 @@ where [refTable].[ship_to_code] = ?</property>
                     <inputColumn
                       refId="Package\Sales Part\Data Conversion.Inputs[Data Conversion Input].Columns[psi_item]"
                       cachedDataType="wstr"
-                      cachedLength="30"
+                      cachedLength="50"
                       cachedName="psi_item"
                       lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[psi_item]" />
                     <inputColumn
-                      refId="Package\Sales Part\Data Conversion.Inputs[Data Conversion Input].Columns[customer]"
+                      refId="Package\Sales Part\Data Conversion.Inputs[Data Conversion Input].Columns[ifs_customer_no]"
                       cachedDataType="wstr"
-                      cachedLength="25"
-                      cachedName="customer"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[customer]" />
+                      cachedLength="50"
+                      cachedName="ifs_customer_no"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[ifs_customer_no]" />
+                    <inputColumn
+                      refId="Package\Sales Part\Data Conversion.Inputs[Data Conversion Input].Columns[sku]"
+                      cachedDataType="nText"
+                      cachedName="sku"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[sku]" />
+                    <inputColumn
+                      refId="Package\Sales Part\Data Conversion.Inputs[Data Conversion Input].Columns[mapped_sku]"
+                      cachedDataType="nText"
+                      cachedName="mapped_sku"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[mapped_sku]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1762,7 +1986,7 @@ where [refTable].[ship_to_code] = ?</property>
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="30"
+                      length="50"
                       lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of psi_item]"
                       name="Copy of psi_item"
                       truncationRowDisposition="FailComponent">
@@ -1779,21 +2003,63 @@ where [refTable].[ship_to_code] = ?</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of customer]"
+                      refId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ifs_customer_no]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="25"
-                      lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of customer]"
-                      name="Copy of customer"
+                      length="50"
+                      lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ifs_customer_no]"
+                      name="Copy of ifs_customer_no"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[customer]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[ifs_customer_no]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of sku]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of sku]"
+                      name="Copy of sku"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[sku]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of mapped_sku]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of mapped_sku]"
+                      name="Copy of mapped_sku"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[mapped_sku]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -1842,17 +2108,22 @@ where [refTable].[ship_to_code] = ?</property>
                   <inputColumns>
                     <inputColumn
                       refId="Package\Sales Part\Default Columns.Inputs[Derived Column Input].Columns[selling_uom]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="9"
                       cachedName="selling_uom"
-                      lineageId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Match Output].Columns[selling_uom]" />
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[selling_uom]" />
                     <inputColumn
-                      refId="Package\Sales Part\Default Columns.Inputs[Derived Column Input].Columns[customer_sku]"
+                      refId="Package\Sales Part\Default Columns.Inputs[Derived Column Input].Columns[Copy of sku]"
                       cachedDataType="wstr"
-                      cachedLength="22"
-                      cachedName="customer_sku"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[customer_sku]" />
+                      cachedLength="50"
+                      cachedName="Copy of sku"
+                      lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of sku]" />
+                    <inputColumn
+                      refId="Package\Sales Part\Default Columns.Inputs[Derived Column Input].Columns[Copy of mapped_sku]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of mapped_sku"
+                      lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of mapped_sku]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1880,7 +2151,7 @@ where [refTable].[ship_to_code] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">#{Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Match Output].Columns[selling_uom]} == "LB" ? 1 : 2.2046226</property>
+                          name="Expression">#{Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[selling_uom]} == "LB" ? 1 : 2.2046226</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -1904,7 +2175,7 @@ where [refTable].[ship_to_code] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">#{Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Match Output].Columns[selling_uom]} == "LB" ? 1 : 2.2046226</property>
+                          name="Expression">#{Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[selling_uom]} == "LB" ? 1 : 2.2046226</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -1927,7 +2198,7 @@ where [refTable].[ship_to_code] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[LOWER](#{Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Match Output].Columns[selling_uom]})</property>
+                          name="Expression">[LOWER](#{Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[selling_uom]})</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -1963,7 +2234,7 @@ where [refTable].[ship_to_code] = ?</property>
                       dataType="wstr"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      length="22"
+                      length="102"
                       lineageId="Package\Sales Part\Default Columns.Outputs[Derived Column Output].Columns[catalog_no]"
                       name="catalog_no"
                       truncationRowDisposition="FailComponent">
@@ -1972,13 +2243,13 @@ where [refTable].[ship_to_code] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">#{Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[customer_sku]}</property>
+                          name="Expression">[REPLACENULL](#{Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of mapped_sku]},#{Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of sku]})</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">customer_sku</property>
+                          name="FriendlyExpression">REPLACENULL([Copy of mapped_sku],[Copy of sku])</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -2010,11 +2281,11 @@ where [refTable].[ship_to_code] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Sales Part\PSI Item Uom Lookup"
+              refId="Package\Sales Part\Market Lookup"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
               description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="PSI Item Uom Lookup"
+              name="Market Lookup"
               usesDispositions="true"
               version="6">
               <properties>
@@ -2023,14 +2294,22 @@ where [refTable].[ship_to_code] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[PSI_ITEM]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select ifs_customer_no, market, ifs_code 
+from IFS_CUSTOMERS c 
+inner join MAPPING m 
+on m.psi_code = c.market 
+and m.mapping_type = 'SALES GROUP'</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[PSI_ITEM]) [refTable]
-where [refTable].[item] = ?</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select ifs_customer_no, market, ifs_code 
+from IFS_CUSTOMERS c 
+inner join MAPPING m 
+on m.psi_code = c.market 
+and m.mapping_type = 'SALES GROUP') [refTable]
+where [refTable].[ifs_customer_no] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the type of connection used to access the reference dataset."
@@ -2061,12 +2340,12 @@ where [refTable].[item] = ?</property>
                 <property
                   dataType="System.String"
                   description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="item" dataType="DT_STR" length="30" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_class" dataType="DT_STR" length="8" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="purchasing_uom" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="description" dataType="DT_STR" length="4000" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="upc" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="base_uom" dataType="DT_STR" length="9" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="weight" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="weight_uom" dataType="DT_STR" length="2" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="height" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="width" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="depth" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="length_uom" dataType="DT_STR" length="2" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="capacity" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="capacity_uom" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="picture" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="movie" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="control_type" dataType="DT_STR" length="1" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="manufacturing_uom" dataType="DT_STR" length="9" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="create_sales_plan" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="grouping_level" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="top_level_item" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="calculate_level" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_make_suffix" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="user_stamp" dataType="DT_STR" length="18" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="time_stamp" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="warehouse" dataType="DT_STR" length="9" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="call_out_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="call_out_value" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="abc_class" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="consume_type" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="inventory_class" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="year_code_id" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="year_code" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="color_code" dataType="DT_STR" length="13" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="pm_shot_count" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="pm_schedule" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="refurbish_shot_count" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="refurbish_schedule" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="total_life_cycle" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="total_life_cycle_schedule" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="total_scrap" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="pm_reset_date" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="refurbish_reset_date" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="def_scrap_percentage" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="po_cost" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="maintenance_cost" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="last_date_calculation" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_1" dataType="DT_STR" length="40" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_2" dataType="DT_STR" length="40" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_3" dataType="DT_STR" length="40" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_4" dataType="DT_STR" length="37" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_5" dataType="DT_STR" length="40" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_n_1" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ref_n_2" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ref_n_3" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ref_n_4" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ref_n_5" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="kit_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="volume_uom" dataType="DT_STR" length="2" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="volume" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="label_print_flag" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="selling_uom" dataType="DT_STR" length="9" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="daily_ship_req" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="notes_comments" dataType="DT_STR" length="128" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="budget_hours" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="asset_status" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ref_s_6" dataType="DT_STR" length="40" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="due_date" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="submitted_date" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="sku_position" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="asset_type" dataType="DT_STR" length="12" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="wo_receive_label_code" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="document_information" dataType="DT_STR" length="63" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sales_item_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ref_s_7" dataType="DT_STR" length="40" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_8" dataType="DT_STR" length="40" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_9" dataType="DT_STR" length="30" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_10" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_11" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_12" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_13" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_14" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_15" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_16" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_17" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_18" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_cb_1" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="approved_comment" dataType="DT_STR" length="1119" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="trade_name" dataType="DT_STR" length="30" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="chemical_name" dataType="DT_STR" length="128" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="form" dataType="DT_STR" length="13" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="material_group" dataType="DT_STR" length="10" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="density" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="mooney_1" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="mooney_2" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="mooney_3" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="mooney_4" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="active_material" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="bin_detail" dataType="DT_STR" length="20" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_baseqty_somultiple" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="company_code" dataType="DT_STR" length="22" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="misc_adder_1" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="misc_adder_2" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="pick_uom" dataType="DT_STR" length="7" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="max_qty" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="max_qty_uom" dataType="DT_STR" length="2" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="flc" dataType="DT_STR" length="8" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="wo_no_required_for_po_rec_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="doc_ref_1" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="doc_ref_2" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="doc_ref_3" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="serial_control_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cas_no" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no_percent" dataType="DT_STR" length="13" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no2" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no2_percent" dataType="DT_STR" length="12" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no3" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no3_percent" dataType="DT_STR" length="12" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no4" dataType="DT_STR" length="11" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no4_percent" dataType="DT_STR" length="11" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no5" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no5_percent" dataType="DT_STR" length="11" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no6" dataType="DT_STR" length="10" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no6_percent" dataType="DT_STR" length="7" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="customer_rating" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="segment" dataType="DT_STR" length="23" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sub_segment" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Segment_Application" dataType="DT_STR" length="121" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Segment_Application_Description" dataType="DT_STR" length="128" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Chemical_Description" dataType="DT_STR" length="128" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="receive_no_required" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="material_family" dataType="DT_STR" length="19" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="picture_id" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="description2" dataType="DT_STR" length="139" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ean" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="nsn" dataType="DT_STR" length="13" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_1" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_2" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_3" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_4" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_5" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_6" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_7" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_8" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_9" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_10" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="production_uom" dataType="DT_STR" length="7" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="production_uom_factor" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="item_attribute_11" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_12" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_13" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_14" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_15" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_16" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_17" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_18" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_19" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_20" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ref_s_19" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="superseded_item" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="hardware_option" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="packaging" dataType="DT_STR" length="51" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="spec01" dataType="DT_STR" length="23" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="spec02" dataType="DT_STR" length="22" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="spec03" dataType="DT_STR" length="18" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="spec04" dataType="DT_STR" length="32" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="spec05" dataType="DT_STR" length="29" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="spec06" dataType="DT_STR" length="39" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="spec07" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="spec08" dataType="DT_STR" length="13" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="spec09" dataType="DT_STR" length="8" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="create_date" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="freight_cost_per_set" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="product_name" dataType="DT_STR" length="29" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="major_product_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="chlorinated" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="family_item" dataType="DT_STR" length="30" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="nmq_number" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="costing_family_item" dataType="DT_STR" length="30" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="lot_shelf_life" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="experimental_material_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="sds_reg_ref_1" dataType="DT_STR" length="1169" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_2" dataType="DT_STR" length="243" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_3" dataType="DT_STR" length="716" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_4" dataType="DT_STR" length="65" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_5" dataType="DT_STR" length="319" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_6" dataType="DT_STR" length="716" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="exposure_limit_1" dataType="DT_STR" length="127" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="exposure_limit_2" dataType="DT_STR" length="101" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="include_on_sds_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="sds_name" dataType="DT_STR" length="34" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="cas_no_sds_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cas_no2_sds_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cas_no3_sds_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cas_no4_sds_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cas_no5_sds_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cas_no6_sds_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="sds_reg_ref_7" dataType="DT_STR" length="1639" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_8" dataType="DT_STR" length="577" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_9" dataType="DT_STR" length="572" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_17" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_18" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_19" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_20" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="application_process" dataType="DT_STR" length="128" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="surcharge_weight" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="item_attribute_21" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_22" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_23" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_24" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_25" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_26" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_27" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_28" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_29" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_attribute_30" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="item_config_code" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_21" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_22" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="est_alternative_uom" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="est_average_length" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="sds_required_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="sds_state_legislation" dataType="DT_STR" length="911" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="sds_reg_ref_10" dataType="DT_STR" length="49" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="inv_class" dataType="DT_STR" length="1" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="flcs" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="nmfc" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="dg" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="pkg_type" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="weight_tolerance_pct" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="brand" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="discontinued_flag" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ifs_customer_no" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="market" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ifs_code" dataType="DT_WSTR" length="200" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                 <property
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of psi_item]};</property>
+                  name="ParameterMap">#{Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ifs_customer_no]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2078,7 +2357,7 @@ where [refTable].[item] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Sales Part\PSI Item Uom Lookup.Connections[OleDbConnection]"
+                  refId="Package\Sales Part\Market Lookup.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[KATOLEFEBVRFA59.DataMigration1]"
                   connectionManagerRefId="Package.ConnectionManagers[KATOLEFEBVRFA59.DataMigration1]"
                   description="Connection manager used to access lookup data."
@@ -2086,21 +2365,21 @@ where [refTable].[item] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Sales Part\PSI Item Uom Lookup.Inputs[Lookup Input]"
+                  refId="Package\Sales Part\Market Lookup.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Sales Part\PSI Item Uom Lookup.Inputs[Lookup Input].Columns[Copy of psi_item]"
+                      refId="Package\Sales Part\Market Lookup.Inputs[Lookup Input].Columns[Copy of ifs_customer_no]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="30"
-                      cachedName="Copy of psi_item"
-                      lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of psi_item]">
+                      cachedLength="50"
+                      cachedName="Copy of ifs_customer_no"
+                      lineageId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ifs_customer_no]">
                       <properties>
                         <property
                           dataType="System.String"
                           description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">item</property>
+                          name="JoinToReferenceColumn">ifs_customer_no</property>
                         <property
                           dataType="System.Null"
                           description="Specifies the column in the reference table from which a column is copied."
@@ -2113,180 +2392,18 @@ where [refTable].[item] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Match Output]"
+                  refId="Package\Sales Part\Market Lookup.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
                   exclusionGroup="1"
                   name="Lookup Match Output"
-                  synchronousInputId="Package\Sales Part\PSI Item Uom Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Sales Part\Market Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Match Output].Columns[selling_uom]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Copy Column"
-                      length="9"
-                      lineageId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Match Output].Columns[selling_uom]"
-                      name="selling_uom"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn">selling_uom</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup No Match Output]"
-                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
-                  exclusionGroup="1"
-                  name="Lookup No Match Output"
-                  synchronousInputId="Package\Sales Part\PSI Item Uom Lookup.Inputs[Lookup Input]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Lookup Error Output"
-                  synchronousInputId="Package\Sales Part\PSI Item Uom Lookup.Inputs[Lookup Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Sales Part\Sales Group Lookup"
-              componentClassID="Microsoft.Lookup"
-              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
-              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="Sales Group Lookup"
-              usesDispositions="true"
-              version="6">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Specifies the SQL statement that generates the lookup table."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from mapping
-where mapping_type = 'SALES GROUP'</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
-                  expressionType="Notify"
-                  name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from mapping
-where mapping_type = 'SALES GROUP') [refTable]
-where [refTable].[psi_code] = ?</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the type of connection used to access the reference dataset."
-                  name="ConnectionType"
-                  typeConverter="LookupConnectionType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the cache type of the lookup table."
-                  name="CacheType"
-                  typeConverter="CacheType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
-                  name="NoMatchBehavior"
-                  typeConverter="LookupNoMatchBehavior">1</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
-                  name="NoMatchCachePercentage">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
-                  name="MaxMemoryUsage">25</property>
-                <property
-                  dataType="System.Int64"
-                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
-                  name="MaxMemoryUsage64">25</property>
-                <property
-                  dataType="System.String"
-                  description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="psi_code" dataType="DT_WSTR" length="200" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ifs_code" dataType="DT_WSTR" length="200" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ifs_description" dataType="DT_WSTR" length="200" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="mapping_type" dataType="DT_WSTR" length="200" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
-                <property
-                  containsID="true"
-                  dataType="System.String"
-                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[market]};</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
-                  name="TreatDuplicateKeysAsError">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Sales Part\Sales Group Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[KATOLEFEBVRFA59.DataMigration1]"
-                  connectionManagerRefId="Package.ConnectionManagers[KATOLEFEBVRFA59.DataMigration1]"
-                  description="Connection manager used to access lookup data."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Sales Part\Sales Group Lookup.Inputs[Lookup Input]"
-                  name="Lookup Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Sales Part\Sales Group Lookup.Inputs[Lookup Input].Columns[market]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="market"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[market]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">psi_code</property>
-                        <property
-                          dataType="System.Null"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Match Output]"
-                  errorOrTruncationOperation="Lookup"
-                  exclusionGroup="1"
-                  name="Lookup Match Output"
-                  synchronousInputId="Package\Sales Part\Sales Group Lookup.Inputs[Lookup Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Match Output].Columns[catalog_group]"
+                      refId="Package\Sales Part\Market Lookup.Outputs[Lookup Match Output].Columns[catalog_group]"
                       dataType="wstr"
                       errorOrTruncationOperation="Copy Column"
                       length="200"
-                      lineageId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Match Output].Columns[catalog_group]"
+                      lineageId="Package\Sales Part\Market Lookup.Outputs[Lookup Match Output].Columns[catalog_group]"
                       name="catalog_group"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2300,30 +2417,30 @@ where [refTable].[psi_code] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup No Match Output]"
+                  refId="Package\Sales Part\Market Lookup.Outputs[Lookup No Match Output]"
                   description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
                   exclusionGroup="1"
                   name="Lookup No Match Output"
-                  synchronousInputId="Package\Sales Part\Sales Group Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Sales Part\Market Lookup.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Error Output]"
+                  refId="Package\Sales Part\Market Lookup.Outputs[Lookup Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Lookup Error Output"
-                  synchronousInputId="Package\Sales Part\Sales Group Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Sales Part\Market Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      refId="Package\Sales Part\Market Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Sales Part\Market Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      refId="Package\Sales Part\Market Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Sales Part\Market Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2395,19 +2512,12 @@ where [refTable].[psi_code] = ?</property>
                       externalMetadataColumnId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].ExternalColumns[part_no]"
                       lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[part_no]" />
                     <inputColumn
-                      refId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].Columns[customer_sku]"
-                      cachedDataType="wstr"
-                      cachedLength="22"
-                      cachedName="customer_sku"
-                      externalMetadataColumnId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].ExternalColumns[customer_sku]"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[customer_sku]" />
-                    <inputColumn
                       refId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].Columns[catalog_group]"
                       cachedDataType="wstr"
                       cachedLength="200"
                       cachedName="catalog_group"
                       externalMetadataColumnId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].ExternalColumns[catalog_group]"
-                      lineageId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Match Output].Columns[catalog_group]" />
+                      lineageId="Package\Sales Part\Market Lookup.Outputs[Lookup Match Output].Columns[catalog_group]" />
                     <inputColumn
                       refId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].Columns[price_conv_factor]"
                       cachedDataType="numeric"
@@ -2440,7 +2550,7 @@ where [refTable].[psi_code] = ?</property>
                     <inputColumn
                       refId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].Columns[catalog_no]"
                       cachedDataType="wstr"
-                      cachedLength="22"
+                      cachedLength="102"
                       cachedName="catalog_no"
                       externalMetadataColumnId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].ExternalColumns[catalog_no]"
                       lineageId="Package\Sales Part\Default Columns.Outputs[Derived Column Output].Columns[catalog_no]" />
@@ -2453,12 +2563,17 @@ where [refTable].[psi_code] = ?</property>
                       lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[description]" />
                     <inputColumn
                       refId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].Columns[ifs_customer_no]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="ifs_customer_no"
                       externalMetadataColumnId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].ExternalColumns[customer_no]"
-                      lineageId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Match Output].Columns[ifs_customer_no]" />
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[ifs_customer_no]" />
+                    <inputColumn
+                      refId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].Columns[sku]"
+                      cachedDataType="nText"
+                      cachedName="sku"
+                      externalMetadataColumnId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input].ExternalColumns[customer_sku]"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[sku]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2560,26 +2675,30 @@ where [refTable].[psi_code] = ?</property>
                   description="Specifies the SQL statement used by the component to extract data."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select
-	i.contract,
-	i.part_no,
-	p.psi_item,
-	i.description,
-	min(b.priority) priority,
-	upper(b.sku) customer_sku,
-	b.customer,
-ifs.market
-from INVENTORY_PART_TAB i
-inner join PART_CATALOG_TAB p
-on i.part_no = p.part_no
-inner join PSI_BATCH_CONTROL b
-on p.psi_item = b.item
-inner join IFS_CUSTOMERS ifs
-on ifs.ship_to_code = b.customer
-where b.bill_priority = 0
-and b.sku is not null
-and b.customer != 'MASTER BATCH'
-group by i.contract, i.part_no, p.psi_item, i.description, b.sku, b.customer, ifs.market</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select 
+i.contract, 
+i.part_no, 
+i.description, 
+p.psi_item, 
+c.ifs_customer_no, 
+replace(upper(b.sku), '%', '') sku, 
+replace(upper(ISNULL(pc.new_sku, pc.sku)), '%', '') mapped_sku,
+it.selling_uom
+from INVENTORY_PART_TAB i 
+inner join PSI_TO_IFS_PARTS p 
+on i.part_no = p.ifs_part_no 
+inner join PSI_BATCH_CONTROL b 
+on p.psi_item = b.item 
+inner join IFS_CUSTOMERS c 
+on b.customer = c.ship_to_code 
+left outer join PSI_CUSTOMER_SKU pc 
+on pc.item = p.psi_item 
+inner join PSI_ITEM it 
+on it.item = p.psi_item 
+where i.accounting_group = 300 
+and b.bill_priority = 0 
+group by i.contract, i.part_no, i.description, p.psi_item, c.ifs_customer_no, upper(b.sku), upper(ISNULL(pc.new_sku, pc.sku)), it.selling_uom 
+order by upper(b.sku), p.psi_item, i.part_no</property>
                 <property
                   dataType="System.Int32"
                   description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
@@ -2637,16 +2756,6 @@ group by i.contract, i.part_no, p.psi_item, i.description, b.sku, b.customer, if
                       name="part_no"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[psi_item]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[psi_item]"
-                      length="30"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[psi_item]"
-                      name="psi_item"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
                       refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[description]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
@@ -2657,43 +2766,52 @@ group by i.contract, i.part_no, p.psi_item, i.description, b.sku, b.customer, if
                       name="description"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[priority]"
-                      dataType="i8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[priority]"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[priority]"
-                      name="priority"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[customer_sku]"
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[psi_item]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[customer_sku]"
-                      length="22"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[customer_sku]"
-                      name="customer_sku"
+                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[psi_item]"
+                      length="50"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[psi_item]"
+                      name="psi_item"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[customer]"
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[ifs_customer_no]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[customer]"
-                      length="25"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[customer]"
-                      name="customer"
+                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[ifs_customer_no]"
+                      length="50"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[ifs_customer_no]"
+                      name="ifs_customer_no"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[market]"
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[sku]"
+                      dataType="nText"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[sku]"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[sku]"
+                      name="sku"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[mapped_sku]"
+                      dataType="nText"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[mapped_sku]"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[mapped_sku]"
+                      name="mapped_sku"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[selling_uom]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[market]"
-                      length="15"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[market]"
-                      name="market"
+                      externalMetadataColumnId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[selling_uom]"
+                      length="9"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].Columns[selling_uom]"
+                      name="selling_uom"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
@@ -2709,34 +2827,33 @@ group by i.contract, i.part_no, p.psi_item, i.description, b.sku, b.customer, if
                       length="50"
                       name="part_no" />
                     <externalMetadataColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[psi_item]"
-                      dataType="wstr"
-                      length="30"
-                      name="psi_item" />
-                    <externalMetadataColumn
                       refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[description]"
                       dataType="wstr"
                       length="4000"
                       name="description" />
                     <externalMetadataColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[priority]"
-                      dataType="i8"
-                      name="priority" />
-                    <externalMetadataColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[customer_sku]"
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[psi_item]"
                       dataType="wstr"
-                      length="22"
-                      name="customer_sku" />
+                      length="50"
+                      name="psi_item" />
                     <externalMetadataColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[customer]"
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[ifs_customer_no]"
                       dataType="wstr"
-                      length="25"
-                      name="customer" />
+                      length="50"
+                      name="ifs_customer_no" />
                     <externalMetadataColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[market]"
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[sku]"
+                      dataType="nText"
+                      name="sku" />
+                    <externalMetadataColumn
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[mapped_sku]"
+                      dataType="nText"
+                      name="mapped_sku" />
+                    <externalMetadataColumn
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output].ExternalColumns[selling_uom]"
                       dataType="wstr"
-                      length="15"
-                      name="market" />
+                      length="9"
+                      name="selling_uom" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2757,40 +2874,39 @@ group by i.contract, i.part_no, p.psi_item, i.description, b.sku, b.customer, if
                       lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[part_no]"
                       name="part_no" />
                     <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[psi_item]"
-                      dataType="wstr"
-                      length="30"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[psi_item]"
-                      name="psi_item" />
-                    <outputColumn
                       refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[description]"
                       dataType="wstr"
                       length="4000"
                       lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[description]"
                       name="description" />
                     <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[priority]"
-                      dataType="i8"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[priority]"
-                      name="priority" />
-                    <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[customer_sku]"
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[psi_item]"
                       dataType="wstr"
-                      length="22"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[customer_sku]"
-                      name="customer_sku" />
+                      length="50"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[psi_item]"
+                      name="psi_item" />
                     <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[customer]"
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[ifs_customer_no]"
                       dataType="wstr"
-                      length="25"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[customer]"
-                      name="customer" />
+                      length="50"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[ifs_customer_no]"
+                      name="ifs_customer_no" />
                     <outputColumn
-                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[market]"
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[sku]"
+                      dataType="nText"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[sku]"
+                      name="sku" />
+                    <outputColumn
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[mapped_sku]"
+                      dataType="nText"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[mapped_sku]"
+                      name="mapped_sku" />
+                    <outputColumn
+                      refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[selling_uom]"
                       dataType="wstr"
-                      length="15"
-                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[market]"
-                      name="market" />
+                      length="9"
+                      lineageId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[selling_uom]"
+                      name="selling_uom" />
                     <outputColumn
                       refId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
@@ -2817,29 +2933,19 @@ group by i.contract, i.part_no, p.psi_item, i.description, b.sku, b.customer, if
               startId="Package\Sales Part\SQL Query.Outputs[ADO NET Source Output]" />
             <path
               refId="Package\Sales Part.Paths[Data Conversion Output]"
-              endId="Package\Sales Part\PSI Item Uom Lookup.Inputs[Lookup Input]"
+              endId="Package\Sales Part\Market Lookup.Inputs[Lookup Input]"
               name="Data Conversion Output"
               startId="Package\Sales Part\Data Conversion.Outputs[Data Conversion Output]" />
             <path
               refId="Package\Sales Part.Paths[Derived Column Output]"
-              endId="Package\Sales Part\Customer No Lookup.Inputs[Lookup Input]"
+              endId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input]"
               name="Derived Column Output"
               startId="Package\Sales Part\Default Columns.Outputs[Derived Column Output]" />
             <path
               refId="Package\Sales Part.Paths[Lookup Match Output]"
-              endId="Package\Sales Part\Sales Group Lookup.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Sales Part\PSI Item Uom Lookup.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Sales Part.Paths[Lookup Match Output1]"
               endId="Package\Sales Part\Default Columns.Inputs[Derived Column Input]"
               name="Lookup Match Output"
-              startId="Package\Sales Part\Sales Group Lookup.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Sales Part.Paths[Lookup Match Output2]"
-              endId="Package\Sales Part\Sales Part Table.Inputs[ADO NET Destination Input]"
-              name="Lookup Match Output"
-              startId="Package\Sales Part\Customer No Lookup.Outputs[Lookup Match Output]" />
+              startId="Package\Sales Part\Market Lookup.Outputs[Lookup Match Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -2876,6 +2982,12 @@ group by i.contract, i.part_no, p.psi_item, i.description, b.sku, b.customer, if
                       cachedLength="50"
                       cachedName="customer_no"
                       lineageId="Package\Sales Part Cross Reference\Sales Part Table.Outputs[ADO NET Source Output].Columns[customer_no]" />
+                    <inputColumn
+                      refId="Package\Sales Part Cross Reference\Data Conversion.Inputs[Data Conversion Input].Columns[catalog_no]"
+                      cachedDataType="wstr"
+                      cachedLength="22"
+                      cachedName="catalog_no"
+                      lineageId="Package\Sales Part Cross Reference\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_no]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2903,6 +3015,28 @@ group by i.contract, i.part_no, p.psi_item, i.description, b.sku, b.customer, if
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
                           name="SourceInputColumnLineageID">#{Package\Sales Part Cross Reference\Sales Part Table.Outputs[ADO NET Source Output].Columns[customer_no]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sales Part Cross Reference\Data Conversion.Outputs[Data Conversion Output].Columns[customer_part_no]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Sales Part Cross Reference\Data Conversion.Outputs[Data Conversion Output].Columns[customer_part_no]"
+                      name="customer_part_no"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Sales Part Cross Reference\Sales Part Table.Outputs[ADO NET Source Output].Columns[catalog_no]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3168,19 +3302,20 @@ where [refTable].[ifs_customer_no] = ?</property>
                       externalMetadataColumnId="Package\Sales Part Cross Reference\Sales Part Cross Reference Table.Inputs[ADO NET Destination Input].ExternalColumns[customer_no]"
                       lineageId="Package\Sales Part Cross Reference\Sales Part Table.Outputs[ADO NET Source Output].Columns[customer_no]" />
                     <inputColumn
-                      refId="Package\Sales Part Cross Reference\Sales Part Cross Reference Table.Inputs[ADO NET Destination Input].Columns[customer_sku]"
-                      cachedDataType="wstr"
-                      cachedLength="25"
-                      cachedName="customer_sku"
-                      externalMetadataColumnId="Package\Sales Part Cross Reference\Sales Part Cross Reference Table.Inputs[ADO NET Destination Input].ExternalColumns[customer_part_no]"
-                      lineageId="Package\Sales Part Cross Reference\Sales Part Table.Outputs[ADO NET Source Output].Columns[customer_sku]" />
-                    <inputColumn
                       refId="Package\Sales Part Cross Reference\Sales Part Cross Reference Table.Inputs[ADO NET Destination Input].Columns[sales_unit_meas]"
                       cachedDataType="wstr"
                       cachedLength="9"
                       cachedName="sales_unit_meas"
                       externalMetadataColumnId="Package\Sales Part Cross Reference\Sales Part Cross Reference Table.Inputs[ADO NET Destination Input].ExternalColumns[customer_unit_meas]"
                       lineageId="Package\Sales Part Cross Reference\Sales Part Table.Outputs[ADO NET Source Output].Columns[sales_unit_meas]" />
+                    <inputColumn
+                      refId="Package\Sales Part Cross Reference\Sales Part Cross Reference Table.Inputs[ADO NET Destination Input].Columns[customer_part_no]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="customer_part_no"
+                      externalMetadataColumnId="Package\Sales Part Cross Reference\Sales Part Cross Reference Table.Inputs[ADO NET Destination Input].ExternalColumns[customer_part_no]"
+                      lineageId="Package\Sales Part Cross Reference\Data Conversion.Outputs[Data Conversion Output].Columns[customer_part_no]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3700,27 +3835,39 @@ where [refTable].[ifs_customer_no] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="180,42"
-          Id="Package\Extractions\Sales Part Container"
-          TopLeft="503,423" />
+          Size="266,42"
+          Id="Package\Extractions\Sales Part Cross Reference Container"
+          TopLeft="484,405" />
+        <NodeLayout
+          Size="245,42"
+          Id="Package\Extractions\Sales Part Cross Reference Table"
+          TopLeft="500,155" />
         <NodeLayout
           Size="160,42"
           Id="Package\Extractions\Sales Part Table"
-          TopLeft="512,311" />
+          TopLeft="202,158" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Extractions\Sales Part Container"
+          TopLeft="184,408" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\Extractions\Sort"
+          TopLeft="230,287" />
         <EdgeLayout
-          Id="Package\Extractions.Paths[ADO NET Source Output]"
-          TopLeft="592.5,353">
+          Id="Package\Extractions.Paths[Sort Output]"
+          TopLeft="276.75,329">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,70"
+              EndConnector="0,79"
               Start="0,0"
-              End="0,62.5">
+              End="0,71.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,62.5" />
+                    End="0,71.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3729,28 +3876,42 @@ where [refTable].[ifs_customer_no] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="245,42"
-          Id="Package\Extractions\Sales Part Cross Reference Table"
-          TopLeft="850,314" />
-        <NodeLayout
-          Size="266,42"
-          Id="Package\Extractions\Sales Part Cross Reference Container"
-          TopLeft="838,419" />
         <EdgeLayout
           Id="Package\Extractions.Paths[ADO NET Source Output1]"
-          TopLeft="971.75,356">
+          TopLeft="280.75,200">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,63"
+              EndConnector="0,87"
               Start="0,0"
-              End="0,55.5">
+              End="0,79.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,55.5" />
+                    End="0,79.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Extractions.Paths[ADO NET Source Output]"
+          TopLeft="619.75,197">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,208"
+              Start="0,0"
+              End="0,200.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,200.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3784,71 +3945,63 @@ where [refTable].[ifs_customer_no] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="186,42"
-          Id="Package\Sales Part\PSI Item Uom Lookup"
-          TopLeft="483,256" />
-        <NodeLayout
-          Size="160,42"
-          Id="Package\Sales Part\Sales Part Table"
-          TopLeft="491,653" />
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Sales Part\SQL Query"
-          TopLeft="507,89" />
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Sales Part\Data Conversion"
-          TopLeft="498,168" />
+          Size="152,42"
+          Id="Package\Sales Part\Market Lookup"
+          TopLeft="285,243" />
         <NodeLayout
           Size="160,42"
           Id="Package\Sales Part\Default Columns"
-          TopLeft="492,453" />
+          TopLeft="577,246" />
         <NodeLayout
-          Size="179,42"
-          Id="Package\Sales Part\Sales Group Lookup"
-          TopLeft="483,358" />
+          Size="160,42"
+          Id="Package\Sales Part\Sales Part Table"
+          TopLeft="576,340" />
         <NodeLayout
-          Size="183,42"
-          Id="Package\Sales Part\Customer No Lookup"
-          TopLeft="481,537" />
+          Size="134,42"
+          Id="Package\Sales Part\SQL Query"
+          TopLeft="80,51" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Sales Part\Data Conversion"
+          TopLeft="279,51" />
         <EdgeLayout
           Id="Package\Sales Part.Paths[Lookup Match Output]"
-          TopLeft="574.25,298">
+          TopLeft="437,265.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="140,0"
               Start="0,0"
-              End="0,52.5">
+              End="132.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="132.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              BoundingBox="18.05861328125,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sales Part.Paths[Derived Column Output]"
-          TopLeft="572.25,495">
+          TopLeft="656.5,288">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,42"
+              EndConnector="0,52"
               Start="0,0"
-              End="0,34.5">
+              End="0,44.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.5" />
+                    End="0,44.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3859,18 +4012,18 @@ where [refTable].[ifs_customer_no] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sales Part.Paths[Data Conversion Output]"
-          TopLeft="577.25,210">
+          TopLeft="360.25,93">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,46"
+              EndConnector="0,150"
               Start="0,0"
-              End="0,38.5">
+              End="0,142.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,38.5" />
+                    End="0,142.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3881,18 +4034,18 @@ where [refTable].[ifs_customer_no] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sales Part.Paths[ADO NET Source Output]"
-          TopLeft="576.25,131">
+          TopLeft="214,72">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,37"
+              EndConnector="65,0"
               Start="0,0"
-              End="0,29.5">
+              End="57.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.5" />
+                    End="57.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3901,98 +4054,11 @@ where [refTable].[ifs_customer_no] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sales Part.Paths[Lookup Match Output2]"
-          TopLeft="571.75,579">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,74"
-              Start="0,0"
-              End="0,66.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,66.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,27.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sales Part.Paths[Lookup Match Output1]"
-          TopLeft="572.25,400">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,53"
-              Start="0,0"
-              End="0,45.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,16.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Sales Part\PSI Item Uom Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[PSI_ITEM]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sales Part\Sales Part Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sales Part\SQL Query">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sales Part\Sales Group Lookup">
+    design-time-name="Package\Sales Part\Market Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -4015,23 +4081,16 @@ where [refTable].[ifs_customer_no] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Sales Part\Customer No Lookup">
+    design-time-name="Package\Sales Part\SQL Query">
     <Properties>
       <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
+        <Name>DataSourceViewID</Name>
       </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[IFS_CUSTOMERS]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sales Part\Sales Part Table">
+    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -4135,7 +4194,7 @@ where [refTable].[ifs_customer_no] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -4145,7 +4204,7 @@ where [refTable].[ifs_customer_no] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
